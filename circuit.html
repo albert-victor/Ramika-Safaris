@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Safari circuit · Ramika Safaris and Tours</title>
+  <meta name="description" content="Explore a Tanzanian safari circuit with Ramika Safaris and Tours.">
+  <meta name="robots" content="noindex" data-circuit-robots>
+  <!-- @include partials/assets.html -->
+  <link rel="stylesheet" href="/css/cards.css">
+  <link rel="stylesheet" href="/css/circuit.css">
+</head>
+<body data-page="destinations" class="has-hero">
+  <a class="skip-link" href="#content">Skip to content</a>
+  <!-- @include partials/header.html -->
+
+  <section class="page-hero circuit-hero" data-circuit-hero hidden aria-label="Safari circuit">
+    <img data-circuit-hero-image src="" alt="" width="1600" height="900" fetchpriority="high" decoding="async" hidden>
+    <div class="page-hero-shade" aria-hidden="true"></div>
+    <div class="container-xl page-hero-copy circuit-hero-copy" data-circuit-hero-copy></div>
+  </section>
+
+  <main id="content" class="site-main circuit-main">
+    <div class="container-xl circuit-loading" data-circuit-loading>
+      <p class="circuit-status">Loading circuit…</p>
+    </div>
+
+    <div class="circuit-notfound container-xl" data-circuit-notfound hidden>
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li><a href="/destinations.html">Destinations</a></li>
+          <li aria-current="page">Not found</li>
+        </ol>
+      </nav>
+      <header class="section-head">
+        <p class="kicker">Circuits</p>
+        <p class="script">Off the map</p>
+        <h1>Circuit not found</h1>
+      </header>
+      <p class="prose">This safari circuit is not available. Choose another route or send an enquiry.</p>
+      <p class="section-cta">
+        <a class="btn-outline" href="/destinations.html">Browse destinations</a>
+        <a class="btn-ghost" href="/contact.html#enquire">Enquire</a>
+      </p>
+    </div>
+
+    <div class="circuit-content" data-circuit-content hidden>
+      <section class="circuit-section">
+        <div class="container-xl">
+          <header class="section-head">
+            <p class="kicker">Destinations</p>
+            <p class="script">On this circuit</p>
+            <h2>Places to explore</h2>
+          </header>
+          <p class="prose circuit-lede" data-circuit-lede></p>
+          <p class="circuit-status" data-circuit-grid-status aria-live="polite"></p>
+          <div class="card-grid card-grid--destinations" data-circuit-destinations></div>
+          <div class="circuit-empty" data-circuit-empty hidden>
+            <p class="prose">Destination cards for this circuit will appear here as the catalogue is completed. Tell us where you want to travel and we will shape the route with you.</p>
+            <p class="section-cta">
+              <a class="btn-outline" href="/contact.html#enquire">Enquire about this circuit</a>
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- @include partials/footer.html -->
+  <!-- @include partials/scripts.html -->
+  <script src="/js/ui/cards.js" defer></script>
+  <script src="/js/circuit.js" defer></script>
+</body>
+</html>

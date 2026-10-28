@@ -1,0 +1,1594 @@
+{
+  "_meta": {
+    "kind": "import-intermediate",
+    "version": 1,
+    "source": "https://www.tanzaniatourism.com/destinations/southern-circuit",
+    "note": "Southern Circuit safari packages scraped from Tanzania Tourism destination Safari Packages listings.",
+    "scrapedAt": "2026-10-28T08:34:50.511Z",
+    "targetCount": 40,
+    "collectedCount": 16,
+    "skipped": []
+  },
+  "destinations": [],
+  "packages": [
+    {
+      "id": "pkg-2-days-safari-to-ruaha-national-park",
+      "slug": "2-days-safari-to-ruaha-national-park",
+      "title": "2 Days Safari to Ruaha National Park",
+      "cardSubtitle": "2 days · 1 night",
+      "summary": "The 2 Days Safari flying to Ruaha National Park will give you a memorable adventure in this great remote wilderness of Ruaha that gives you an opportunity to discover the diverse intriguing ecosystem of untamed wildlife, nature and the great Ruaha River while you experience the wild and unique adventure.",
+      "heroImage": {
+        "src": "https://www.tanzaniatourism.com/images/uploads/Ruaha_National_Park_Boat_on_the_River_86.jpg",
+        "alt": "2 Days Safari to Ruaha National Park"
+      },
+      "gallery": [
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Ruaha_National_Park_Boat_on_the_River_86.jpg",
+          "alt": "2 Days Safari to Ruaha National Park",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Ruaha_National_Park_Hippos_47.jpg",
+          "alt": "2 Days Safari to Ruaha National Park",
+          "caption": null
+        }
+      ],
+      "duration": {
+        "days": 2,
+        "nights": 1,
+        "label": "2 days / 1 night"
+      },
+      "startLocation": "Dar es Salaam",
+      "endLocation": "Dar es Salaam",
+      "circuitIds": [
+        "circuit-southern"
+      ],
+      "destinationIds": [
+        "dest-ruaha-national-park"
+      ],
+      "activityIds": [
+        "activity-wildlife"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Transfer to Ruaha National Park",
+          "summary": "In the morning after you’ve enjoyed your breakfast, you will be driven to Ruaha national park from Iringa town by road taking 2 hours through unwinding beautiful landscapes or you can fly from Dar es salaam using a schedule chartered flight, on reaching the park you will head for a game drive to watch wild animals like herds of elephants buffalo lesser and greater kudus, impalas, waterbucks, bushbucks, hartebeest, jackals, and many others. Ruaha National Park has large concentration of wildlife including lions, cheetahs, leopards as well as stripped hyenas and also you will have chances to watch the African wild dogs. Return for overnight and dinner at your booked accommodation.",
+          "destinationIds": [
+            "dest-ruaha-national-park"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Ruaha Morning Game Drive and Departure",
+          "summary": "On second day you will go for a sunrise game drive around the park, at unique sandy rivers (waterholes) and along the Ruaha river banks that usually attract a higher concentration of wildlife, with breakfast in the bush expect to spot the park predators such as lions, cheetahs, leopards, wild dogs, hyenas, jackals and view numerous bird species till lunchtime, return to the lodge for your refilling lunch before setting off for your drive back to Iringa or flay back to Dar es Salaam.",
+          "destinationIds": []
+        }
+      ],
+      "accommodation": "Lodging reserved to the standard you name (lodge or campsite as available on the route). Lodges are not owned by Ramika.",
+      "inclusions": [
+        "Licensed safari vehicle",
+        "Professional guide",
+        "Meals as stated in the final itinerary",
+        "Park activities as listed"
+      ],
+      "exclusions": [
+        "Park entrance fees",
+        "Flights",
+        "Personal expenses",
+        "Tips",
+        "Travel insurance"
+      ],
+      "pricing": null,
+      "enquireCta": {
+        "label": "Enquire about this safari",
+        "href": "/contact.html#enquire"
+      },
+      "seo": {
+        "title": "2 Days Safari to Ruaha National Park · Ramika Safaris and Tours",
+        "description": "The 2 Days Safari flying to Ruaha National Park will give you a memorable adventure in this great remote wilderness of Ruaha that gives you an opportunity to discover the diverse intriguing ecosystem of untamed…"
+      },
+      "status": "published",
+      "sourceUrl": "https://www.tanzaniatourism.com/safari/2-days-safari-to-ruaha-national-park",
+      "bestTimeToVisit": null,
+      "sortOrder": 1
+    },
+    {
+      "id": "pkg-3-days-safari-to-ruaha-national-park",
+      "slug": "3-days-safari-to-ruaha-national-park",
+      "title": "3 Days Safari to Ruaha National Park",
+      "cardSubtitle": "3 days · 2 nights",
+      "summary": "This 3 Days Safari driving to Ruaha National Park will give you a memorable adventure in this great remote wilderness of Ruaha that gives you an opportunity to discover the diverse intriguing ecosystem of untamed wildlife, nature and the great Ruaha River while you experience the wild and unique adventure.",
+      "heroImage": {
+        "src": "https://www.tanzaniatourism.com/images/uploads/Ruaha_National_Park_Waterbucks_78.jpg",
+        "alt": "3 Days Safari to Ruaha National Park"
+      },
+      "gallery": [
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Ruaha_National_Park_Waterbucks_78.jpg",
+          "alt": "3 Days Safari to Ruaha National Park",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Ruaha_National_Park_Elephants_41.jpg",
+          "alt": "3 Days Safari to Ruaha National Park",
+          "caption": null
+        }
+      ],
+      "duration": {
+        "days": 3,
+        "nights": 2,
+        "label": "3 days / 2 nights"
+      },
+      "startLocation": "Dar es Salaam",
+      "endLocation": "Dar es Salaam",
+      "circuitIds": [
+        "circuit-southern"
+      ],
+      "destinationIds": [
+        "dest-ruaha-national-park"
+      ],
+      "activityIds": [
+        "activity-wildlife"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Dar es Salaam - Ruaha National Park",
+          "summary": "Early morning after breakfast depart from Dar es Salaam to Ruaha National Park with lunch boxes. On reaching the park you will head for a game drive to watch wild animals like herds of elephants buffalo lesser and greater kudus, impalas, waterbucks, bushbucks, hartebeest, jackals, and many others. Ruaha National Park has large concentration of wildlife including lions, cheetahs, leopards as well as stripped hyenas and also you will have chances to watch the African wild dogs. Return for overnight and dinner at your booked accommodation.",
+          "destinationIds": [
+            "dest-ruaha-national-park"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Full day Ruaha National Park",
+          "summary": "On second day you will go for a sunrise game drive around the park, at unique sandy rivers (waterholes) and along the Ruaha river banks that usually attract a higher concentration of wildlife, with breakfast in the bush expect to spot the park predators such as lions, cheetahs, leopards, wild dogs, hyenas, jackals and view numerous bird species till lunchtime, return to the lodge. Evening return to lodge/ campsite for dinner and overnight stay.",
+          "destinationIds": [
+            "dest-ruaha-national-park"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Ruaha National Park – Dar es Salaam",
+          "summary": "After breakfast depart from the lodge / campsite with lunch boxes drive back to Dar-es-salaam arrives at evening.",
+          "destinationIds": [
+            "dest-ruaha-national-park"
+          ]
+        }
+      ],
+      "accommodation": "Lodging reserved to the standard you name (lodge or campsite as available on the route). Lodges are not owned by Ramika.",
+      "inclusions": [
+        "Licensed safari vehicle",
+        "Professional guide",
+        "Meals as stated in the final itinerary",
+        "Park activities as listed"
+      ],
+      "exclusions": [
+        "Park entrance fees",
+        "Flights",
+        "Personal expenses",
+        "Tips",
+        "Travel insurance"
+      ],
+      "pricing": null,
+      "enquireCta": {
+        "label": "Enquire about this safari",
+        "href": "/contact.html#enquire"
+      },
+      "seo": {
+        "title": "3 Days Safari to Ruaha National Park · Ramika Safaris and Tours",
+        "description": "This 3 Days Safari driving to Ruaha National Park will give you a memorable adventure in this great remote wilderness of Ruaha that gives you an opportunity to discover the diverse intriguing ecosystem of untamed…"
+      },
+      "status": "published",
+      "sourceUrl": "https://www.tanzaniatourism.com/safari/3-days-safari-to-ruaha-national-park",
+      "bestTimeToVisit": null,
+      "sortOrder": 2
+    },
+    {
+      "id": "pkg-4-days-safari-in-ruaha-national-park",
+      "slug": "4-days-safari-in-ruaha-national-park",
+      "title": "4 Days Safari in Ruaha National Park",
+      "cardSubtitle": "4 days · 3 nights",
+      "summary": "This 4 Days Game Safaris in Ruaha National Park will give you a great intriguing adventure in this remote and untouched wilderness reserve as you fly from Dar es Salaam or by road driving from Morogoro or Iringa towns, you will have opportunities for sighting a variety of predators, the magnificent animals, reptiles and numerous bird species that will give you a memorable safari.",
+      "heroImage": {
+        "src": "https://www.tanzaniatourism.com/images/uploads/Ruaha_National_Park_Kudus_32.jpg",
+        "alt": "4 Days Safari in Ruaha National Park"
+      },
+      "gallery": [
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Ruaha_National_Park_Kudus_32.jpg",
+          "alt": "4 Days Safari in Ruaha National Park",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Ruaha_National_Park_Hippos_47.jpg",
+          "alt": "4 Days Safari in Ruaha National Park",
+          "caption": null
+        }
+      ],
+      "duration": {
+        "days": 4,
+        "nights": 3,
+        "label": "4 days / 3 nights"
+      },
+      "startLocation": "Dar es Salaam",
+      "endLocation": "Dar es Salaam",
+      "circuitIds": [
+        "circuit-southern"
+      ],
+      "destinationIds": [
+        "dest-ruaha-national-park"
+      ],
+      "activityIds": [
+        "activity-wildlife"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Transfer to Ruaha National Park",
+          "summary": "Today you will start with your departure from either Dar es Salaam by flying or if you’re using road you will depart from Iringa town at around 8:00 am in the morning or Morogoro at 5:00 am and then head to Ruaha national park, upon arrival you will check-in at your accommodation for refreshment and later go for evening and sunset game drives to catch up with sights for wildlife species, return to your booked accommodation for diner and overnight stay.",
+          "destinationIds": [
+            "dest-ruaha-national-park"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Full day Game Drive in Ruaha National Park",
+          "summary": "An early morning at sunrise game drives with picnic breakfast in the bush. After breakfast break, you will continue with game drives searching for wild animals around different locations of the park, expect to spot some predators like lions, cheetah, and large numbers of wild dogs plus numerous animals till lunch break.",
+          "destinationIds": [
+            "dest-ruaha-national-park"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Morning and Evening Game Drive in Ruaha",
+          "summary": "After having your morning breakfast, you will head for morning game drives in the park, watch the wild dogs and a number of animals, you will return back for lunch, and have some rest as you wait for your night game drive which will give your chances to spot a number of predators. Dinner and overnight at your booked accommodation",
+          "destinationIds": []
+        },
+        {
+          "day": 4,
+          "title": "Departure Back to Iringa / Dar es Salaam",
+          "summary": "Today in the morning after a relaxed warm breakfast, you will embark on your journey back to Iringa town or catch up with your charter flight to fly back to Dar es Salaam.",
+          "destinationIds": []
+        }
+      ],
+      "accommodation": "Lodging reserved to the standard you name (lodge or campsite as available on the route). Lodges are not owned by Ramika.",
+      "inclusions": [
+        "Licensed safari vehicle",
+        "Professional guide",
+        "Meals as stated in the final itinerary",
+        "Park activities as listed"
+      ],
+      "exclusions": [
+        "Park entrance fees",
+        "Flights",
+        "Personal expenses",
+        "Tips",
+        "Travel insurance"
+      ],
+      "pricing": null,
+      "enquireCta": {
+        "label": "Enquire about this safari",
+        "href": "/contact.html#enquire"
+      },
+      "seo": {
+        "title": "4 Days Safari in Ruaha National Park · Ramika Safaris and Tours",
+        "description": "This 4 Days Game Safaris in Ruaha National Park will give you a great intriguing adventure in this remote and untouched wilderness reserve as you fly from Dar es Salaam or by road driving from Morogoro or Iringa…"
+      },
+      "status": "published",
+      "sourceUrl": "https://www.tanzaniatourism.com/safari/4-days-safari-in-ruaha-national-park",
+      "bestTimeToVisit": null,
+      "sortOrder": 3
+    },
+    {
+      "id": "pkg-5-days-safari-to-mikumi-ruaha-national-parks",
+      "slug": "5-days-safari-to-mikumi-ruaha-national-parks",
+      "title": "5 Days Safari to Mikumi & Ruaha National Parks",
+      "cardSubtitle": "5 days · 4 nights",
+      "summary": "This 5 Day Safari you will visit Mikumi & Ruaha National Parks that lies deep in the South with its striking, rugged landscapes and abundant wildlife. The great Ruaha River provides life to the park, flows through the eastern side of the park and is home to hippos, crocodiles and the bird count is over 400 species of birds such as Racket Tailed Roller, Pale-billed Hornbill, Shelley’s Sunbird and Hoopoes. Ruaha providing home to one of Tanzania's largest elephant populations, famous for pride of lions, giraffe, grant's gazelles, Leopard, Cheetah, Zebra, Giraffe, Buffalo etc and rare or endangered animals such as Sable Antelope, Greater Kudu & Roan Antelope. This journey promises the best that Southern Tanzania has to offer with an amazing selection of iconic parks and reserves for you to experience of game drive, historical sites & walking safari.",
+      "heroImage": {
+        "src": "https://www.tanzaniatourism.com/images/uploads/Ruaha_National_Park_Elephants_41.jpg",
+        "alt": "5 Days Safari to Mikumi & Ruaha National Parks"
+      },
+      "gallery": [
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Ruaha_National_Park_Elephants_41.jpg",
+          "alt": "5 Days Safari to Mikumi & Ruaha National Parks",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Ruaha_National_Park_Kudu_22.jpg",
+          "alt": "5 Days Safari to Mikumi & Ruaha National Parks",
+          "caption": null
+        }
+      ],
+      "duration": {
+        "days": 5,
+        "nights": 4,
+        "label": "5 days / 4 nights"
+      },
+      "startLocation": "Dar es Salaam",
+      "endLocation": "Dar es Salaam",
+      "circuitIds": [
+        "circuit-southern"
+      ],
+      "destinationIds": [
+        "dest-mikumi-national-park",
+        "dest-isimila-stone-age-site",
+        "dest-ruaha-national-park"
+      ],
+      "activityIds": [
+        "activity-wildlife"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Dar es Salaam – Mikumi National Park (6 hrs drive)",
+          "summary": "We leave Dar es Salaam early morning and drive to Mikumi with lunch box. Late afternoon game drive with sunset view & watch the animal’s drinking water at hippo pool. Dinner and Overnight at the camp in Mikumi Lodges.",
+          "destinationIds": [
+            "dest-mikumi-national-park"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Mikumi National Park + Masai tour and Drive to Iringa (6 hrs drive)",
+          "summary": "We will start early game drive after breakfast then visiting Maasai village after that a journey to Iringa will start and we will have hot lunch on the way to Iringa. Dinner and overnight at lodges in Ruaha.",
+          "destinationIds": [
+            "dest-mikumi-national-park"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Full day in Ruaha National Park",
+          "summary": "After breakfast a game drive to Ruaha National Park will start with your packed lunch box enjoy your full game drive up to sunset. It’s among the national park in Tanzania which have more population of lion and elephant in Africa and other animal to see here includes wild dogs, giraffe, hippo, Crocodile, kudu, eland, warthogs, zebra, wildebeest, Jackals and Hyena. Dinner and overnight at the lodges in Ruaha.",
+          "destinationIds": [
+            "dest-ruaha-national-park"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Ruaha + Isimila Stone sites and Drive to Mikumi (6 hrs drive)",
+          "summary": "After breakfast you will start drive to Iringa then after lunch we will drive to Ismila Historical site learning and see the tools and pillars then drive to Mikumi. Dinner & overnight at Lodge/ Hotel",
+          "destinationIds": []
+        },
+        {
+          "day": 5,
+          "title": "Mikumi to Dar es Salaam",
+          "summary": "After breakfast, we will drive back to Dar es Salaam; we will have hot lunch at hotel on the way. After arrival you will be dropped off at your Hotel/Ferry/Airport.",
+          "destinationIds": []
+        }
+      ],
+      "accommodation": "Lodging reserved to the standard you name (lodge or campsite as available on the route). Lodges are not owned by Ramika.",
+      "inclusions": [
+        "Licensed safari vehicle",
+        "Professional guide",
+        "Meals as stated in the final itinerary",
+        "Park activities as listed"
+      ],
+      "exclusions": [
+        "Park entrance fees",
+        "Flights",
+        "Personal expenses",
+        "Tips",
+        "Travel insurance"
+      ],
+      "pricing": null,
+      "enquireCta": {
+        "label": "Enquire about this safari",
+        "href": "/contact.html#enquire"
+      },
+      "seo": {
+        "title": "5 Days Safari to Mikumi & Ruaha National Parks · Ramika Safaris and Tours",
+        "description": "This 5 Day Safari you will visit Mikumi & Ruaha National Parks that lies deep in the South with its striking, rugged landscapes and abundant wildlife. The great Ruaha River provides life to the park, flows through…"
+      },
+      "status": "published",
+      "sourceUrl": "https://www.tanzaniatourism.com/safari/5-days-safari-to-mikumi-ruaha-national-parks",
+      "bestTimeToVisit": null,
+      "sortOrder": 4
+    },
+    {
+      "id": "pkg-7-days-safari-to-ruaha-udzungwa-and-mikumi-national-parks",
+      "slug": "7-days-safari-to-ruaha-udzungwa-and-mikumi-national-parks",
+      "title": "7 Days Safari to Ruaha, Udzungwa and Mikumi National Parks",
+      "cardSubtitle": "7 days · 6 nights",
+      "summary": "This 7 Day Safari by road you will visit Ruaha, Udzungwa & Mikumi Parks, a perfect adventure for wildlife enthusiasts, serious safari-goers or newcomers alike, this journey promises the best that Southern Tanzania has to offer with an amazing selection of iconic parks and reserves for you to experience of game drive, boat safari, walking safari & hiking.",
+      "heroImage": {
+        "src": "https://www.tanzaniatourism.com/images/uploads/Ruaha_National_Park_Hippos_47.jpg",
+        "alt": "7 Days Safari to Ruaha, Udzungwa and Mikumi National Parks"
+      },
+      "gallery": [
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Ruaha_National_Park_Hippos_47.jpg",
+          "alt": "7 Days Safari to Ruaha, Udzungwa and Mikumi National Parks",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Ruaha_National_Park_Kudus_69.jpg",
+          "alt": "7 Days Safari to Ruaha, Udzungwa and Mikumi National Parks",
+          "caption": null
+        }
+      ],
+      "duration": {
+        "days": 7,
+        "nights": 6,
+        "label": "7 days / 6 nights"
+      },
+      "startLocation": "Dar es Salaam",
+      "endLocation": "Dar es Salaam",
+      "circuitIds": [
+        "circuit-southern"
+      ],
+      "destinationIds": [
+        "dest-ruaha-national-park",
+        "dest-udzungwa-mountains-park",
+        "dest-mikumi-national-park"
+      ],
+      "activityIds": [
+        "activity-wildlife"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Dar es Salaam - Ruaha National Park",
+          "summary": "Drive from Dar es Salaam to Ruaha with lunch box arrive evening dinner at lodge/ campsite for an overnight stay.",
+          "destinationIds": [
+            "dest-ruaha-national-park"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Full day Game drive in Ruaha National Park",
+          "summary": "Early breakfast then full day game drive mixed with walking safaris hiking safaris through untouched bush with a ranger. Evening return to the lodge/ campsite overnight stay.",
+          "destinationIds": [
+            "dest-ruaha-national-park"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Full day Game drive in Ruaha National Park",
+          "summary": "Full day game viewing around Ruaha with lunch box evening return to lodge/ campsite for dinner and overnight stay.",
+          "destinationIds": [
+            "dest-ruaha-national-park"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Ruaha National Park – Udzungwa Mountains National Park",
+          "summary": "After breakfast depart from the lodge/ campsite with lunch boxes to Udzungwa Mountain for game drive en-route to Mikumi National Park arrive at Mikumi evening dinner and overnight stay at lodge/ campsite.",
+          "destinationIds": [
+            "dest-udzungwa-mountains-park",
+            "dest-mikumi-national-park",
+            "dest-ruaha-national-park"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Full day in Udzungwa Mountains National Park",
+          "summary": "Camping at Udzungwa mountain for hike or view the waterfall which plunges at 170m. Dinner overnight stay at lodge/ campsite.",
+          "destinationIds": [
+            "dest-udzungwa-mountains-park"
+          ]
+        },
+        {
+          "day": 6,
+          "title": "Udzungwa Mountains National Park – Mikumi National Park",
+          "summary": "Full day game viewing around Mikumi en route up to the parka at the Hippo's pools. The place famous for the concentration of hippo. Evening return to the lodge/ campsite for dinner and overnight stay.",
+          "destinationIds": [
+            "dest-udzungwa-mountains-park",
+            "dest-mikumi-national-park"
+          ]
+        },
+        {
+          "day": 7,
+          "title": "Mikumi National Park – Dar es Salaam",
+          "summary": "After breakfast depart from the lodge / campsite with lunch box to Dar es Salaam.",
+          "destinationIds": [
+            "dest-mikumi-national-park"
+          ]
+        }
+      ],
+      "accommodation": "Lodging reserved to the standard you name (lodge or campsite as available on the route). Lodges are not owned by Ramika.",
+      "inclusions": [
+        "Licensed safari vehicle",
+        "Professional guide",
+        "Meals as stated in the final itinerary",
+        "Park activities as listed"
+      ],
+      "exclusions": [
+        "Park entrance fees",
+        "Flights",
+        "Personal expenses",
+        "Tips",
+        "Travel insurance"
+      ],
+      "pricing": null,
+      "enquireCta": {
+        "label": "Enquire about this safari",
+        "href": "/contact.html#enquire"
+      },
+      "seo": {
+        "title": "7 Days Safari to Ruaha, Udzungwa and Mikumi National Parks · Ramika Safaris and Tours",
+        "description": "This 7 Day Safari by road you will visit Ruaha, Udzungwa & Mikumi Parks, a perfect adventure for wildlife enthusiasts, serious safari-goers or newcomers alike, this journey promises the best that Southern Tanzania…"
+      },
+      "status": "published",
+      "sourceUrl": "https://www.tanzaniatourism.com/safari/7-days-safari-to-ruaha-udzungwa-and-mikumi-national-parks",
+      "bestTimeToVisit": null,
+      "sortOrder": 5
+    },
+    {
+      "id": "pkg-10-days-safari-to-nyerere-mikumi-udzungwa-ruaha-national-parks",
+      "slug": "10-days-safari-to-nyerere-mikumi-udzungwa-ruaha-national-parks",
+      "title": "10 Days Safari to Nyerere, Mikumi Udzungwa & Ruaha National Parks",
+      "cardSubtitle": "10 days · 9 nights",
+      "summary": "This 10 Day Safari you will visit Nyerere (Selous), Udzungwa, Ruaha & Mikumi Parks, a perfect adventure for wildlife enthusiasts, serious safari-goers or newcomers alike, this journey promises the best that Southern Tanzania has to offer with an amazing selection of iconic parks and reserves for you to experience of game drive, boat safari, walking safari & hiking.",
+      "heroImage": {
+        "src": "https://www.tanzaniatourism.com/images/uploads/Nyerere_National_Park_Elephants_58.jpg",
+        "alt": "10 Days Safari to Nyerere, Mikumi Udzungwa & Ruaha National Parks"
+      },
+      "gallery": [
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Nyerere_National_Park_Elephants_58.jpg",
+          "alt": "10 Days Safari to Nyerere, Mikumi Udzungwa & Ruaha National Parks",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Nyerere_National_Park_Hippo_42.jpg",
+          "alt": "10 Days Safari to Nyerere, Mikumi Udzungwa & Ruaha National Parks",
+          "caption": null
+        }
+      ],
+      "duration": {
+        "days": 10,
+        "nights": 9,
+        "label": "10 days / 9 nights"
+      },
+      "startLocation": "Dar es Salaam",
+      "endLocation": "Dar es Salaam",
+      "circuitIds": [
+        "circuit-southern"
+      ],
+      "destinationIds": [
+        "dest-nyerere-national-park",
+        "dest-udzungwa-mountains-park",
+        "dest-ruaha-national-park",
+        "dest-mikumi-national-park"
+      ],
+      "activityIds": [
+        "activity-wildlife"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Dar es Salaam - Nyerere National Park (Selous)",
+          "summary": "After breakfast drive to Nyerere National Park, with packed lunch en route. In the evening you will do boat safari on the Rufiji River where you will see hippos and crocodiles in their natural habitat then head to lodge for dinner and overnight. With an area of around 50,000sq km (5% of Tanzania’s land surface) Nyerere National Park is one of the large protected areas in the world.",
+          "destinationIds": [
+            "dest-nyerere-national-park"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Full day Nyerere National Park (Selous)",
+          "summary": "Today you will have a full day of game drive in Nyerere National Park, with picnic lunch. In the late afternoon, you will return to the lodge for dinner and overnight.",
+          "destinationIds": [
+            "dest-nyerere-national-park"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Full day Nyerere National Park (Selous)",
+          "summary": "Today you will have a full day of game drive in Nyerere National Park, with picnic lunch. In the late afternoon, you will return to the lodge for dinner and overnight.",
+          "destinationIds": [
+            "dest-nyerere-national-park"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Nyerere National Park - Mikumi National Park (350kms/ 7 hrs drive)",
+          "summary": "Early morning walking safari, return back to Camp for breakfast & drive to Mikumi with lunch box. Enjoy scenery, through crude road but one of the unforgotten safaris for the true traveler. Enjoy the beautiful scenery of landscape, which is dominated by Hills and Plains as well as part of the famous Miombo Woodlands, these varied habitats. Overnight at Camp on FB basis.",
+          "destinationIds": [
+            "dest-nyerere-national-park",
+            "dest-mikumi-national-park"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Mikumi National Park - Udzungwa National Park (1 hr drive)",
+          "summary": "After breakfast, drive to Udzungwa for hiking till Sanje Falls. Enjoy swimming at the in the cool water hole at the base of the falls with lunch box. Return back to Mikumi for overnight at Camp on FB Basis (Breakfast, Lunch & Dinner).",
+          "destinationIds": [
+            "dest-udzungwa-mountains-park",
+            "dest-mikumi-national-park"
+          ]
+        },
+        {
+          "day": 6,
+          "title": "Mikumi National Park - Ruaha National Park (300 kms/ 6 hrs drive)",
+          "summary": "After breakfast, drive with lunch box to Ruaha. En-route visit local villages & farms. On the way pass through the Kitonga hills which are part of the Udzungwa Mountains. The road then follows the Great Ruaha River and then climbs the Great Rift Escarpment. En-route visit Neema Craft. Overnight at the Lodge on FB Basis.",
+          "destinationIds": [
+            "dest-mikumi-national-park",
+            "dest-ruaha-national-park"
+          ]
+        },
+        {
+          "day": 7,
+          "title": "Full day Ruaha National Park",
+          "summary": "After breakfast, full day game drive with lunch box. Overnight at the Lodge on FB Basis.",
+          "destinationIds": [
+            "dest-ruaha-national-park"
+          ]
+        },
+        {
+          "day": 8,
+          "title": "Full day Ruaha National Park",
+          "summary": "After breakfast, full day game drive with lunch box. Overnight at the Lodge on FB Basis.",
+          "destinationIds": [
+            "dest-ruaha-national-park"
+          ]
+        },
+        {
+          "day": 9,
+          "title": "Ruaha National Park – Mikumi National Park (6 hrs drive)",
+          "summary": "After breakfast, drive to Mikumi with lunch box. Late afternoon game drive with sunset view & watch the animal’s drinking water at hippo pool. Overnight at the camp on FB.",
+          "destinationIds": [
+            "dest-mikumi-national-park",
+            "dest-ruaha-national-park"
+          ]
+        },
+        {
+          "day": 10,
+          "title": "Mikumi - Dar es Salaam (315 kms/ 6 hrs drive)",
+          "summary": "After breakfast, drive back to Dar es Salam or fly to Zanzibar with lunch box (Breakfast & Lunch).",
+          "destinationIds": []
+        }
+      ],
+      "accommodation": "Lodging reserved to the standard you name (lodge or campsite as available on the route). Lodges are not owned by Ramika.",
+      "inclusions": [
+        "Licensed safari vehicle",
+        "Professional guide",
+        "Meals as stated in the final itinerary",
+        "Park activities as listed"
+      ],
+      "exclusions": [
+        "Park entrance fees",
+        "Flights",
+        "Personal expenses",
+        "Tips",
+        "Travel insurance"
+      ],
+      "pricing": null,
+      "enquireCta": {
+        "label": "Enquire about this safari",
+        "href": "/contact.html#enquire"
+      },
+      "seo": {
+        "title": "10 Days Safari to Nyerere, Mikumi Udzungwa & Ruaha National Parks · Ramika Safaris and Tours",
+        "description": "This 10 Day Safari you will visit Nyerere (Selous), Udzungwa, Ruaha & Mikumi Parks, a perfect adventure for wildlife enthusiasts, serious safari-goers or newcomers alike, this journey promises the best that Southern…"
+      },
+      "status": "published",
+      "sourceUrl": "https://www.tanzaniatourism.com/safari/10-days-safari-to-nyerere-mikumi-udzungwa-ruaha-national-parks",
+      "bestTimeToVisit": null,
+      "sortOrder": 6
+    },
+    {
+      "id": "pkg-day-trip-to-isimila-stone-age-and-igeleke-rock-art-sites",
+      "slug": "day-trip-to-isimila-stone-age-and-igeleke-rock-art-sites",
+      "title": "Day Trip to Isimila Stone Age and Igeleke Rock Art Sites",
+      "cardSubtitle": "Day trip",
+      "summary": "Experience Iringa on this full-day tour starting from Isimila Museum and observe palaeolithic tools and canyon formations at the ancient Isimila Stone Age site, then visit Kalenga museum learn Mkwawa and Majimaji History. Admire prehistoric Igeleke Rock Art, visit a World War I cemetery and witness a beautiful sunset from the Gangilonga Mountain.",
+      "heroImage": {
+        "src": "https://www.tanzaniatourism.com/images/uploads/Igeleke_Rock_Paintings_Iringa_19.jpg",
+        "alt": "Day Trip to Isimila Stone Age and Igeleke Rock Art Sites"
+      },
+      "gallery": [
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Igeleke_Rock_Paintings_Iringa_19.jpg",
+          "alt": "Day Trip to Isimila Stone Age and Igeleke Rock Art Sites",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Igeleke_Rock_Paintings_Iringa_22.jpg",
+          "alt": "Day Trip to Isimila Stone Age and Igeleke Rock Art Sites",
+          "caption": null
+        }
+      ],
+      "duration": {
+        "days": 1,
+        "nights": 0,
+        "label": "Day trip"
+      },
+      "startLocation": "Iringa",
+      "endLocation": "Igeleke Rock Art",
+      "circuitIds": [
+        "circuit-southern"
+      ],
+      "destinationIds": [
+        "dest-isimila-stone-age-site",
+        "dest-igeleke-rock-art-site"
+      ],
+      "activityIds": [
+        "activity-wildlife"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Iringa – Isimila Stone Age Site – Kalenga Museum – Igeleke Rock Art",
+          "summary": "From Iringa town a 45-minute drive to the Isimila Stone Age site. Here you will first visit the museum and observe different palaeolithic stone tools dated back to about 1.5 million years.",
+          "destinationIds": [
+            "dest-isimila-stone-age-site"
+          ]
+        }
+      ],
+      "accommodation": "Lodging reserved to the standard you name (lodge or campsite as available on the route). Lodges are not owned by Ramika.",
+      "inclusions": [
+        "Licensed safari vehicle",
+        "Professional guide",
+        "Meals as stated in the final itinerary",
+        "Park activities as listed"
+      ],
+      "exclusions": [
+        "Park entrance fees",
+        "Flights",
+        "Personal expenses",
+        "Tips",
+        "Travel insurance"
+      ],
+      "pricing": null,
+      "enquireCta": {
+        "label": "Enquire about this safari",
+        "href": "/contact.html#enquire"
+      },
+      "seo": {
+        "title": "Day Trip to Isimila Stone Age and Igeleke Rock Art Sites · Ramika Safaris and Tours",
+        "description": "Experience Iringa on this full-day tour starting from Isimila Museum and observe palaeolithic tools and canyon formations at the ancient Isimila Stone Age site, then visit Kalenga museum learn Mkwawa and Majimaji…"
+      },
+      "status": "published",
+      "sourceUrl": "https://www.tanzaniatourism.com/safari/day-trip-to-isimila-stone-age-and-igeleke-rock-art-sites",
+      "bestTimeToVisit": null,
+      "sortOrder": 7
+    },
+    {
+      "id": "pkg-4-days-safari-to-mikumi-and-udzungwa-national-parks",
+      "slug": "4-days-safari-to-mikumi-and-udzungwa-national-parks",
+      "title": "4 Days Safari to Mikumi & Udzungwa National Parks",
+      "cardSubtitle": "4 days · 3 nights",
+      "summary": "This 4 Days safari to Udzungwa and Mikumi is ideal safari for the experience Game Safari & Hiking. The Udzungwa Mountains National Park is a sumptuous forested reserve, a rare tropical forest that is home to a realm of unique plants, birds and animals & the sacred preserve of hikers and walkers. The park is a home of an important population of primates (10 species- more than in any of Tanzania’s other parks) as well as the grey faced sengi.\n\nMikumi’s landscape provides a serene wildlife experience, commonly seen animals like Impalas, Elephants, Giraffes, Zebras, Antelopes, Wildebeests, Elands, Crocodiles, Hippos, Baboons. If luck is in your favor, you won’t miss to see Lions and Leopard. Mikumi inhabits over 300 species of birds namely saddle bill stork, hammer kop, malachite kingfisher, lilac breasted roller, yellow throated long claw, battler eagle etc.",
+      "heroImage": {
+        "src": "https://www.tanzaniatourism.com/images/uploads/Mikumi_National_Park_Gate_112.jpg",
+        "alt": "4 Days Safari to Mikumi & Udzungwa National Parks"
+      },
+      "gallery": [
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Mikumi_National_Park_Gate_112.jpg",
+          "alt": "4 Days Safari to Mikumi & Udzungwa National Parks",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Mikumi_National_Park_Impalas_101.jpg",
+          "alt": "4 Days Safari to Mikumi & Udzungwa National Parks",
+          "caption": null
+        }
+      ],
+      "duration": {
+        "days": 4,
+        "nights": 3,
+        "label": "4 days / 3 nights"
+      },
+      "startLocation": "Dar es Salaam",
+      "endLocation": "Dar es Salaam",
+      "circuitIds": [
+        "circuit-southern"
+      ],
+      "destinationIds": [
+        "dest-mikumi-national-park",
+        "dest-udzungwa-mountains-park"
+      ],
+      "activityIds": [
+        "activity-wildlife"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Dar es Salaam – Mikumi National Park (6 hrs drive)",
+          "summary": "We leave Dar es Salaam early morning and drive to Mikumi with lunch box. Late afternoon game drive with sunset view & watch the animal’s drinking water at hippo pool. Dinner and Overnight at the camp in Mikumi on FB basis.",
+          "destinationIds": [
+            "dest-mikumi-national-park"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Mikumi to Udzungwa to Mikumi Park (1 hr drive)",
+          "summary": "After breakfast, drive to Udzungwa for hiking till Sanje Falls with lunch box. Enjoy swimming at the in the cool water hole at the base of the falls. Drive to Mikumi. Overnight at Camp in Mikumi on FB basis.",
+          "destinationIds": []
+        },
+        {
+          "day": 3,
+          "title": "Full day Mikumi National Park",
+          "summary": "Full day game drive with lunch box. Overnight the Camp in Mikumi on FB.",
+          "destinationIds": [
+            "dest-mikumi-national-park"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Mikumi National Park - Dar es Salaam (6 hrs drive)",
+          "summary": "Drive back to Dar with lunch box & drop off to Hotel, Airport/ Seaport (Breakfast & Lunch).",
+          "destinationIds": [
+            "dest-mikumi-national-park"
+          ]
+        }
+      ],
+      "accommodation": "Lodging reserved to the standard you name (lodge or campsite as available on the route). Lodges are not owned by Ramika.",
+      "inclusions": [
+        "Licensed safari vehicle",
+        "Professional guide",
+        "Meals as stated in the final itinerary",
+        "Park activities as listed"
+      ],
+      "exclusions": [
+        "Park entrance fees",
+        "Flights",
+        "Personal expenses",
+        "Tips",
+        "Travel insurance"
+      ],
+      "pricing": null,
+      "enquireCta": {
+        "label": "Enquire about this safari",
+        "href": "/contact.html#enquire"
+      },
+      "seo": {
+        "title": "4 Days Safari to Mikumi & Udzungwa National Parks · Ramika Safaris and Tours",
+        "description": "This 4 Days safari to Udzungwa and Mikumi is ideal safari for the experience Game Safari & Hiking. The Udzungwa Mountains National Park is a sumptuous forested reserve, a rare tropical forest that is home to a realm…"
+      },
+      "status": "published",
+      "sourceUrl": "https://www.tanzaniatourism.com/safari/4-days-safari-to-mikumi-and-udzungwa-national-parks",
+      "bestTimeToVisit": null,
+      "sortOrder": 8
+    },
+    {
+      "id": "pkg-day-trip-to-mikumi-national-park",
+      "slug": "day-trip-to-mikumi-national-park",
+      "title": "Day Trip to Mikumi National Park",
+      "cardSubtitle": "Day trip",
+      "summary": "A day trip to Mikumi National Park from Dar es Salaam, this is a shortest safari offered in the southern Tanzania (Day safari to Tanzania). Day Trip Mikumi National Park (Safari from Dar es Salaam) takes you to one of the closest park in the south called Mikumi National Park. It starts very early in the morning around 0330 hours and ends after 2000 hours back into Dar es Salaam.\n\nThe park is well-known for its population of elephants, impalas, giraffes, buffaloes, zebras, elands, wildebeest, roan and sable antelope. Predators include tree-climbing lions, leopards, wild hunting dogs and black-backed jackal. More than 300 species of birds have been recorded including Eurasian migrants such as red billed oxpecker, marabou stork and lilac breasted roller.",
+      "heroImage": {
+        "src": "https://www.tanzaniatourism.com/images/uploads/Mikumi_National_Park_Buffalos_27.jpg",
+        "alt": "Day Trip to Mikumi National Park"
+      },
+      "gallery": [
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Mikumi_National_Park_Buffalos_27.jpg",
+          "alt": "Day Trip to Mikumi National Park",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Mikumi_National_Park_Elephants_101.jpg",
+          "alt": "Day Trip to Mikumi National Park",
+          "caption": null
+        }
+      ],
+      "duration": {
+        "days": 1,
+        "nights": 0,
+        "label": "Day trip"
+      },
+      "startLocation": "Dar es Salaam",
+      "endLocation": "Dar es Salaam",
+      "circuitIds": [
+        "circuit-southern"
+      ],
+      "destinationIds": [
+        "dest-mikumi-national-park"
+      ],
+      "activityIds": [
+        "activity-wildlife"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Dar es Salaam – Mikumi National Park – Dar es Salaam",
+          "summary": "Pick up from your hotel in Dar es Salaam early in the morning and proceed to south of Dar es Salaam, along the Tanzania / Zambia Highway, game drive in Mikumi National Park with picnic lunch.",
+          "destinationIds": [
+            "dest-mikumi-national-park"
+          ]
+        }
+      ],
+      "accommodation": "Lodging reserved to the standard you name (lodge or campsite as available on the route). Lodges are not owned by Ramika.",
+      "inclusions": [
+        "Licensed safari vehicle",
+        "Professional guide",
+        "Meals as stated in the final itinerary",
+        "Park activities as listed"
+      ],
+      "exclusions": [
+        "Park entrance fees",
+        "Flights",
+        "Personal expenses",
+        "Tips",
+        "Travel insurance"
+      ],
+      "pricing": null,
+      "enquireCta": {
+        "label": "Enquire about this safari",
+        "href": "/contact.html#enquire"
+      },
+      "seo": {
+        "title": "Day Trip to Mikumi National Park · Ramika Safaris and Tours",
+        "description": "A day trip to Mikumi National Park from Dar es Salaam, this is a shortest safari offered in the southern Tanzania (Day safari to Tanzania). Day Trip Mikumi National Park (Safari from Dar es Salaam) takes you to one…"
+      },
+      "status": "published",
+      "sourceUrl": "https://www.tanzaniatourism.com/safari/day-trip-to-mikumi-national-park",
+      "bestTimeToVisit": null,
+      "sortOrder": 9
+    },
+    {
+      "id": "pkg-2-days-safari-tomikumi-national-park",
+      "slug": "2-days-safari-tomikumi-national-park",
+      "title": "2 Days Safari to Mikumi National Park",
+      "cardSubtitle": "2 days · 1 night",
+      "summary": "Our 2 Days Game viewing Safari in Mikumi National Park will give you the most incredible game encounters taking you from Dar es Salaam, you will have most exciting remarkable adventure experience with thriving big game and hundreds of bird species in this incredible wilderness, watch the big four on your day game drive and spot a number of wildlife animals as well.",
+      "heroImage": {
+        "src": "https://www.tanzaniatourism.com/images/uploads/Mikumi_National_Park_Elephant_21.jpg",
+        "alt": "2 Days Safari to Mikumi National Park"
+      },
+      "gallery": [
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Mikumi_National_Park_Elephant_21.jpg",
+          "alt": "2 Days Safari to Mikumi National Park",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Mikumi_National_Park_Elephants_101.jpg",
+          "alt": "2 Days Safari to Mikumi National Park",
+          "caption": null
+        }
+      ],
+      "duration": {
+        "days": 2,
+        "nights": 1,
+        "label": "2 days / 1 night"
+      },
+      "startLocation": "Dar es Salaam / Morogoro",
+      "endLocation": "Transfer to Morogoro / Dar es Salaam",
+      "circuitIds": [
+        "circuit-southern"
+      ],
+      "destinationIds": [
+        "dest-mikumi-national-park"
+      ],
+      "activityIds": [
+        "activity-wildlife"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Dar es Salaam / Morogoro – Mikumi National Park",
+          "summary": "Upon your arrival at the airport in Dar es Salaam or pickup from your hotel, you will be picked up by our safari guide and drive to Mikumi National Park via Morogoro, a roughly 4 hours, you will have breakfast stop in Chalinze before continuing with a drive to the Park. Upon your arrival at the park check-in at your lodge for lunch and later go for evening and sunset game drives. In Mikumi National park expect to see mammals such as Lions, Buffalos, wild dogs, Giraffe, Wildebeest, Zebras, Impalas, Warthogs, elephants, hippos, and numerous bird species.",
+          "destinationIds": [
+            "dest-mikumi-national-park"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Mikumi Game Drives - Transfer to Morogoro / Dar es Salaam",
+          "summary": "Early the morning leave for sunrise Game drives starting from 06:30 am for about 3 hours before breakfast which will be taken within the park. After breakfast will continue with your game drives, watch out to spot the big 5 animals except for the rhinoceros which are missing in this park and other wildlife species. Return to the lodge at Mikumi Wildlife Safari Camp for lunch, you will have chances to see animals as they roam the waterholes while having your meals. In the afternoon you will set off for your journey back to Morogoro / Dar es Salaam.",
+          "destinationIds": []
+        }
+      ],
+      "accommodation": "Lodging reserved to the standard you name (lodge or campsite as available on the route). Lodges are not owned by Ramika.",
+      "inclusions": [
+        "Licensed safari vehicle",
+        "Professional guide",
+        "Meals as stated in the final itinerary",
+        "Park activities as listed"
+      ],
+      "exclusions": [
+        "Park entrance fees",
+        "Flights",
+        "Personal expenses",
+        "Tips",
+        "Travel insurance"
+      ],
+      "pricing": null,
+      "enquireCta": {
+        "label": "Enquire about this safari",
+        "href": "/contact.html#enquire"
+      },
+      "seo": {
+        "title": "2 Days Safari to Mikumi National Park · Ramika Safaris and Tours",
+        "description": "Our 2 Days Game viewing Safari in Mikumi National Park will give you the most incredible game encounters taking you from Dar es Salaam, you will have most exciting remarkable adventure experience with thriving big…"
+      },
+      "status": "published",
+      "sourceUrl": "https://www.tanzaniatourism.com/safari/2-days-safari-tomikumi-national-park",
+      "bestTimeToVisit": null,
+      "sortOrder": 10
+    },
+    {
+      "id": "pkg-3-days-safari-tomikumi-national-park",
+      "slug": "3-days-safari-tomikumi-national-park",
+      "title": "3 Days Safari to Mikumi National Park",
+      "cardSubtitle": "3 days · 2 nights",
+      "summary": "Your 3 Days Game viewing Safari in Mikumi National Park will give you the most incredible game encounters taking you from Dar es Salaam, you will have most exciting remarkable adventure experience with thriving big game and hundreds of bird species in this incredible wilderness, watch the big four on your day game drive and spot a number of wildlife animals as well.",
+      "heroImage": {
+        "src": "https://www.tanzaniatourism.com/images/uploads/Mikumi_National_Park_Buffalos_108.jpg",
+        "alt": "3 Days Safari to Mikumi National Park"
+      },
+      "gallery": [
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Mikumi_National_Park_Buffalos_108.jpg",
+          "alt": "3 Days Safari to Mikumi National Park",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Mikumi_National_Park_Giraffes_117.jpg",
+          "alt": "3 Days Safari to Mikumi National Park",
+          "caption": null
+        }
+      ],
+      "duration": {
+        "days": 3,
+        "nights": 2,
+        "label": "3 days / 2 nights"
+      },
+      "startLocation": "Dar es Salaam / Morogoro",
+      "endLocation": "Morogoro / Dar es Salaam",
+      "circuitIds": [
+        "circuit-southern"
+      ],
+      "destinationIds": [
+        "dest-mikumi-national-park"
+      ],
+      "activityIds": [
+        "activity-wildlife"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Dar es Salaam/Morogoro – Mikumi National Park",
+          "summary": "Pickup from your hotel or airport in Dar es Salaam and drive to Mikumi National Park via Morogoro, a roughly 4 hours, you will have breakfast stop in Chalinze or packed breakfast before continuing with a drive to the Park. Upon your arrival at the park check-in at your lodge for lunch and later go for evening and sunset game drives. In Mikumi National park expect to see mammals such as Lions, Buffalos, wild dogs, Giraffe, Wildebeest, Zebras, Impalas, Warthogs, elephants, hippos, and numerous bird species.",
+          "destinationIds": [
+            "dest-mikumi-national-park"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Full day Mikumi Game Drives",
+          "summary": "Early the morning game drives starting after breakfast and continue till lunch time were you will have a picnic lunch, watch out to spot the big 5 animals except for the rhinoceros which are missing in this park and other wildlife species. Return to the lodge at Mikumi Wildlife Safari Camp for dinner and overnight.",
+          "destinationIds": []
+        },
+        {
+          "day": 3,
+          "title": "Mikumi National Park - Morogoro / Dar es Salaam",
+          "summary": "After breakfast, drive back to Dar es Salaam with lunch box & dropped to Hotel/ Airport or Seaport (Breakfast & Lunch)",
+          "destinationIds": [
+            "dest-mikumi-national-park"
+          ]
+        }
+      ],
+      "accommodation": "Lodging reserved to the standard you name (lodge or campsite as available on the route). Lodges are not owned by Ramika.",
+      "inclusions": [
+        "Licensed safari vehicle",
+        "Professional guide",
+        "Meals as stated in the final itinerary",
+        "Park activities as listed"
+      ],
+      "exclusions": [
+        "Park entrance fees",
+        "Flights",
+        "Personal expenses",
+        "Tips",
+        "Travel insurance"
+      ],
+      "pricing": null,
+      "enquireCta": {
+        "label": "Enquire about this safari",
+        "href": "/contact.html#enquire"
+      },
+      "seo": {
+        "title": "3 Days Safari to Mikumi National Park · Ramika Safaris and Tours",
+        "description": "Your 3 Days Game viewing Safari in Mikumi National Park will give you the most incredible game encounters taking you from Dar es Salaam, you will have most exciting remarkable adventure experience with thriving big…"
+      },
+      "status": "published",
+      "sourceUrl": "https://www.tanzaniatourism.com/safari/3-days-safari-tomikumi-national-park",
+      "bestTimeToVisit": null,
+      "sortOrder": 11
+    },
+    {
+      "id": "pkg-8-days-safari-to-nyerere-mikumi-and-udzungwa-national-parks",
+      "slug": "8-days-safari-to-nyerere-mikumi-and-udzungwa-national-parks",
+      "title": "8 Days Safari to Nyerere, Mikumi and Udzungwa National Parks",
+      "cardSubtitle": "8 days · 7 nights",
+      "summary": "This 8 Day Safari you will visit all the Southern Tanzania National Parks including Nyerere, Mikumi and Udzungwa. You will have plenty of time for extensive animal watching, river boating and the opportunity to shoot many great photos. You are in the center of attention and you are invited to shape with us the daily schedule of your safari.",
+      "heroImage": {
+        "src": "https://www.tanzaniatourism.com/images/uploads/Nyerere_National_Park_Crocodiles_101.jpg",
+        "alt": "8 Days Safari to Nyerere, Mikumi and Udzungwa National Parks"
+      },
+      "gallery": [
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Nyerere_National_Park_Crocodiles_101.jpg",
+          "alt": "8 Days Safari to Nyerere, Mikumi and Udzungwa National Parks",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Nyerere_National_Park_Elephants_58.jpg",
+          "alt": "8 Days Safari to Nyerere, Mikumi and Udzungwa National Parks",
+          "caption": null
+        }
+      ],
+      "duration": {
+        "days": 8,
+        "nights": 7,
+        "label": "8 days / 7 nights"
+      },
+      "startLocation": "Dar es Salaam",
+      "endLocation": "Dar es Salaam",
+      "circuitIds": [
+        "circuit-southern"
+      ],
+      "destinationIds": [
+        "dest-nyerere-national-park",
+        "dest-mikumi-national-park",
+        "dest-udzungwa-mountains-park"
+      ],
+      "activityIds": [
+        "activity-wildlife"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival / Dar es Salaam",
+          "summary": "Picked up at Dar es Salaam International airport and transferred to hotel dinner and overnight at the hotel .",
+          "destinationIds": []
+        },
+        {
+          "day": 2,
+          "title": "Dar es Salaam - Nyerere National Park",
+          "summary": "After breakfast drive to Nyerere National Park, with packed lunch en route. In the evening you will do boat safari then head to lodge for dinner and overnight. With an area of around 50,000sq km (5% of Tanzania’s land surface) Nyerere National Park is one of the large protected areas in the world.",
+          "destinationIds": [
+            "dest-nyerere-national-park"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Full day Nyerere National Park",
+          "summary": "Today you will have a full day of game drive in Nyerere National Park, with picnic lunch. In the late afternoon, you will return to the lodge for dinner and overnight.",
+          "destinationIds": [
+            "dest-nyerere-national-park"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Full day Nyerere National Park",
+          "summary": "After breakfast depart from northern gate to southern gate with full game drive Nyerere National Park (Selous game reserve) stay and overnight at the lodge on full board basis",
+          "destinationIds": [
+            "dest-nyerere-national-park"
+          ]
+        },
+        {
+          "day": 5,
+          "title": "Nyerere National Park - Mikumi National Park",
+          "summary": "After early breakfast depart with picnic lunch and drive to Mikumi National park across the beautiful Uluguru Mountains, enjoying people and culture. Dinner and overnight will be at Mikumi. With an area of about 3230km (Tanzania’s 4th largest Park); Mikumi is one of the most popular parks for both tourists and local people.",
+          "destinationIds": [
+            "dest-nyerere-national-park",
+            "dest-mikumi-national-park"
+          ]
+        },
+        {
+          "day": 6,
+          "title": "Mikumi National Park - Udzungwa Mountains National Park",
+          "summary": "After breakfast you will have morning game drive to Mikumi park with packed lunch then drive to Udzungwa for dinner and overnight at Camp. The Udzungwa Mountains are almost unearthly. An enchanted forest of leafy glades, flecked with sunshine where fungus, lichens, moss, and ferns ingratiate themselves into every damp crevice, it is at once both vivid detail and larger than life. A new variety of African violet was discovered in the shelter of a 30m high tree.",
+          "destinationIds": [
+            "dest-udzungwa-mountains-park",
+            "dest-mikumi-national-park"
+          ]
+        },
+        {
+          "day": 7,
+          "title": "Sanje Waterfalls Hiking in Udzungwa National Park",
+          "summary": "After breakfast, you will collect your picnic lunch and do a 4 to 6 hrs hike to Sanje waterfalls. In the late afternoon, you will return to Camp for dinner and overnight.",
+          "destinationIds": [
+            "dest-udzungwa-mountains-park"
+          ]
+        },
+        {
+          "day": 8,
+          "title": "Departure",
+          "summary": "After breakfast drive back to Dar es Salam or fly to Zanzibar for your departure flight.",
+          "destinationIds": []
+        }
+      ],
+      "accommodation": "Lodging reserved to the standard you name (lodge or campsite as available on the route). Lodges are not owned by Ramika.",
+      "inclusions": [
+        "Licensed safari vehicle",
+        "Professional guide",
+        "Meals as stated in the final itinerary",
+        "Park activities as listed"
+      ],
+      "exclusions": [
+        "Park entrance fees",
+        "Flights",
+        "Personal expenses",
+        "Tips",
+        "Travel insurance"
+      ],
+      "pricing": null,
+      "enquireCta": {
+        "label": "Enquire about this safari",
+        "href": "/contact.html#enquire"
+      },
+      "seo": {
+        "title": "8 Days Safari to Nyerere, Mikumi and Udzungwa National Parks · Ramika Safaris and Tours",
+        "description": "This 8 Day Safari you will visit all the Southern Tanzania National Parks including Nyerere, Mikumi and Udzungwa. You will have plenty of time for extensive animal watching, river boating and the opportunity to shoot…"
+      },
+      "status": "published",
+      "sourceUrl": "https://www.tanzaniatourism.com/safari/8-days-safari-to-nyerere-mikumi-and-udzungwa-national-parks",
+      "bestTimeToVisit": null,
+      "sortOrder": 12
+    },
+    {
+      "id": "pkg-3-days-safari-to-udzungwa-mikumi-national-parks",
+      "slug": "3-days-safari-to-udzungwa-mikumi-national-parks",
+      "title": "3 Days Safari to Udzungwa & Mikumi National Parks",
+      "cardSubtitle": "2 days · 1 night",
+      "summary": "This 3 Days safari to Udzungwa and Mikumi is ideal safari for the experience Game Safari & Hiking. The Udzungwa Mountains National Park is a sumptuous forested reserve, a rare tropical forest that is home to a realm of unique plants, birds and animals & the sacred preserve of hikers and walkers. The park is a home of an important population of primates (10 species- more than in any of Tanzania’s other parks) as well as the grey faced sengi.\n\nMikumi’s landscape provides a serene wildlife experience, commonly seen animals like Impalas, Elephants, Giraffes, Zebras, Antelopes, Wildebeests, Elands, Crocodiles, Hippos, Baboons. If luck is in your favor, you won’t miss to see Lions and Leopard. Mikumi inhabits over 300 species of birds namely saddle bill stork, hammer kop, malachite kingfisher, lilac breasted roller, yellow throated long claw, battler eagle etc.",
+      "heroImage": {
+        "src": "https://www.tanzaniatourism.com/images/uploads/Udzungwa_National_Park_Moloneys_Monkey_19.jpg",
+        "alt": "3 Days Safari to Udzungwa & Mikumi National Parks"
+      },
+      "gallery": [
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Udzungwa_National_Park_Moloneys_Monkey_19.jpg",
+          "alt": "3 Days Safari to Udzungwa & Mikumi National Parks",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Udzungwa_National_Park_Black_and_White_Colobus_04.jpg",
+          "alt": "3 Days Safari to Udzungwa & Mikumi National Parks",
+          "caption": null
+        }
+      ],
+      "duration": {
+        "days": 2,
+        "nights": 1,
+        "label": "2 days / 1 night"
+      },
+      "startLocation": "Dar es Salaam",
+      "endLocation": "Dar es Salaam",
+      "circuitIds": [
+        "circuit-southern"
+      ],
+      "destinationIds": [
+        "dest-udzungwa-mountains-park",
+        "dest-mikumi-national-park"
+      ],
+      "activityIds": [
+        "activity-wildlife"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Dar es Salaam – Mikumi National Park (6 hrs drive)",
+          "summary": "We leave Dar es Salaam early morning and drive to Mikumi with lunch box. Late afternoon game drive with sunset view & watch the animal’s drinking water at hippo pool. Dinner and Overnight at the camp in Mikumi on FB basis.",
+          "destinationIds": [
+            "dest-mikumi-national-park"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Mikumi to Udzungwa to Mikumi Park (1 hr drive)",
+          "summary": "After breakfast, drive to Udzungwa for hiking till Sanje Falls with lunch box. Enjoy swimming at the in the cool water hole at the base of the falls. Drive to Mikumi. Overnight at Camp in Mikumi on FB basis.",
+          "destinationIds": []
+        }
+      ],
+      "accommodation": "Lodging reserved to the standard you name (lodge or campsite as available on the route). Lodges are not owned by Ramika.",
+      "inclusions": [
+        "Licensed safari vehicle",
+        "Professional guide",
+        "Meals as stated in the final itinerary",
+        "Park activities as listed"
+      ],
+      "exclusions": [
+        "Park entrance fees",
+        "Flights",
+        "Personal expenses",
+        "Tips",
+        "Travel insurance"
+      ],
+      "pricing": null,
+      "enquireCta": {
+        "label": "Enquire about this safari",
+        "href": "/contact.html#enquire"
+      },
+      "seo": {
+        "title": "3 Days Safari to Udzungwa & Mikumi National Parks · Ramika Safaris and Tours",
+        "description": "This 3 Days safari to Udzungwa and Mikumi is ideal safari for the experience Game Safari & Hiking. The Udzungwa Mountains National Park is a sumptuous forested reserve, a rare tropical forest that is home to a realm…"
+      },
+      "status": "published",
+      "sourceUrl": "https://www.tanzaniatourism.com/safari/3-days-safari-to-udzungwa-mikumi-national-parks",
+      "bestTimeToVisit": null,
+      "sortOrder": 13
+    },
+    {
+      "id": "pkg-3-days-safari-to-nyerere-and-mikumi-national-parks",
+      "slug": "3-days-safari-to-nyerere-and-mikumi-national-parks",
+      "title": "3 Days Safari to Nyerere and Mikumi National Parks",
+      "cardSubtitle": "3 days · 2 nights",
+      "summary": "This 3 Days safari to Nyerere (Selous) and Mikumi is ideal short safari on the Tanzania Southern Circuit. Nyerere Park size is stunning, bigger than Switzerland or Denmark, uninhabited and little touched by human interference. Visitors, therefore, find themselves in a pristine wilderness far away from the trodden tourist routes. Its wildlife (including some few remaining Black rhinos and Wild dogs) are very spectacular.\n\nMikumi’s landscape provides a serene wildlife experience, commonly seen animals like Impalas, Elephants, Giraffes, Zebras, Antelopes, Wildebeests, Elands, Crocodiles, Hippos, Baboons. If luck is in your favor, you won’t miss to see Lions and Leopard. Mikumi inhabits over 300 species of birds namely saddle bill stork, hammer kop, malachite kingfisher, lilac breasted roller, yellow throated long claw, battler eagle etc.",
+      "heroImage": {
+        "src": "https://www.tanzaniatourism.com/images/uploads/Nyerere_National_Park_Giraffe_39.jpg",
+        "alt": "3 Days Safari to Nyerere and Mikumi National Parks"
+      },
+      "gallery": [
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Nyerere_National_Park_Giraffe_39.jpg",
+          "alt": "3 Days Safari to Nyerere and Mikumi National Parks",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Nyerere_National_Park_Giraffes_104.jpg",
+          "alt": "3 Days Safari to Nyerere and Mikumi National Parks",
+          "caption": null
+        }
+      ],
+      "duration": {
+        "days": 3,
+        "nights": 2,
+        "label": "3 days / 2 nights"
+      },
+      "startLocation": "Zanzibar / Dar es Salaam",
+      "endLocation": "Dar Salaam / Zanzibar",
+      "circuitIds": [
+        "circuit-southern"
+      ],
+      "destinationIds": [
+        "dest-nyerere-national-park",
+        "dest-mikumi-national-park"
+      ],
+      "activityIds": [
+        "activity-wildlife"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Zanzibar / Dar es Salaam - Nyerere National Park (Selous)",
+          "summary": "Take early in the morning flight from Zanzibar / Dar es Salaam to Nyerere National Park (Selous), picked up at Mtemere Airstrip then set off for game drive. Nyerere Park is known as home of wild dog and lions, leopard and many more animals. Lunch will be saved in bush and thereafter we will proceed with game drive till evening when we drive back to Lodge for dinner and overnight.",
+          "destinationIds": [
+            "dest-nyerere-national-park"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Nyerere National Park (Selous) – Mikumi National Park",
+          "summary": "Early in the morning breakfast at lodge and departure to Mikumi national park. Driving takes up to 7 hours due of lough road. Will have hot lunch at Morogoro Town and proceed with journey until we get at Mikumi national park. Will do evening game drive and drive back to hotel for dinner and overnight.",
+          "destinationIds": [
+            "dest-nyerere-national-park",
+            "dest-mikumi-national-park"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Mikumi National Park - Dar Salaam / Zanzibar",
+          "summary": "Wake up early in the morning with breakfast and lunch boxes which will be saved in Bush as breakfast and lunch on the way to Dar Salaam. We will start with a short game drive then drive out the park around 10:30 am and drive back to Dar Salaam for catch up boat to Zanzibar which takes about 4 to 5 hours driving from Mikumi National Park.",
+          "destinationIds": [
+            "dest-mikumi-national-park"
+          ]
+        }
+      ],
+      "accommodation": "Lodging reserved to the standard you name (lodge or campsite as available on the route). Lodges are not owned by Ramika.",
+      "inclusions": [
+        "Licensed safari vehicle",
+        "Professional guide",
+        "Meals as stated in the final itinerary",
+        "Park activities as listed"
+      ],
+      "exclusions": [
+        "Park entrance fees",
+        "Flights",
+        "Personal expenses",
+        "Tips",
+        "Travel insurance"
+      ],
+      "pricing": null,
+      "enquireCta": {
+        "label": "Enquire about this safari",
+        "href": "/contact.html#enquire"
+      },
+      "seo": {
+        "title": "3 Days Safari to Nyerere and Mikumi National Parks · Ramika Safaris and Tours",
+        "description": "This 3 Days safari to Nyerere (Selous) and Mikumi is ideal short safari on the Tanzania Southern Circuit. Nyerere Park size is stunning, bigger than Switzerland or Denmark, uninhabited and little touched by human…"
+      },
+      "status": "published",
+      "sourceUrl": "https://www.tanzaniatourism.com/safari/3-days-safari-to-nyerere-and-mikumi-national-parks",
+      "bestTimeToVisit": null,
+      "sortOrder": 14
+    },
+    {
+      "id": "pkg-4-days-safari-to-nyerere-and-mikumi-national-parks",
+      "slug": "4-days-safari-to-nyerere-and-mikumi-national-parks",
+      "title": "4 Days Safari to Nyerere and Mikumi National Parks",
+      "cardSubtitle": "4 days · 3 nights",
+      "summary": "This 4 Day Safari you will visit 2 Southern Tanzania National Parks including Nyerere and Mikumi. You will have plenty of time for extensive animal watching, river boating and the opportunity to shoot many great photos. You are in the center of attention and you are invited to shape with us the daily schedule of your safari.",
+      "heroImage": {
+        "src": "https://www.tanzaniatourism.com/images/uploads/Nyerere_National_Park_Elephants_61.jpg",
+        "alt": "4 Days Safari to Nyerere and Mikumi National Parks"
+      },
+      "gallery": [
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Nyerere_National_Park_Elephants_61.jpg",
+          "alt": "4 Days Safari to Nyerere and Mikumi National Parks",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Nyerere_National_Park_Hippos_102.jpg",
+          "alt": "4 Days Safari to Nyerere and Mikumi National Parks",
+          "caption": null
+        }
+      ],
+      "duration": {
+        "days": 4,
+        "nights": 3,
+        "label": "4 days / 3 nights"
+      },
+      "startLocation": "Dar es Salaam",
+      "endLocation": "Dar es Salaam",
+      "circuitIds": [
+        "circuit-southern"
+      ],
+      "destinationIds": [
+        "dest-nyerere-national-park",
+        "dest-mikumi-national-park"
+      ],
+      "activityIds": [
+        "activity-wildlife"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Dar es Salaam - Nyerere National Park",
+          "summary": "After breakfast drive to Nyerere National Park, with packed lunch en route. In the evening you will do boat safari then head to lodge for dinner and overnight. With an area of around 50,000sq km (5% of Tanzania’s land surface) Nyerere National Park is one of the large protected areas in the world.",
+          "destinationIds": [
+            "dest-nyerere-national-park"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Full day Nyerere National Park",
+          "summary": "Today you will have a full day of game drive mixed with walking safari with a guide in Nyerere National Park, with picnic lunch (if interested can still enjoy the sunset Boat tour) . In the late afternoon, you will return to the lodge for dinner and overnight.",
+          "destinationIds": [
+            "dest-nyerere-national-park"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Nyerere National Park - Mikumi National Park",
+          "summary": "After early breakfast depart with picnic lunch and drive to Mikumi National park across the beautiful Uluguru Mountains, enjoying people and culture. Dinner and overnight will be at Mikumi. With an area of about 3230km (Tanzania’s 4th largest Park); Mikumi is one of the most popular parks for both tourists and local people.",
+          "destinationIds": [
+            "dest-nyerere-national-park",
+            "dest-mikumi-national-park"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Mikumi National Park - Dar es Salaam",
+          "summary": "After breakfast drive back to Dar es Salam or fly to Zanzibar for your departure flight.",
+          "destinationIds": [
+            "dest-mikumi-national-park"
+          ]
+        }
+      ],
+      "accommodation": "Lodging reserved to the standard you name (lodge or campsite as available on the route). Lodges are not owned by Ramika.",
+      "inclusions": [
+        "Licensed safari vehicle",
+        "Professional guide",
+        "Meals as stated in the final itinerary",
+        "Park activities as listed"
+      ],
+      "exclusions": [
+        "Park entrance fees",
+        "Flights",
+        "Personal expenses",
+        "Tips",
+        "Travel insurance"
+      ],
+      "pricing": null,
+      "enquireCta": {
+        "label": "Enquire about this safari",
+        "href": "/contact.html#enquire"
+      },
+      "seo": {
+        "title": "4 Days Safari to Nyerere and Mikumi National Parks · Ramika Safaris and Tours",
+        "description": "This 4 Day Safari you will visit 2 Southern Tanzania National Parks including Nyerere and Mikumi. You will have plenty of time for extensive animal watching, river boating and the opportunity to shoot many great…"
+      },
+      "status": "published",
+      "sourceUrl": "https://www.tanzaniatourism.com/safari/4-days-safari-to-nyerere-and-mikumi-national-parks",
+      "bestTimeToVisit": null,
+      "sortOrder": 15
+    },
+    {
+      "id": "pkg-2-days-to-udzungwa-mountains-national-park",
+      "slug": "2-days-to-udzungwa-mountains-national-park",
+      "title": "2 Days to Udzungwa Mountains National Park",
+      "cardSubtitle": "2 days · 1 night",
+      "summary": "A 2 Days Udzungwa Mountains National Park Safari will take you from Dar es Salaam to Udzungwa via Morogoro. Udzungwa Mountains are rich with uniqueness in nature and wildlife, you will be able to visit the magnificent Sanje waterfalls, trek the endangered Udzungwa primates which will give an exceptional adventure experience.",
+      "heroImage": {
+        "src": "https://www.tanzaniatourism.com/images/uploads/Udzungwa_National_Park_Udzungwa_Red_Colobus_17.jpg",
+        "alt": "2 Days to Udzungwa Mountains National Park"
+      },
+      "gallery": [
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Udzungwa_National_Park_Udzungwa_Red_Colobus_17.jpg",
+          "alt": "2 Days to Udzungwa Mountains National Park",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Udzungwa_National_Park_Black_and_White_Colobus_04.jpg",
+          "alt": "2 Days to Udzungwa Mountains National Park",
+          "caption": null
+        }
+      ],
+      "duration": {
+        "days": 2,
+        "nights": 1,
+        "label": "2 days / 1 night"
+      },
+      "startLocation": "Dar es Salaam",
+      "endLocation": "Morogoro / Dar es Salaam",
+      "circuitIds": [
+        "circuit-southern"
+      ],
+      "destinationIds": [
+        "dest-udzungwa-mountains-park"
+      ],
+      "activityIds": [
+        "activity-wildlife"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Transfer to Udzungwa National Park",
+          "summary": "Today you will be picked from your hotel in Dar es Salaam / Morogoro for a journey to Udzungwa mountains national park an upon your arrival you will go for a hike to the fantastic waterfalls with magnificent views, the waterfalls have good clean water which gives a chance for swimming cooling from the whole tiring hike, you may be able to see some primates and mammals creating a tremendous adventure, return back to the headquarters and overnight will be camping in the park which is also a whole different unique experience.",
+          "destinationIds": [
+            "dest-udzungwa-mountains-park"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Udzungwa National Park – Morogoro / Dar es Salaam",
+          "summary": "On this day after getting breakfast, you will head back to the mountain forests for trekking the rare endangered monkey species also known as Red Colobus Monkey and the Sanje Crested Mangabey, you will also be able to see some other common monkeys like blue & velvet monkeys, also encounters with some small mammals, watch a variety of birds, butterflies and return back for lunch before setting off back to Morogoro / Dar es Salaam.",
+          "destinationIds": [
+            "dest-udzungwa-mountains-park"
+          ]
+        }
+      ],
+      "accommodation": "Lodging reserved to the standard you name (lodge or campsite as available on the route). Lodges are not owned by Ramika.",
+      "inclusions": [
+        "Licensed safari vehicle",
+        "Professional guide",
+        "Meals as stated in the final itinerary",
+        "Park activities as listed"
+      ],
+      "exclusions": [
+        "Park entrance fees",
+        "Flights",
+        "Personal expenses",
+        "Tips",
+        "Travel insurance"
+      ],
+      "pricing": null,
+      "enquireCta": {
+        "label": "Enquire about this safari",
+        "href": "/contact.html#enquire"
+      },
+      "seo": {
+        "title": "2 Days to Udzungwa Mountains National Park · Ramika Safaris and Tours",
+        "description": "A 2 Days Udzungwa Mountains National Park Safari will take you from Dar es Salaam to Udzungwa via Morogoro. Udzungwa Mountains are rich with uniqueness in nature and wildlife, you will be able to visit the…"
+      },
+      "status": "published",
+      "sourceUrl": "https://www.tanzaniatourism.com/safari/2-days-to-udzungwa-mountains-national-park",
+      "bestTimeToVisit": null,
+      "sortOrder": 16
+    }
+  ],
+  "circuits": [],
+  "activities": []
+}

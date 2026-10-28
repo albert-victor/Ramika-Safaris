@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Destinations · Ramika Safaris and Tours</title>
+  <meta name="description" content="Explore Tanzanian safari destinations with Ramika Safaris and Tours – southern highlands first, then northern and western routes when they belong in the journey.">
+  <!-- @include partials/assets.html -->
+  <link rel="stylesheet" href="/css/cards.css">
+  <link rel="stylesheet" href="/css/destinations.css">
+</head>
+<body data-page="destinations" class="has-hero">
+  <a class="skip-link" href="#content">Skip to content</a>
+  <!-- @include partials/header.html -->
+
+  <section class="page-hero dest-hero" aria-label="Destinations">
+    <img
+      src="/images/about_Activities/mikumi_experieces.jpg"
+      alt="Zebras in tall grass on a southern Tanzania safari."
+      width="1600"
+      height="900"
+      fetchpriority="high"
+      decoding="async"
+    >
+    <div class="page-hero-shade" aria-hidden="true"></div>
+    <div class="container-xl page-hero-copy dest-hero-copy">
+      <nav class="crumbs crumbs--on-hero" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li aria-current="page">Destinations</li>
+        </ol>
+      </nav>
+      <p class="kicker hero-kicker">Tanzania</p>
+      <p class="script">Where we travel</p>
+      <h1>Destinations</h1>
+      <p class="hero-lede">Parks, highlands, and lake shores across Tanzania – chosen for the road you want to travel, not a fixed list on a brochure.</p>
+    </div>
+  </section>
+
+  <main id="content" class="site-main dest-main">
+    <section class="dest-section dest-intro" aria-label="Exploring Tanzania">
+      <div class="container-xl dest-intro-grid">
+        <div class="dest-intro-copy reveal">
+          <header class="section-head section-head--start">
+            <p class="kicker">The map</p>
+            <p class="script">Exploring Tanzania</p>
+            <h2>Southern ground first</h2>
+          </header>
+          <div class="prose">
+            <p>Ramika begins where the company knows the ground: the southern highlands, Kitulo, and parks such as Mikumi. Northern, western, and coastal destinations are planned when they belong in the same journey.</p>
+            <p>Browse the places below. Each page will grow as verified destination details are ready. If you already know where you want to go, send an enquiry and we will shape the route with you.</p>
+          </div>
+        </div>
+        <figure class="frame dest-intro-frame">
+          <img
+            src="/images/about_Activities/kitulo_main.jpg"
+            alt="Flowering highland grassland on the Kitulo plateau."
+            width="900"
+            height="700"
+            loading="lazy"
+            decoding="async"
+          >
+        </figure>
+      </div>
+    </section>
+
+    <section class="dest-section dest-discover" aria-label="Destination discovery" data-dest-discover>
+      <div class="container-xl">
+        <header class="section-head reveal">
+          <p class="kicker">Places</p>
+          <p class="script">Find a destination</p>
+          <h2>Discover destinations</h2>
+        </header>
+        <p class="prose section-lede reveal">Image-led notes on the landscapes and parks we travel. Filter by circuit, region, or experience when those details are present in the catalogue.</p>
+
+        <div class="dest-toolbar reveal" data-dest-toolbar hidden>
+          <div class="dest-filters" data-filter-group="circuit" hidden>
+            <p class="dest-filter-label" id="filter-circuit-label">Circuit</p>
+            <div class="dest-filter-row" role="group" aria-labelledby="filter-circuit-label" data-filter-options="circuit"></div>
+          </div>
+          <div class="dest-filters" data-filter-group="region" hidden>
+            <p class="dest-filter-label" id="filter-region-label">Region</p>
+            <div class="dest-filter-row" role="group" aria-labelledby="filter-region-label" data-filter-options="region"></div>
+          </div>
+          <div class="dest-filters" data-filter-group="activity" hidden>
+            <p class="dest-filter-label" id="filter-activity-label">Experience</p>
+            <div class="dest-filter-row" role="group" aria-labelledby="filter-activity-label" data-filter-options="activity"></div>
+          </div>
+        </div>
+
+        <p class="dest-status" data-dest-status aria-live="polite">Loading destinations…</p>
+
+        <div class="dest-grid card-grid card-grid--destinations" data-dest-grid></div>
+
+        <div class="dest-empty" data-dest-empty hidden>
+          <p class="dest-empty-title" data-dest-empty-title>No destinations to show yet</p>
+          <p class="prose" data-dest-empty-body>Published destination pages will appear here as the catalogue is completed. Tell us where you want to travel and we will shape the route with you.</p>
+          <p class="section-cta">
+            <a class="btn-outline" href="/contact.html#enquire">Enquire about a safari</a>
+          </p>
+        </div>
+
+        <div class="dest-more" data-dest-more hidden>
+          <button class="btn-outline" type="button" data-dest-load-more>Load more destinations</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="dest-section enquire-band" aria-label="Safari enquiry">
+      <div class="enquire-band-media" aria-hidden="true">
+        <img
+          src="/images/about_Activities/about.jpg"
+          alt=""
+          width="1600"
+          height="900"
+          loading="lazy"
+          decoding="async"
+        >
+        <div class="enquire-band-shade"></div>
+      </div>
+      <div class="container-xl enquire-band-copy reveal">
+        <header class="section-head">
+          <p class="kicker">Next step</p>
+          <p class="script">Plan with us</p>
+          <h2>Request a safari</h2>
+        </header>
+        <p class="prose">Name the destinations you have in mind, how long you can travel, and the lodging standard you prefer. We reply with a clear outline for the road ahead.</p>
+        <p class="section-cta">
+          <a class="btn-outline enquire-cta" href="/contact.html#enquire">Enquire now</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- @include partials/footer.html -->
+  <!-- @include partials/scripts.html -->
+  <script src="/js/ui/cards.js" defer></script>
+  <script src="/js/destinations.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Activities · Ramika Safaris and Tours</title>
+  <meta name="description" content="Safari activities with Ramika Safaris and Tours – game drives, walks, trekking, wildlife viewing, and more.">
+  <!-- @include partials/assets.html -->
+  <link rel="stylesheet" href="/css/activities.css">
+</head>
+<body data-page="activities" class="has-hero">
+  <a class="skip-link" href="#content">Skip to content</a>
+  <!-- @include partials/header.html -->
+
+  <section class="page-hero activities-hero" aria-label="Safari activities">
+    <img src="/images/about_Activities/mikumi_experieces.jpg" alt="Zebras in tall grass during a safari day." width="1600" height="900" fetchpriority="high" decoding="async">
+    <div class="page-hero-shade" aria-hidden="true"></div>
+    <div class="container-xl page-hero-copy">
+      <p class="script">In the field</p>
+      <h1>Activities</h1>
+    </div>
+  </section>
+
+  <main id="content" class="site-main activities-main">
+    <div class="container-xl">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li aria-current="page">Activities</li>
+        </ol>
+      </nav>
+      <header class="section-head">
+        <p class="kicker">How you travel</p>
+        <p class="script">Choose a day</p>
+        <h2>Ways to explore</h2>
+      </header>
+      <p class="prose">Each activity gathers the safari packages that belong with it. Packages will fill these pages as the catalogue is imported.</p>
+      <p class="activities-status" data-activities-status aria-live="polite">Loading activities…</p>
+      <div class="activities-grid" data-activities-grid></div>
+    </div>
+  </main>
+
+  <!-- @include partials/footer.html -->
+  <!-- @include partials/scripts.html -->
+  <script src="/js/activities.js" defer></script>
+</body>
+</html>

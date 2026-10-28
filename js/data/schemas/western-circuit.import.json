@@ -1,0 +1,570 @@
+{
+  "_meta": {
+    "kind": "import-intermediate",
+    "version": 1,
+    "source": "https://www.tanzaniatourism.com/destinations/western-circuit",
+    "note": "western circuit destinations scraped from Tanzania Tourism (first 9 in listing order).",
+    "scrapedAt": "2026-10-28T08:27:13.781Z"
+  },
+  "destinations": [
+    {
+      "id": "dest-gombe-stream-national-park",
+      "slug": "gombe-stream-national-park",
+      "name": "Gombe Stream National Park",
+      "cardTitle": "Gombe Stream National Park",
+      "cardTouch": "Chimpanzee forest",
+      "intro": "Covering an area of only 56 km, Gombe National Park is Tanzania ’s smallest park. The park’s most attractions are its famous primate inhabitants and its connection to Jane Goodall. First researched in the 60’s by…",
+      "description": "Covering an area of only 56 km, Gombe National Park is Tanzania ’s smallest park. The park’s most attractions are its famous primate inhabitants and its connection to Jane Goodall. First researched in the 60’s by Jane Goodall, Gombe is heaven for chimpanzee lovers.\n\nMany of Gombe’s chimps are well habituated inside the park. Though it is a little difficult, sweaty walking steep hills and valleys, but the experience is so tempting. If you head out early in the morning sightings are nearly guaranteed and incredible. The experience is one that you are unlikely to forget.\n\nGombe is placed at the shore of Lake Tanganyika . The forest is verdant and 13 streams run down the escarpment to the sandy beach. The view of the forested slopes touching the steep escarpment is the most appealing one.\n\nIn addition to the main attraction chimpanzee, the park is also home to a troop of habituated olive baboon that can usually be found on the lakeshore. There are several other monkey species present, including red colobus monkey, while red-tailed, which are sometimes hunted by the chimps.\n\nThe park also harbours diverse colourful bird species. The notable are African broadbill, Black saw-wing, Crowned eagle, Double-toothed barbet, Kenya rufous sparrow, Livingstone’s turaco, Palm-nut vulture, Peter’s twinspot, Red-capped robin-chat, Red-chested cuckoo, Ross’s turaco, Yellow-rumped tinkerbird.\n\nDespite chimp tracking, you can take walks along the lakeshore, and go and see Jane’s old chimp-feeding station, the viewpoint on Jane’s Peak and Kakombe Waterfall.",
+      "heroImage": {
+        "src": "https://www.tanzaniatourism.com/images/uploads/Gombe_Stream_National_Park_Chimp_15.jpg",
+        "alt": "Gombe Stream National Park"
+      },
+      "gallery": [
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Gombe_Stream_National_Park_Chimp_15.jpg",
+          "alt": "Gombe Stream National Park",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Gombe_Stream_National_Park_Boating_71.jpg",
+          "alt": "Gombe Stream National Park",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Gombe_Stream_National_Park_Boating_70.jpg",
+          "alt": "Gombe Stream National Park",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Gombe_Stream_National_Park_Lake_Tanganyika_Shore)line_45.jpg",
+          "alt": "Gombe Stream National Park",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Gombe_Stream_National_Park_Kakombe_Waterfalls_39.jpg",
+          "alt": "Gombe Stream National Park",
+          "caption": null
+        }
+      ],
+      "region": "Western Tanzania",
+      "circuitIds": [
+        "circuit-western"
+      ],
+      "activityIds": [
+        "activity-wildlife",
+        "activity-day-walk",
+        "activity-trekking"
+      ],
+      "wildlifeHighlights": [
+        "Chimpanzee",
+        "Colobus"
+      ],
+      "bestTimeToVisit": "Dry season (July to October)",
+      "relatedPackageIds": [],
+      "seo": {
+        "title": "Gombe Stream National Park · Ramika Safaris and Tours",
+        "description": "Covering an area of only 56 km, Gombe National Park is Tanzania ’s smallest park. The park’s most attractions are its famous primate inhabitants and its connection to Jane Goodall. First researched in the 60’s by…"
+      },
+      "status": "published",
+      "sourceUrl": "https://www.tanzaniatourism.com/destination/gombe-stream-national-park",
+      "sortOrder": 1
+    },
+    {
+      "id": "dest-mahale-mountains-national-park",
+      "slug": "mahale-mountains-national-park",
+      "name": "Mahale Mountains National Park",
+      "cardTitle": "Mahale Mountains National Park",
+      "cardTouch": "Lakeside chimps",
+      "intro": "Mahale is located in the Western Tanzania to the South of Kigoma town, it is bordering Lake Tanganyika-the World’s longest, second deepest and least polluted freshwater lake-harbouring an estimated 1000 fish species.",
+      "description": "Mahale is located in the Western Tanzania to the South of Kigoma town, it is bordering Lake Tanganyika-the World’s longest, second deepest and least polluted freshwater lake-harbouring an estimated 1000 fish species.\n\nThe park is famous among visitors because of holding an abundant number of chimpanzees. In addition to chimpanzee, Mahale is heaven for other primates. The beauty of the park includes rivers and waterfalls and white sandy beached around the shoreline of the Lake.\n\nThe wild adventure leads through the misty forests. During these walks hikers also have the chance to spot other animals such as roan and sable antelope, warthog mongoose, and sometimes even lion and leopard. Crocodiles are also known to live in the park but rare.\n\nHere you can also spot Tanzania's densest population of primates like red colobus, yellow baboon, red-tailed monkeys and vervet monkeys. Hippos can also be witnessed in Lake Tanganyika, swimming in the crystal clear waters.\n\nHome to almost 355 species of birds, the park is also famous as birders paradise. On the sandy beaches of the Lakeshore visitors can spot pelicans and different storks as well as malachite kingfishers, pied king fishers, fish eagles Livingston’s turacos, narina trogons, crested guinea fowls and blue cheeked bee and many more colourful birds.\n\nThe lake also harbors over 250 endemic fish species. You can also get the chance of snorkelling in the shallow waters of the Lake and swim with the multi-colored fishes.",
+      "heroImage": {
+        "src": "https://www.tanzaniatourism.com/images/uploads/Mahale_Mountain_National_Park.jpg",
+        "alt": "Mahale Mountains National Park"
+      },
+      "gallery": [
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Mahale_Mountain_National_Park.jpg",
+          "alt": "Mahale Mountains National Park",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Mahale_Mountains_National_Park_Shore_of_Lake_Tanganyika_40.jpg",
+          "alt": "Mahale Mountains National Park",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Mahale_Mountains_National_Park_x_61.jpg",
+          "alt": "Mahale Mountains National Park",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Mahale_Mountains_National_Park_Shoreline_73.jpg",
+          "alt": "Mahale Mountains National Park",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Mahale_Mountains_National_Park_Chimp_44.jpg",
+          "alt": "Mahale Mountains National Park",
+          "caption": null
+        }
+      ],
+      "region": "Western Tanzania",
+      "circuitIds": [
+        "circuit-western"
+      ],
+      "activityIds": [
+        "activity-wildlife",
+        "activity-trekking",
+        "activity-day-walk"
+      ],
+      "wildlifeHighlights": [
+        "Lion",
+        "Leopard",
+        "Hippo",
+        "Crocodile",
+        "Sable",
+        "Roan",
+        "Warthog",
+        "Chimpanzee",
+        "Colobus"
+      ],
+      "bestTimeToVisit": "May to October",
+      "relatedPackageIds": [],
+      "seo": {
+        "title": "Mahale Mountains National Park · Ramika Safaris and Tours",
+        "description": "Mahale is located in the Western Tanzania to the South of Kigoma town, it is bordering Lake Tanganyika-the World’s longest, second deepest and least polluted freshwater lake-harbouring an estimated 1000 fish species."
+      },
+      "status": "published",
+      "sourceUrl": "https://www.tanzaniatourism.com/destination/mahale-mountains-national-park",
+      "sortOrder": 2
+    },
+    {
+      "id": "dest-saanane-island-national-park",
+      "slug": "saanane-island-national-park",
+      "name": "Saanane Island National Park",
+      "cardTitle": "Saanane Island National Park",
+      "cardTouch": "Island park walks",
+      "intro": "Covering an area of about 2.20 square Kilometers, Saanane National Park is located on an island in Lake Victoria. The park got its name from its former owner Mzee Saanane Chawandi.",
+      "description": "Covering an area of about 2.20 square Kilometers, Saanane National Park is located on an island in Lake Victoria. The park got its name from its former owner Mzee Saanane Chawandi.\n\nIn 1964, Saanane was the first zoo in Tanzania. Later in 1991, it was recognized as a game reserve and then in 2013, it was gazetted as a National Park.\n\nThe park can be reached in about 20-15 min boat ride from Mwanza town of Tanzania. The Park is also famous for its location within the city of Tanzania. With lots of adventures, the park welcomes visitors who are coming for a memorable Tanzania Safari.\n\nThe Park is a resident to mammals like Impala, Velvet Monkeys, Rock Hyrax, and Wild Cats. The presence of “De-brazza's Monkey” distinguishes the park as the only Park in the country inhabiting the species.\n\nReptiles can also be found in the park, including crocodiles, Monitor Lizards, Agama Lizards, Pancake and Leopard Tortoises, Snakes particularly Python.\n\nThe aquatic part of the Park inhabits a variety of fisheries life, mainly Tilapia and Nile Perch.\n\nAs for birds, there are 44 species documented in Saanane Island National Park. Many more can be found at different times of the year.",
+      "heroImage": {
+        "src": "https://www.tanzaniatourism.com/images/uploads/Saanane_Island_View_05.jpg",
+        "alt": "Saanane Island National Park"
+      },
+      "gallery": [
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Saanane_Island_View_05.jpg",
+          "alt": "Saanane Island National Park",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Saanane_Island_National_Park_09.jpg",
+          "alt": "Saanane Island National Park",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Saanane_Island_De_Brazzas_Monkeys.jpg",
+          "alt": "Saanane Island National Park",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Saanane_Island_National_Park_Impalas_35.jpg",
+          "alt": "Saanane Island National Park",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Saanane_Island_National_Park_10.jpg",
+          "alt": "Saanane Island National Park",
+          "caption": null
+        }
+      ],
+      "region": "Western Tanzania",
+      "circuitIds": [
+        "circuit-western"
+      ],
+      "activityIds": [
+        "activity-wildlife",
+        "activity-day-walk"
+      ],
+      "wildlifeHighlights": [
+        "Leopard",
+        "Crocodile",
+        "Impala"
+      ],
+      "bestTimeToVisit": null,
+      "relatedPackageIds": [],
+      "seo": {
+        "title": "Saanane Island National Park · Ramika Safaris and Tours",
+        "description": "Covering an area of about 2.20 square Kilometers, Saanane National Park is located on an island in Lake Victoria. The park got its name from its former owner Mzee Saanane Chawandi."
+      },
+      "status": "published",
+      "sourceUrl": "https://www.tanzaniatourism.com/destination/saanane-island-national-park",
+      "sortOrder": 3
+    },
+    {
+      "id": "dest-rubondo-island-national-park",
+      "slug": "rubondo-island-national-park",
+      "name": "Rubondo Island National Park",
+      "cardTitle": "Rubondo Island National Park",
+      "cardTouch": "Lake Victoria island",
+      "intro": "Rubondo Island national park has a size of 240 km². It is only one of two Tanzanian national parks located on an island in Lake Victoria, the world’s second-largest lake. It is located in the southwest corner of the…",
+      "description": "Rubondo Island national park has a size of 240 km². It is only one of two Tanzanian national parks located on an island in Lake Victoria, the world’s second-largest lake. It is located in the southwest corner of the lake. Rubondo became a game reserve in 1965, to provide a sanctuary for animals. Tanzania gazetted Rubondo in 1977 as a national park. It is uninhabited and consequently 90% of the island remains forest today. With nine smaller islands under its wing, Rubondo also protects precious fish breeding grounds.\n\nThe habitat of Rubondo Island is mixed evergreen and semi-deciduous forest, which covers about 80% of the island’s surface area, hosting a variety of common species. The eastern lakeshore is characterized by rocky areas and sandy beaches whilst the western shore supports extensive papyrus swamps, lined with date palms.\n\nRubondo is home to a surprising number of large animals. Elephant, giraffe, bushbuck, Bush buck, Chimpanzee, hippo and crocodile. Except the wildlife viewing, guests can also embark on a variety of other activities that promote eco-sensitivity.\n\nThe park hosts a diverse number of birds. With 300 endemic and migratory bird species, Rubondo Island is an ornithologist’s dream. The most common species are African darters, egrets, pied kingfisher, the high-pitched screeches and African grey parrot. Rubondo also holds a very high concentration of fish eagles.",
+      "heroImage": {
+        "src": "https://www.tanzaniatourism.com/images/uploads/Rubondo_Island_National_Park_x_13.jpg",
+        "alt": "Rubondo Island National Park"
+      },
+      "gallery": [
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Rubondo_Island_National_Park_x_13.jpg",
+          "alt": "Rubondo Island National Park",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Rubondo_Island_National_Park_x_32.jpg",
+          "alt": "Rubondo Island National Park",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Rubondo_Island_National_Park_x_21.jpg",
+          "alt": "Rubondo Island National Park",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Rubondo_Island_National_Park_Chimp_17.jpg",
+          "alt": "Rubondo Island National Park",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Rubondo_Island_National_Park_x_25.jpg",
+          "alt": "Rubondo Island National Park",
+          "caption": null
+        }
+      ],
+      "region": "Western Tanzania",
+      "circuitIds": [
+        "circuit-western"
+      ],
+      "activityIds": [
+        "activity-wildlife",
+        "activity-day-walk"
+      ],
+      "wildlifeHighlights": [
+        "Elephant",
+        "Giraffe",
+        "Hippo",
+        "Crocodile",
+        "Chimpanzee"
+      ],
+      "bestTimeToVisit": "June and October",
+      "relatedPackageIds": [],
+      "seo": {
+        "title": "Rubondo Island National Park · Ramika Safaris and Tours",
+        "description": "Rubondo Island national park has a size of 240 km². It is only one of two Tanzanian national parks located on an island in Lake Victoria, the world’s second-largest lake. It is located in the southwest corner of the…"
+      },
+      "status": "published",
+      "sourceUrl": "https://www.tanzaniatourism.com/destination/rubondo-island-national-park",
+      "sortOrder": 4
+    },
+    {
+      "id": "dest-ukerewe-island",
+      "slug": "ukerewe-island",
+      "name": "Ukerewe Island",
+      "cardTitle": "Ukerewe Island",
+      "cardTouch": "Island villages",
+      "intro": "Ukerewe is the largest island in Lake Victoria and the largest inland island in Africa, with an area of approximately 530 km². Ukerewe Island is situated in the Ukerewe District, nearly 50 km north of Mwanza to which…",
+      "description": "Ukerewe is the largest island in Lake Victoria and the largest inland island in Africa, with an area of approximately 530 km². Ukerewe Island is situated in the Ukerewe District, nearly 50 km north of Mwanza to which it is linked by ferry, and it takes 3 to 4 hours to travel.\n\nUkerewe Island is situated 45 km (25 nautical miles) north of Mwanza to which it is linked by ferry, but a shorter vehicle ferry crossing of only 3.8 km also links the island across the Rugezi Channel to a dirt road on the eastern lake shore, which runs to Kibara and Musoma. The shoreline of Ukerewe Island is carved into numerous bays and it is surrounded by at least a dozen smaller islands.\n\nThe shoreline of Ukerewe Island is carved into numerous bays and it is surrounded by 27 small islands surrounding the neighbourhood with 3 of them not occupied by humans and the rest are occupied by fishermen with their families. Its largest community is Nansio. Its simple lifestyle and rocky terrain broken by lake vistas and tiny patches of forest, makes an intriguing, offbeat diversion.\n\nThe few proper sights include agricultural activities in which the residents farm maize, sweet potatoes, millet, cassava and rice, including the main activity here, fishing. Seen from Nansio are 27 small islands surrounding the neighbourhood with 3 of them not occupied by humans and the rest are occupied by fishermen with their families.\n\nThe are visits to Kagunguli, the oldest Roman church built in 1895 located near a hill with the same name; the old school and dispensary which were built between 1902 and 1913 and surviving to date with few repairs all are still in use. The Chief’s palace, Bukindo built from 1922 to 1923, the modest European-style palace of the island’s former king, which is still in use is a must see place if you are in the area and find out from the palace guide why one of its rooms has remained closed more half a century.\n\nOthers include, Irondo point where visitors see amazing views of Mwanza city, Entebbe in Uganda and Nairobi in Kenya; a chance to be part of a traditional dance group Buzegwe staff band that is sure to leave you fascinated; a visit to the historic sites, including graves in the area.\n\nThe dancing Stone in Ukara Island , a neighbouring island is also another attraction in the area, including crocodile tree and the knife of truth and learn how the people eke out a living.\n\n WHAT TO SEE / DO IN UKEREWE\nThere are many great places to been seen, but among the key sights are the following:",
+      "heroImage": {
+        "src": "https://www.tanzaniatourism.com/images/uploads/Ukerewe_Island_in_Lake_Victoria_2.jpg",
+        "alt": "Ukerewe Island"
+      },
+      "gallery": [
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Ukerewe_Island_in_Lake_Victoria_2.jpg",
+          "alt": "Ukerewe Island",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Ukerewe_Island_Sunset.jpg",
+          "alt": "Ukerewe Island",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Ukerewe_Ukara_Island_Dancing_Stone.jpg",
+          "alt": "Ukerewe Island",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Ukerewe-Rock_Site_2.jpg",
+          "alt": "Ukerewe Island",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Ukerewe-Rock_Site_1.jpg",
+          "alt": "Ukerewe Island",
+          "caption": null
+        }
+      ],
+      "region": "Western Tanzania",
+      "circuitIds": [
+        "circuit-western"
+      ],
+      "activityIds": [
+        "activity-day-walk",
+        "activity-cultural",
+        "activity-landscapes"
+      ],
+      "wildlifeHighlights": [],
+      "bestTimeToVisit": null,
+      "relatedPackageIds": [],
+      "seo": {
+        "title": "Ukerewe Island · Ramika Safaris and Tours",
+        "description": "Ukerewe is the largest island in Lake Victoria and the largest inland island in Africa, with an area of approximately 530 km². Ukerewe Island is situated in the Ukerewe District, nearly 50 km north of Mwanza to which…"
+      },
+      "status": "published",
+      "sourceUrl": "https://www.tanzaniatourism.com/destination/ukerewe-island",
+      "sortOrder": 5
+    },
+    {
+      "id": "dest-burigi-chato-national-park",
+      "slug": "burigi-chato-national-park",
+      "name": "Burigi-Chato National Park",
+      "cardTitle": "Burigi-Chato National Park",
+      "cardTouch": "Western plains",
+      "intro": "Recently gazetted as a National Park Burigi-Chato combines 3 former Game Reserves into 1 unit that is now 4,707 sq km making it the 4th largest National Park in Tanzania.",
+      "description": "Recently gazetted as a National Park Burigi-Chato combines 3 former Game Reserves into 1 unit that is now 4,707 sq km making it the 4th largest National Park in Tanzania.\n\nStretching from Lake Victoria in the East to the Rwandan boundary in the West, Burigi-Chato is an enormous piece of wild country encompassing fresh water lakes, long hills, rocky crags along escarpments, deeply set valleys lined with forest, open plains, swamps, rivers, flood plains and hundreds of square kilometres of medium and tall grass wooded savanna - mostly combretum and Terminalia known as Miombo.\n\nA key attraction in this National Park are the lakes with Lake Burigi being the 3rd largest lake in the country. It is a long lake with a number of islands, inlets and bays along its length, some of which are swampy and are home for the rare Sitatunga antelope, and possibly also the even rarer shoe billed stork.",
+      "heroImage": {
+        "src": "https://www.tanzaniatourism.com/images/uploads/Lake_Burigi_in_Chato_National_Park_08.jpg",
+        "alt": "Burigi-Chato National Park"
+      },
+      "gallery": [
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Lake_Burigi_in_Chato_National_Park_08.jpg",
+          "alt": "Burigi-Chato National Park",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Burigi_Chato_National_Park_Giraffes_07.jpg",
+          "alt": "Burigi-Chato National Park",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Burigi_Chato_National_Park_Entrace_03.jpg",
+          "alt": "Burigi-Chato National Park",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Burigi_Chato_National_Park_Impala_04.jpg",
+          "alt": "Burigi-Chato National Park",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Burigi_Chato_National_Park_Zebras_08.jpg",
+          "alt": "Burigi-Chato National Park",
+          "caption": null
+        }
+      ],
+      "region": "Western Tanzania",
+      "circuitIds": [
+        "circuit-western"
+      ],
+      "activityIds": [
+        "activity-wildlife",
+        "activity-game-drives"
+      ],
+      "wildlifeHighlights": [],
+      "bestTimeToVisit": "June – September",
+      "relatedPackageIds": [],
+      "seo": {
+        "title": "Burigi-Chato National Park · Ramika Safaris and Tours",
+        "description": "Recently gazetted as a National Park Burigi-Chato combines 3 former Game Reserves into 1 unit that is now 4,707 sq km making it the 4th largest National Park in Tanzania."
+      },
+      "status": "published",
+      "sourceUrl": "https://www.tanzaniatourism.com/destination/burigi-chato-national-park",
+      "sortOrder": 6
+    },
+    {
+      "id": "dest-ibanda-kyerwa-national-park",
+      "slug": "ibanda-kyerwa-national-park",
+      "name": "Ibanda-Kyerwa National Park",
+      "cardTitle": "Ibanda-Kyerwa National Park",
+      "cardTouch": "Border wilderness",
+      "intro": "The Ibanda-Kyerwa National Park, previously Ibanda Game Reserve, is a national park in Tanzania. Originally established in 1974, it was designated a national park in 2019. The national park is located in Kagera…",
+      "description": "The Ibanda-Kyerwa National Park, previously Ibanda Game Reserve, is a national park in Tanzania. Originally established in 1974, it was designated a national park in 2019. The national park is located in Kagera Region and has an area of 200 square kilometres.\n\nThe unseen treasure in the Western corner of the country, the paradise with scenic beauty of rolling hills, valleys, plains of Acacia savannah, the central basin dissected by seasonal rivers filling the scattered lakes and swamps all blow your visit to this undiscovered park.\n\nThe Park is exceptional gifted with a variety of attractions ranging from savannah, lakes, rivers and swamps inhabited with different kinds wildlife. The park is endowed with various wild animals such as African Buffalo, Hippos, Leopards, Antelopes like reed buck and roan and birds.\n\nThis is one of the largest rivers in Tanzania which act as a boundary with Rwanda. The river separates the two nations and also the two national parks; the Ibanda-kyerwa National park in Tanzania and Akagera National Park in Rwanda. Also to the north the rivers is a boundary with Uganda and this makes easy to visit even from Uganda and Rwanda.\n\nWith its open savannah grasslands, the scattered lakes, hills, valleys, Kagera river and basins a game drive inside the park is inspirational to many visitors as they can see animals like herds of buffalo, zebra, leopards, topi, eland, impala, waterbuck, reedback and giraffe.",
+      "heroImage": {
+        "src": "https://www.tanzaniatourism.com/images/uploads/Ibanda_Kyerwa_National_Park_Wildlife.jpg",
+        "alt": "Ibanda-Kyerwa National Park"
+      },
+      "gallery": [
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Ibanda_Kyerwa_National_Park_Wildlife.jpg",
+          "alt": "Ibanda-Kyerwa National Park",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Ibanda_Kyerwa_National_Park_Zebras_01.jpg",
+          "alt": "Ibanda-Kyerwa National Park",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Ibanda_Kyerwa_National_Park_Impala_02.jpg",
+          "alt": "Ibanda-Kyerwa National Park",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Ibanda_Kyerwa_National_Park_Waterbucks_01.jpg",
+          "alt": "Ibanda-Kyerwa National Park",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Ibanda_Kyerwa_National_Park_Giraffes_02.jpg",
+          "alt": "Ibanda-Kyerwa National Park",
+          "caption": null
+        }
+      ],
+      "region": "Western Tanzania",
+      "circuitIds": [
+        "circuit-western"
+      ],
+      "activityIds": [
+        "activity-wildlife",
+        "activity-game-drives"
+      ],
+      "wildlifeHighlights": [
+        "Leopard",
+        "Buffalo",
+        "Giraffe",
+        "Zebra",
+        "Hippo",
+        "Roan",
+        "Impala",
+        "Eland",
+        "Waterbuck"
+      ],
+      "bestTimeToVisit": null,
+      "relatedPackageIds": [],
+      "seo": {
+        "title": "Ibanda-Kyerwa National Park · Ramika Safaris and Tours",
+        "description": "The Ibanda-Kyerwa National Park, previously Ibanda Game Reserve, is a national park in Tanzania. Originally established in 1974, it was designated a national park in 2019. The national park is located in Kagera…"
+      },
+      "status": "published",
+      "sourceUrl": "https://www.tanzaniatourism.com/destination/ibanda-kyerwa-national-park",
+      "sortOrder": 7
+    },
+    {
+      "id": "dest-lake-tanganyika",
+      "slug": "lake-tanganyika",
+      "name": "Lake Tanganyika",
+      "cardTitle": "Lake Tanganyika",
+      "cardTouch": "Rift lake shore",
+      "intro": "Lake Tanganyika is the world’s longest (660km), deepest in Africa and second-deepest in the world (more than 1436m) and second-largest (by volume) freshwater lake. At somewhere between nine and 13 million years old,…",
+      "description": "Lake Tanganyika is the world’s longest (660km), deepest in Africa and second-deepest in the world (more than 1436m) and second-largest (by volume) freshwater lake. At somewhere between nine and 13 million years old, it’s also one of the oldest. Thanks to its age and ecological isolation it’s home to an exceptional number of endemic fish, including 98% of the 250-plus species of cichlids. Cichlids are popular aquarium fish due to their bright colours, and they make Tanganyika an outstanding snorkelling and diving destination.\n\nComparatively narrow, varying in width from 10 to 45 miles (16 to 72 km), it covers about 12,700 square miles (32,900 square km) and forms the boundary between Tanzania and Congo (Kinshasa). It occupies the southern end of the Western Rift Valley, and for most of its length the land rises steeply from its shores. Its waters tend to be brackish. Though fed by a number of rivers, the lake is not the centre of an extensive drainage area. The largest rivers discharging into the lake are the Malagarasi, the Ruzizi, and the Kalambo, which has one of the highest waterfalls in the world (704 feet [215 metres]). Its outlet is the Lukuga River, which flows into the Lualaba River.\n\nLake Tanganyika is situated on the line dividing the floral regions of eastern and western Africa, and oil palms, which are characteristic of the flora of western Africa, grow along the lake’s shores. Rice and subsistence crops are grown along the shores, and fishing is of some significance. Hippopotamuses and crocodiles abound, and the bird life is varied.\n\nMany of the numerous peoples (predominantly Bantu-speaking) living on the lake’s eastern borders trace their origins to areas in the Congo River basin. The lake was first visited by Europeans in 1858, when the British explorers Sir Richard Burton and John Hanning Speke reached Ujiji, on the lake’s eastern shore, in their quest for the source of the Nile River. In 1871 Henry (later Sir Henry) Morton Stanley “found” David Livingstone at Ujiji. Important ports situated along Lake Tanganyika are Bujumbura (Burundi), Kalemi (Congo), and Ujiji and Kigoma (Tanzania).",
+      "heroImage": {
+        "src": "https://www.tanzaniatourism.com/images/uploads/Lake_Tanganyika_sunset_12.jpg",
+        "alt": "Lake Tanganyika"
+      },
+      "gallery": [
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Lake_Tanganyika_sunset_12.jpg",
+          "alt": "Lake Tanganyika",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Lake_Tanganyika_Mahale_Mountains_11.jpg",
+          "alt": "Lake Tanganyika",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Lake_Tanganyika_Mahale_Mountains_10.jpg",
+          "alt": "Lake Tanganyika",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Lake_Tanganyika_Saiboat_10.jpg",
+          "alt": "Lake Tanganyika",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Lake_Tanganyika_Fishing_11.jpg",
+          "alt": "Lake Tanganyika",
+          "caption": null
+        }
+      ],
+      "region": "Western Tanzania",
+      "circuitIds": [
+        "circuit-western"
+      ],
+      "activityIds": [
+        "activity-landscapes"
+      ],
+      "wildlifeHighlights": [],
+      "bestTimeToVisit": null,
+      "relatedPackageIds": [],
+      "seo": {
+        "title": "Lake Tanganyika · Ramika Safaris and Tours",
+        "description": "Lake Tanganyika is the world’s longest (660km), deepest in Africa and second-deepest in the world (more than 1436m) and second-largest (by volume) freshwater lake. At somewhere between nine and 13 million years old,…"
+      },
+      "status": "published",
+      "sourceUrl": "https://www.tanzaniatourism.com/destination/lake-tanganyika",
+      "sortOrder": 8
+    },
+    {
+      "id": "dest-lake-victoria",
+      "slug": "lake-victoria",
+      "name": "Lake Victoria",
+      "cardTitle": "Lake Victoria",
+      "cardTouch": "Africa's great lake",
+      "intro": "With a surface area of 68,800 sq km (26,600 sq mi), Lake Victoria is Africa’s largest lake. In addition, it's the largest tropical lake in the world, and the planet's second largest freshwater lake. Only North…",
+      "description": "With a surface area of 68,800 sq km (26,600 sq mi), Lake Victoria is Africa’s largest lake. In addition, it's the largest tropical lake in the world, and the planet's second largest freshwater lake. Only North America's Lake Superior is larger.\n\nAn irregular quadrilateral in shape, its shores, save on the west, are deeply indented. Its greatest length from north to south is 210 miles (337 km), its greatest breadth 150 miles (240 km). Its coastline exceeds 2,000 miles (3,220 km). Its waters fill a shallow depression in the centre of the great plateau that stretches between the Western and Eastern Rift Valleys. The lake’s surface is 3,720 feet (1,134 metres) above sea level, and its greatest ascertained depth is 270 feet (82 metres). Many archipelagos are contained within the lake, as are numerous reefs, often just below the surface of the clear waters. Lake Victoria has more than 200 species of fish, of which the Tilapia is the most economically important. The lake’s basin area covers 92,240 square miles (238,900 square km).\n\nThe lake’s shores vary in aspect. The lake’s southwestern coast is backed by precipices 300 feet (90 metres) high, which give way on the western coast to papyrus and ambatch swamps marking the delta of the Kagera River. The lake’s deeply indented northern coast is flat and bare. A narrow channel leads into the Kavirondo Gulf, which has an average width of 16 miles (25 km) and extends for 40 miles (64 km) eastward to Kisumu, Kenya. The Ugandan cities of Kampala and Entebbe lie along or near the northern coast. At the lake’s southeastern corner is Speke Gulf, and at the southwestern corner Emin Pasha Gulf. Of the numerous islands in the lake, Ukerewe, north of Speke Gulf, is the largest, with wooded hills rising 650 feet (200 metres) above the lake. It is densely populated. At the lake’s northwestern corner are the 62 islands of the Sese archipelago, some of them of striking beauty.\n\nThe Kagera River, the largest and most important of the lake affluents, enters the western side of Lake Victoria just north of latitude 1° S. The only other river of note entering from the west is the Katonga, north of Kagera. The lake’s only outlet is the Victoria Nile, which exits from the northern coast.\n\nThe search by Europeans for the source of the Nile led to the sighting of the lake by the British explorer John Hanning Speke in 1858. Formerly known to the Arabs as Ukerewe, the lake was named by Speke in honour of Queen Victoria of England. A detailed survey of the lake was made by Sir William Garstin in 1901. Plans for gradually raising the level of the lake’s waters were completed in 1954 with the construction of the Owen Falls Dam (now the Nalubaale Dam) on the Victoria Nile at Jinja, Uganda. The dam provides hydroelectric power on a large scale and made the lake a vast reservoir. A second dam, Kiira, was later constructed 0.6 mile (1 km) from Nalubaale. It was completed in 1999 and began producing hydroelectric power the next year.\n\nThe Lake Victoria region is one of the most densely populated in Africa; within 50 miles (80 km) of its shores live several million people, nearly all Bantu-speaking. There are local steamer services around the lake.",
+      "heroImage": {
+        "src": "https://www.tanzaniatourism.com/images/uploads/Lake_Victoria_Bismark_Rocks_2.jpg",
+        "alt": "Lake Victoria"
+      },
+      "gallery": [
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Lake_Victoria_Bismark_Rocks_2.jpg",
+          "alt": "Lake Victoria",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Lake_Victoria_Bismark_Rocks_1.jpg",
+          "alt": "Lake Victoria",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Lake_Victoria_Shores.jpg",
+          "alt": "Lake Victoria",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Lake_Victoria_Tilapia_Grilling.jpg",
+          "alt": "Lake Victoria",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Lake_Victoria_Cruising_2.jpg",
+          "alt": "Lake Victoria",
+          "caption": null
+        }
+      ],
+      "region": "Western Tanzania",
+      "circuitIds": [
+        "circuit-western"
+      ],
+      "activityIds": [
+        "activity-landscapes"
+      ],
+      "wildlifeHighlights": [],
+      "bestTimeToVisit": null,
+      "relatedPackageIds": [],
+      "seo": {
+        "title": "Lake Victoria · Ramika Safaris and Tours",
+        "description": "With a surface area of 68,800 sq km (26,600 sq mi), Lake Victoria is Africa’s largest lake. In addition, it's the largest tropical lake in the world, and the planet's second largest freshwater lake. Only North…"
+      },
+      "status": "published",
+      "sourceUrl": "https://www.tanzaniatourism.com/destination/lake-victoria",
+      "sortOrder": 9
+    }
+  ],
+  "packages": [],
+  "circuits": [],
+  "activities": []
+}

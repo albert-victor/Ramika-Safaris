@@ -1,0 +1,9 @@
+{
+  "_meta": {
+    "kind": "development-fixtures",
+    "collection": "activities",
+    "version": 1,
+    "note": "No extra activity fixtures. Production activity categories are the source of truth."
+  },
+  "items": []
+}

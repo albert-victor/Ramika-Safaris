@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Activity · Ramika Safaris and Tours</title>
+  <meta name="description" content="Safari packages for this activity with Ramika Safaris and Tours.">
+  <meta name="robots" content="noindex" data-activity-robots>
+  <!-- @include partials/assets.html -->
+  <link rel="stylesheet" href="/css/cards.css">
+  <link rel="stylesheet" href="/css/activity.css">
+</head>
+<body data-page="activities" class="has-hero">
+  <a class="skip-link" href="#content">Skip to content</a>
+  <!-- @include partials/header.html -->
+
+  <section class="page-hero activity-hero" data-activity-hero hidden aria-label="Safari activity">
+    <img data-activity-hero-image src="" alt="" width="1600" height="900" fetchpriority="high" decoding="async" hidden>
+    <div class="page-hero-shade" aria-hidden="true"></div>
+    <div class="container-xl page-hero-copy activity-hero-copy" data-activity-hero-copy></div>
+  </section>
+
+  <main id="content" class="site-main activity-main">
+    <div class="container-xl activity-loading" data-activity-loading>
+      <p class="activity-status">Loading activity…</p>
+    </div>
+
+    <div class="activity-notfound container-xl" data-activity-notfound hidden>
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li><a href="/activities.html">Activities</a></li>
+          <li aria-current="page">Not found</li>
+        </ol>
+      </nav>
+      <header class="section-head">
+        <p class="kicker">Activities</p>
+        <p class="script">Not listed</p>
+        <h1>Activity not found</h1>
+      </header>
+      <p class="prose">This activity is not available. Browse all activities or send an enquiry.</p>
+      <p class="section-cta">
+        <a class="btn-outline" href="/activities.html">View all activities</a>
+      </p>
+    </div>
+
+    <div class="activity-content" data-activity-content hidden>
+      <section class="activity-section activity-section--intro">
+        <div class="container-xl">
+          <header class="section-head">
+            <p class="kicker">In the field</p>
+            <p class="script">This experience</p>
+            <h2 data-activity-heading>Activity</h2>
+          </header>
+          <p class="prose activity-lede" data-activity-lede></p>
+        </div>
+      </section>
+
+      <section class="activity-section" data-activity-destinations-section hidden>
+        <div class="container-xl">
+          <header class="section-head">
+            <p class="kicker">Places</p>
+            <p class="script">Where it happens</p>
+            <h2>Related destinations</h2>
+          </header>
+          <p class="activity-status" data-activity-dest-status aria-live="polite"></p>
+          <div class="card-grid card-grid--destinations" data-activity-destinations></div>
+        </div>
+      </section>
+
+      <section class="activity-section">
+        <div class="container-xl">
+          <header class="section-head">
+            <p class="kicker">Packages</p>
+            <p class="script">Related journeys</p>
+            <h2>Safari packages</h2>
+          </header>
+          <p class="activity-status" data-activity-grid-status aria-live="polite"></p>
+          <div class="card-grid card-grid--packages" data-activity-packages></div>
+          <div class="activity-empty" data-activity-empty hidden>
+            <p class="prose">Packages for this activity will appear here as the catalogue grows. Tell us what you want to do and we will shape the itinerary.</p>
+            <p class="section-cta">
+              <a class="btn-outline" href="/contact.html#enquire">Enquire about this activity</a>
+              <a class="btn-ghost" href="/packages.html">Browse safaris</a>
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- @include partials/footer.html -->
+  <!-- @include partials/scripts.html -->
+  <script src="/js/activity.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Safari Packages · Ramika Safaris and Tours</title>
+  <meta name="description" content="Browse Tanzanian safari packages with Ramika Safaris and Tours – wildlife, highlands, and custom itineraries across the country.">
+  <!-- @include partials/assets.html -->
+  <link rel="stylesheet" href="/css/cards.css">
+  <link rel="stylesheet" href="/css/packages.css">
+</head>
+<body data-page="packages" class="has-hero">
+  <a class="skip-link" href="#content">Skip to content</a>
+  <!-- @include partials/header.html -->
+
+  <section class="page-hero pkg-hero" aria-label="Safari packages">
+    <img
+      src="/images/about_Activities/d75bf589-8001-4826-8d3a-8e73e6eeb707.jpg"
+      alt="Elephant and impala in open savanna country on safari."
+      width="1600"
+      height="900"
+      fetchpriority="high"
+      decoding="async"
+    >
+    <div class="page-hero-shade" aria-hidden="true"></div>
+    <div class="container-xl page-hero-copy pkg-hero-copy">
+      <nav class="crumbs crumbs--on-hero" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li aria-current="page">Safari Packages</li>
+        </ol>
+      </nav>
+      <p class="kicker hero-kicker">Itineraries</p>
+      <p class="script">Said plainly</p>
+      <h1>Safari packages</h1>
+      <p class="hero-lede">Wildlife days, highland roads, and western routes – shaped around how long you can travel and where you want to begin.</p>
+    </div>
+  </section>
+
+  <main id="content" class="site-main pkg-main">
+    <section class="pkg-section pkg-intro" aria-label="About safari packages">
+      <div class="container-xl pkg-intro-grid">
+        <div class="pkg-intro-copy reveal">
+          <header class="section-head section-head--start">
+            <p class="kicker">What is included</p>
+            <p class="script">How packages work</p>
+            <h2>Travel with a clear plan</h2>
+          </header>
+          <div class="prose">
+            <p>A wildlife package includes lodging, the safari vehicle, and meals. Park entrance fees are paid by the guest at the gate.</p>
+            <p>Rooms are reserved to the standard you name – luxury, budget, or economy. Ramika books the stay. The lodges are not ours. Browse published itineraries below, or enquire for a custom route across Tanzania.</p>
+          </div>
+        </div>
+        <figure class="frame pkg-intro-frame">
+          <img
+            src="/images/about_Activities/sticky_sections.jpg"
+            alt="Guides working from an open safari vehicle in the bush."
+            width="900"
+            height="700"
+            loading="lazy"
+            decoding="async"
+          >
+        </figure>
+      </div>
+    </section>
+
+    <section class="pkg-section pkg-discover" aria-label="Package discovery" data-pkg-discover>
+      <div class="container-xl">
+        <header class="section-head reveal">
+          <p class="kicker">Journeys</p>
+          <p class="script">Find a safari</p>
+          <h2>Discover packages</h2>
+        </header>
+        <p class="prose section-lede reveal">Photography-led itineraries from the catalogue. Filter by duration, circuit, destination, or experience when those details are present – then open a package for the full day-by-day plan.</p>
+
+        <div class="pkg-toolbar reveal" data-pkg-toolbar hidden>
+          <div class="pkg-filters" data-filter-group="duration" hidden>
+            <p class="pkg-filter-label" id="filter-duration-label">Duration</p>
+            <div class="pkg-filter-row" role="group" aria-labelledby="filter-duration-label" data-filter-options="duration"></div>
+          </div>
+          <div class="pkg-filters" data-filter-group="circuit" hidden>
+            <p class="pkg-filter-label" id="filter-circuit-label">Circuit</p>
+            <div class="pkg-filter-row" role="group" aria-labelledby="filter-circuit-label" data-filter-options="circuit"></div>
+          </div>
+          <div class="pkg-filters" data-filter-group="destination" hidden>
+            <p class="pkg-filter-label" id="filter-destination-label">Destination</p>
+            <div class="pkg-filter-row pkg-filter-row--select" data-filter-options="destination"></div>
+          </div>
+          <div class="pkg-filters" data-filter-group="activity" hidden>
+            <p class="pkg-filter-label" id="filter-activity-label">Experience</p>
+            <div class="pkg-filter-row" role="group" aria-labelledby="filter-activity-label" data-filter-options="activity"></div>
+          </div>
+          <div class="pkg-sort" data-pkg-sort hidden>
+            <label class="pkg-filter-label" for="pkg-sort-select">Sort</label>
+            <select id="pkg-sort-select" class="pkg-sort-select" data-pkg-sort-select>
+              <option value="catalogue">Catalogue order</option>
+              <option value="duration-asc">Duration · shortest first</option>
+              <option value="duration-desc">Duration · longest first</option>
+              <option value="title">Title · A to Z</option>
+            </select>
+          </div>
+        </div>
+
+        <p class="pkg-status" data-pkg-status aria-live="polite">Loading packages…</p>
+
+        <div class="pkg-grid card-grid card-grid--packages" data-pkg-grid></div>
+
+        <div class="pkg-empty" data-pkg-empty hidden>
+          <p class="pkg-empty-title" data-pkg-empty-title>No packages to show yet</p>
+          <p class="prose" data-pkg-empty-body>Published safari packages will appear here as the catalogue is completed. Tell us where you want to travel and we will shape an itinerary with you.</p>
+          <p class="section-cta">
+            <a class="btn-outline" href="/contact.html#enquire">Plan a custom safari</a>
+          </p>
+        </div>
+
+        <div class="pkg-more" data-pkg-more hidden>
+          <button class="btn-outline" type="button" data-pkg-load-more>Load more packages</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="pkg-section enquire-band" aria-label="Custom safari planning">
+      <div class="enquire-band-media" aria-hidden="true">
+        <img
+          src="/images/about_Activities/about.jpg"
+          alt=""
+          width="1600"
+          height="900"
+          loading="lazy"
+          decoding="async"
+        >
+        <div class="enquire-band-shade"></div>
+      </div>
+      <div class="container-xl enquire-band-copy reveal">
+        <header class="section-head">
+          <p class="kicker">Your route</p>
+          <p class="script">Built to fit</p>
+          <h2>Plan a custom safari</h2>
+        </header>
+        <p class="prose">If a listed package is close but not quite right, tell us the destinations, length of travel, and lodging standard you prefer. We will shape the itinerary with you.</p>
+        <p class="section-cta">
+          <a class="btn-outline enquire-cta" href="/contact.html#enquire">Request a custom itinerary</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- @include partials/footer.html -->
+  <!-- @include partials/scripts.html -->
+  <script src="/js/ui/cards.js" defer></script>
+  <script src="/js/packages.js" defer></script>
+</body>
+</html>

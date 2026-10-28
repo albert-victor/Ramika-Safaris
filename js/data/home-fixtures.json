@@ -1,0 +1,321 @@
+{
+  "_meta": {
+    "kind": "development-fixtures",
+    "note": "Demo homepage content only. Destinations and packages on the homepage prefer the published catalogue; these fixtures supply section copy and guest-note layout samples.",
+    "version": 4
+  },
+  "hero": {
+    "kicker": "Tanzania",
+    "script": "Southern highlands",
+    "headline": "Ramika Safaris and Tours",
+    "lede": "Tanzanian safaris across the southern highlands and parks first, with northern, western, and coastal routes when they belong in your journey.",
+    "video": {
+      "src": "/images/Landing_hero.mp4"
+    },
+    "image": {
+      "src": "/images/about_Activities/kitulo_main.jpg",
+      "alt": "Wildflowers across a highland slope in southern Tanzania."
+    },
+    "primaryCta": {
+      "label": "Book with us",
+      "href": "/contact.html#enquire"
+    },
+    "secondaryCta": {
+      "label": "Explore destinations",
+      "href": "/destinations.html"
+    }
+  },
+  "intro": {
+    "kicker": "The company",
+    "script": "How we travel",
+    "headline": "A southern start",
+    "body": [
+      "Ramika Safaris and Tours Limited plans journeys across Tanzania. We begin where we know the land best – the southern highlands and nearby parks – and open northern, western, and coastal routes whenever they belong in the same journey.",
+      "Our vehicles are licensed and insured. Lodging is reserved to the standard you choose, and park entrance fees are paid by the guest."
+    ],
+    "primaryCta": {
+      "label": "Book with us",
+      "href": "/contact.html#enquire"
+    },
+    "secondaryCta": {
+      "label": "Explore destinations",
+      "href": "/destinations.html"
+    },
+    "collage": [
+      {
+        "src": "/images/about_Activities/mikumi_experieces.jpg",
+        "alt": "Zebras in tall grass on a southern Tanzania safari."
+      },
+      {
+        "src": "/images/about_Activities/kitulo_main.jpg",
+        "alt": "Flowering highland grassland on the Kitulo plateau."
+      },
+      {
+        "src": "/images/about_Activities/kalambo_waterfalls.jpg",
+        "alt": "Kalambo Falls dropping through a cliff face."
+      },
+      {
+        "src": "/images/about_Activities/Special_moments3.jpg",
+        "alt": "Guides and travellers walking a rural path."
+      }
+    ]
+  },
+  "experiences": {
+    "kicker": "In the field",
+    "script": "What a day holds",
+    "headline": "Safari experiences",
+    "lede": "Choose an experience to see how a Ramika Safaris and Tours day can unfold – from wildlife and highlands to western shores and multi-day routes.",
+    "items": [
+      {
+        "id": "exp-wildlife",
+        "title": "Wildlife safaris",
+        "icon": "fa-binoculars",
+        "summary": "Unhurried game drives across southern parks and beyond.",
+        "highlights": [
+          "Open-vehicle game drives",
+          "Quiet watching at water and grassland",
+          "Licensed vehicles for guest travel"
+        ],
+        "image": {
+          "src": "/images/about_Activities/a62a2ab1-e55b-4253-9dd8-7a4d4d93d55f.jpg",
+          "alt": "Buffalo moving across a sandy track near water."
+        }
+      },
+      {
+        "id": "exp-highlands",
+        "title": "Highland landscapes",
+        "icon": "fa-mountain",
+        "summary": "Kitulo meadows, highland air, and wide southern views.",
+        "highlights": [
+          "Flowering plateau walks",
+          "Cool highland lodging options",
+          "Routes rooted around Njombe"
+        ],
+        "image": {
+          "src": "/images/about_Activities/kitulo_main.jpg",
+          "alt": "Flowering highland grassland under open sky."
+        }
+      },
+      {
+        "id": "exp-culture",
+        "title": "Cultural encounters",
+        "icon": "fa-people-group",
+        "summary": "Village paths, markets, and time with local hosts.",
+        "highlights": [
+          "Guided community visits",
+          "Farm and forest edge walks",
+          "Arranged with local hosts"
+        ],
+        "image": {
+          "src": "/images/about_Activities/a3395eb9-ebd0-46c5-8bf6-9da845092d38.jpg",
+          "alt": "Guests and guides at a heritage gate on a cultural visit."
+        }
+      },
+      {
+        "id": "exp-falls",
+        "title": "Waterfalls & viewpoints",
+        "icon": "fa-water",
+        "summary": "Cliff-edge falls and overlooks on southern and western roads.",
+        "highlights": [
+          "Kalambo and highland viewpoints",
+          "Time at the rail, not just a photo stop",
+          "Routes planned when they belong in your trip"
+        ],
+        "image": {
+          "src": "/images/about_Activities/kalambo_waterfalls.jpg",
+          "alt": "Tall waterfall with mist at the cliff edge."
+        }
+      },
+      {
+        "id": "exp-shores",
+        "title": "Lake & coastal shores",
+        "icon": "fa-umbrella-beach",
+        "summary": "Great lakes and Indian Ocean days beside the safari.",
+        "highlights": [
+          "Lake Nyasa and western shores",
+          "Island and coastal add-ons",
+          "Soft landing after park days"
+        ],
+        "image": {
+          "src": "/images/about_Activities/5b8f151c-c243-4caf-b9bf-8ba1edba35bb.jpg",
+          "alt": "Blue water meeting a green shoreline."
+        }
+      },
+      {
+        "id": "exp-trek",
+        "title": "Hiking & trekking",
+        "icon": "fa-person-hiking",
+        "summary": "Longer walks and highland routes for guests who want the day on foot.",
+        "highlights": [
+          "Guided highland trails",
+          "Mountain approaches when requested",
+          "Pace set to the group"
+        ],
+        "image": {
+          "src": "/images/about_Activities/13c63d5d-c642-411c-bba9-c32fbf7a8e87.jpg",
+          "alt": "Guests on a guided forest trek through highland woodland."
+        }
+      },
+      {
+        "id": "exp-forest",
+        "title": "Forest walks",
+        "icon": "fa-tree",
+        "summary": "Quiet forest edges and western canopy days.",
+        "highlights": [
+          "Shaded trail time",
+          "Birdsong and canopy light",
+          "Western parks when the itinerary reaches them"
+        ],
+        "image": {
+          "src": "/images/about_Activities/special_moments2.jpg",
+          "alt": "Guide and guests walking a shaded forest trail."
+        }
+      },
+      {
+        "id": "exp-multiday",
+        "title": "Multi-day safaris",
+        "icon": "fa-route",
+        "summary": "Linked park days with lodging booked to your standard.",
+        "highlights": [
+          "Clear day-by-day outlines",
+          "Southern circuit first",
+          "Northern or western add-ons when needed"
+        ],
+        "image": {
+          "src": "/images/about_Activities/sticky_sections.jpg",
+          "alt": "Open safari vehicle on a bush track."
+        }
+      }
+    ]
+  },
+  "destinations": {
+    "kicker": "Places",
+    "script": "Where we begin",
+    "headline": "Destination inspirations",
+    "lede": "A moving selection of places from the southern circuit and landscapes we travel. Explore the full destination list for more.",
+    "cta": {
+      "label": "All destinations",
+      "href": "/destinations.html"
+    },
+    "items": []
+  },
+  "packages": {
+    "kicker": "Journeys",
+    "script": "Thoughtfully planned",
+    "headline": "Safari packages",
+    "lede": "Imported safari packages across two rows – each line autoswipes so you can browse at an easy pace.",
+    "cta": {
+      "label": "View packages",
+      "href": "/packages.html"
+    },
+    "items": []
+  },
+  "testimonials": {
+    "kicker": "Guest notes",
+    "script": "Layout samples",
+    "headline": "Words from the road",
+    "lede": "Notes from the road. Verified guest reviews are not published here yet.",
+    "items": [
+      {
+        "id": "note-1",
+        "quote": "The highland days felt unhurried. Our guide kept the road clear and the lodging to the standard we asked for.",
+        "name": "Amelia Hart",
+        "place": "Southern highlands",
+        "country": "United Kingdom",
+        "countryCode": "gb",
+        "rating": 5
+      },
+      {
+        "id": "note-2",
+        "quote": "Mikumi was planned with care. We always knew what the day held, and the vehicle was ready for quiet watching.",
+        "name": "Jonas Keller",
+        "place": "Mikumi",
+        "country": "Germany",
+        "countryCode": "de",
+        "rating": 5
+      },
+      {
+        "id": "note-3",
+        "quote": "From Njombe the western road opened when we asked for it. Falls, shore, and lodging stayed practical.",
+        "name": "Sofia Ndlovu",
+        "place": "Western Tanzania",
+        "country": "South Africa",
+        "countryCode": "za",
+        "rating": 5
+      },
+      {
+        "id": "note-4",
+        "quote": "Serengeti days were paced well. We never felt rushed between lodges, and the migration advice was honest.",
+        "name": "Marco Bellini",
+        "place": "Northern Circuit",
+        "country": "Italy",
+        "countryCode": "it",
+        "rating": 5
+      },
+      {
+        "id": "note-5",
+        "quote": "Zanzibar after the parks was the soft landing we wanted. Transfers were clear and the beach days stayed simple.",
+        "name": "Priya Sharma",
+        "place": "Ocean Islands",
+        "country": "India",
+        "countryCode": "in",
+        "rating": 5
+      },
+      {
+        "id": "note-6",
+        "quote": "A clean outline before we flew, and the same care on the ground. Ruaha felt wild without feeling uncertain.",
+        "name": "Erik Johansson",
+        "place": "Ruaha",
+        "country": "Sweden",
+        "countryCode": "se",
+        "rating": 5
+      },
+      {
+        "id": "note-7",
+        "quote": "Family travel can be noisy. Ramika kept the days clear for the children and quiet enough for us.",
+        "name": "Chloe Martin",
+        "place": "Nyerere",
+        "country": "France",
+        "countryCode": "fr",
+        "rating": 5
+      },
+      {
+        "id": "note-8",
+        "quote": "Chimpanzee days in the west asked for patience. The guide set that pace from the first morning.",
+        "name": "Daniel Okoro",
+        "place": "Gombe",
+        "country": "Nigeria",
+        "countryCode": "ng",
+        "rating": 5
+      }
+    ]
+  },
+  "about": {
+    "kicker": "The company",
+    "script": "Registered here",
+    "headline": "About Ramika Safaris and Tours",
+    "body": "Ramika Safaris and Tours Limited was incorporated in 2020. We keep desks across key regions of Tanzania and are registered with the Ministry of Tourism.",
+    "image": {
+      "src": "/images/about_Activities/ramika_team.jpg",
+      "alt": "Ramika Safaris and Tours team members standing before a tall waterfall."
+    },
+    "cta": {
+      "label": "Read about Ramika Safaris and Tours",
+      "href": "/about.html"
+    }
+  },
+  "enquire": {
+    "kicker": "Next step",
+    "script": "Plan with us",
+    "headline": "Request a safari",
+    "body": "Share where you wish to travel, how long you can stay, and the lodging standard you prefer. We reply with a clear outline for the road ahead.",
+    "image": {
+      "src": "/images/about_Activities/about.jpg",
+      "alt": "Travellers and guides at a waterfall viewpoint."
+    },
+    "cta": {
+      "label": "Enquire now",
+      "href": "/contact.html#enquire"
+    }
+  }
+}

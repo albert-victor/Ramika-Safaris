@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Destination · Ramika Safaris and Tours</title>
+  <meta name="description" content="Explore a Tanzanian safari destination with Ramika Safaris and Tours.">
+  <meta name="robots" content="noindex" data-dest-robots>
+  <!-- @include partials/assets.html -->
+  <link rel="stylesheet" href="/css/cards.css">
+  <link rel="stylesheet" href="/css/destination.css">
+</head>
+<body data-page="destination" class="has-hero">
+  <a class="skip-link" href="#content">Skip to content</a>
+  <!-- @include partials/header.html -->
+
+  <!-- 1. Landing hero – name, subtitle, one-line description -->
+  <section class="page-hero dest-detail-hero" data-dest-hero hidden aria-label="Destination">
+    <img data-dest-hero-image src="" alt="" width="1600" height="900" fetchpriority="high" decoding="async" hidden>
+    <div class="page-hero-shade" aria-hidden="true"></div>
+    <div class="container-xl page-hero-copy dest-detail-hero-copy" data-dest-hero-copy></div>
+  </section>
+
+  <main id="content" class="site-main dest-detail-main">
+    <div class="container-xl dest-detail-loading" data-dest-loading>
+      <p class="dest-detail-status">Loading destination…</p>
+    </div>
+
+    <div class="dest-detail-notfound container-xl" data-dest-notfound hidden>
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li><a href="/destinations.html">Destinations</a></li>
+          <li aria-current="page">Not found</li>
+        </ol>
+      </nav>
+      <header class="section-head section-head--start">
+        <p class="kicker">Destinations</p>
+        <p class="script">Not on the map</p>
+        <h1>Destination not found</h1>
+      </header>
+      <p class="prose" data-dest-notfound-body>This destination is not available. It may be unpublished, removed, or the link may be incorrect.</p>
+      <p class="section-cta section-cta--start">
+        <a class="btn-outline" href="/destinations.html">Browse destinations</a>
+        <a class="btn-ghost" href="/contact.html#enquire">Enquire about a safari</a>
+      </p>
+    </div>
+
+    <div class="dest-detail-content" data-dest-content hidden>
+      <!-- 2. Gallery / See the area -->
+      <section class="dest-detail-section dest-detail-gallery" data-dest-gallery-section hidden aria-label="See the area">
+        <div class="container-xl">
+          <header class="section-head reveal">
+            <p class="kicker">Photographs</p>
+            <p class="script">On the ground</p>
+            <h2>See the area</h2>
+          </header>
+          <div class="dest-gallery" data-dest-gallery></div>
+        </div>
+      </section>
+
+      <!-- 3. Full details + CTAs -->
+      <section class="dest-detail-section dest-detail-body" data-dest-details-section aria-label="Destination details">
+        <div class="container-xl dest-detail-body-inner">
+          <div class="dest-detail-overview reveal" data-dest-intro></div>
+
+          <div class="dest-detail-block" data-dest-highlights-section hidden>
+            <header class="section-head section-head--start reveal">
+              <p class="kicker">In the field</p>
+              <p class="script">What stands out</p>
+              <h2>Highlights &amp; experiences</h2>
+            </header>
+            <div class="dest-highlight-grid" data-dest-highlights></div>
+          </div>
+
+          <div class="dest-detail-block" data-dest-practical-section hidden>
+            <header class="section-head section-head--start reveal">
+              <p class="kicker">Before you go</p>
+              <p class="script">Useful notes</p>
+              <h2>Practical information</h2>
+            </header>
+            <div class="dest-practical-grid" data-dest-practical></div>
+          </div>
+
+          <div class="dest-detail-ctas reveal" data-dest-ctas></div>
+        </div>
+      </section>
+
+      <!-- 4. Packages for this destination -->
+      <section class="dest-detail-section dest-detail-packages" data-dest-packages-section hidden aria-labelledby="related-packages-heading" id="related-packages">
+        <div class="container-xl">
+          <header class="section-head reveal">
+            <p class="kicker">Journeys</p>
+            <p class="script">Travel here</p>
+            <h2 id="related-packages-heading">Safari packages</h2>
+          </header>
+          <p class="prose section-lede reveal">Packages that include this destination. Enquire for dates, lodging standards, and a route that fits your travel.</p>
+          <div class="card-grid card-grid--packages" data-dest-packages></div>
+        </div>
+      </section>
+
+      <!-- 5. Destinations nearby -->
+      <section class="dest-detail-section dest-detail-related" data-dest-related-section hidden aria-label="Nearby destinations">
+        <div class="container-xl">
+          <header class="section-head reveal" data-dest-related-head>
+            <p class="kicker">Nearby on the map</p>
+            <p class="script">Also consider</p>
+            <h2 data-dest-related-title>Destinations nearby</h2>
+          </header>
+          <div class="card-grid card-grid--destinations" data-dest-related></div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- 6. Shared footer (pattern overlay in partial) -->
+  <!-- @include partials/footer.html -->
+  <!-- @include partials/scripts.html -->
+  <script src="/js/ui/cards.js" defer></script>
+  <script src="/js/destination.js" defer></script>
+</body>
+</html>

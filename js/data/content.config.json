@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "kind": "content-config",
+    "version": 1,
+    "note": "Controls whether development fixtures may be loaded for layout preview. Published queries never use fixtures, regardless of this flag."
+  },
+  "includeDevelopmentFixtures": true,
+  "paths": {
+    "production": {
+      "destinations": "/js/data/production/destinations.json",
+      "packages": "/js/data/production/packages.json",
+      "circuits": "/js/data/production/circuits.json",
+      "activities": "/js/data/production/activities.json",
+      "sections": "/js/data/production/sections.json"
+    },
+    "fixtures": {
+      "destinations": "/js/data/fixtures/destinations.json",
+      "packages": "/js/data/fixtures/packages.json",
+      "circuits": "/js/data/fixtures/circuits.json",
+      "activities": "/js/data/fixtures/activities.json",
+      "homePage": "/js/data/home-fixtures.json"
+    }
+  },
+  "publication": {
+    "publicStatuses": ["published"],
+    "previewStatuses": ["published", "draft"]
+  },
+  "disableFixtures": {
+    "steps": [
+      "Set includeDevelopmentFixtures to false in this file.",
+      "Remove or empty files under /js/data/fixtures/ once real catalogue content is imported.",
+      "Keep /js/data/home-fixtures.json only until homepage sections are driven by production sections data; then replace or delete it.",
+      "Confirm published pages, related-content, navigation, and search return empty or production records – never fixture fallbacks."
+    ]
+  }
+}

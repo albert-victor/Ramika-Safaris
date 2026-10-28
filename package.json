@@ -1,0 +1,11 @@
+{
+  "name": "ramika-safaris",
+  "private": true,
+  "description": "Static site for Ramika Safaris and Tours.",
+  "scripts": {
+    "start": "node server.js",
+    "stop": "node server.js --stop",
+    "verify:content": "node scripts/verify-content.js",
+    "import:southern-packages": "node scripts/scrape-southern-packages.mjs"
+  }
+}

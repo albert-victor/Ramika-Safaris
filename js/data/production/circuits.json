@@ -1,0 +1,78 @@
+{
+  "_meta": {
+    "kind": "production-content",
+    "collection": "circuits",
+    "version": 1,
+    "note": "Verified safari circuit taxonomy used across the site. Destinations may reference more than one circuit when source data requires it."
+  },
+  "items": [
+    {
+      "id": "circuit-southern",
+      "slug": "southern-tanzania",
+      "name": "Southern Tanzania",
+      "script": "Home ground",
+      "summary": "Ruaha, Nyerere, Kitulo, and the southern parks, falls, and lake shores that shape our journeys.",
+      "region": "Southern Tanzania",
+      "heroImage": {
+        "src": "/images/about_Activities/mpanga_kipengere.jpg",
+        "alt": "Travellers on a viewing platform above a waterfall."
+      },
+      "seo": {
+        "title": "Southern Tanzania safari circuit · Ramika Safaris and Tours",
+        "description": "Southern Tanzania safaris – highlands, Kitulo, Mikumi, and nearby parks."
+      },
+      "status": "published"
+    },
+    {
+      "id": "circuit-northern",
+      "slug": "northern-tanzania",
+      "name": "Northern Tanzania",
+      "script": "When asked",
+      "summary": "Northern parks arranged by the same team whenever that is the journey you want.",
+      "region": "Northern Tanzania",
+      "heroImage": {
+        "src": "/images/about_Activities/d75bf589-8001-4826-8d3a-8e73e6eeb707.jpg",
+        "alt": "Elephant and impala in open savanna country."
+      },
+      "seo": {
+        "title": "Northern Tanzania safari circuit · Ramika Safaris and Tours",
+        "description": "Northern Tanzania routes planned by Ramika Safaris and Tours when they belong in your itinerary."
+      },
+      "status": "published"
+    },
+    {
+      "id": "circuit-western",
+      "slug": "western-tanzania",
+      "name": "Western Tanzania",
+      "script": "Forest & falls",
+      "summary": "Western landscapes, lake shores, and forest walks when your itinerary reaches them.",
+      "region": "Western Tanzania",
+      "heroImage": {
+        "src": "/images/about_Activities/5b8f151c-c243-4caf-b9bf-8ba1edba35bb.jpg",
+        "alt": "Green mountains meeting a blue lake shore."
+      },
+      "seo": {
+        "title": "Western Tanzania safari circuit · Ramika Safaris and Tours",
+        "description": "Western Tanzania landscapes, falls, and lake shores on Ramika Safaris and Tours itineraries."
+      },
+      "status": "published"
+    },
+    {
+      "id": "circuit-zanzibar",
+      "slug": "zanzibar-oceanic",
+      "name": "Ocean Islands",
+      "script": "Island days",
+      "summary": "Coast and island time arranged beside a safari when the journey includes the sea.",
+      "region": "Zanzibar and the coast",
+      "heroImage": {
+        "src": "/images/about_Activities/5b8f151c-c243-4caf-b9bf-8ba1edba35bb.jpg",
+        "alt": "Mountains meeting a blue lake or coastal shore."
+      },
+      "seo": {
+        "title": "Ocean Islands circuit · Ramika Safaris and Tours",
+        "description": "Zanzibar and coastal island days planned with Ramika Safaris and Tours alongside mainland safari routes."
+      },
+      "status": "published"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "_meta": {
+    "kind": "development-fixtures",
+    "collection": "circuits",
+    "version": 1,
+    "note": "No extra circuit fixtures. Production circuits are the source of truth. This file exists so the fixtures path stays complete and loaders do not special-case a missing file."
+  },
+  "items": []
+}

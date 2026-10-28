@@ -1,0 +1,403 @@
+/* Shared motion system – photography-led reveals, light parallax, refined CTAs.
+   Prefer CSS transitions + IntersectionObserver (see /js/motion.js). */
+
+:root {
+  --motion-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --motion-duration: 720ms;
+  --motion-media-duration: 1100ms;
+  --motion-distance: 1.15rem;
+}
+
+/* -- Section / copy entrance --
+   Hidden only after motion.js marks the document ready, so content
+   stays visible if scripts fail. */
+html.motion-ready .reveal:not(.is-visible) {
+  opacity: 0;
+  transform: translate3d(0, var(--motion-distance), 0);
+  will-change: opacity, transform;
+}
+
+.reveal {
+  transition:
+    opacity var(--motion-duration) var(--motion-ease),
+    transform var(--motion-duration) var(--motion-ease);
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+  will-change: auto;
+}
+
+/* Stagger for card and editorial grids */
+.card-grid .reveal:nth-child(2),
+.circuit-grid .reveal:nth-child(2),
+.experience-grid .reveal:nth-child(2),
+.dest-highlight-grid .reveal:nth-child(2),
+.pkg-itinerary .reveal:nth-child(2) {
+  transition-delay: 70ms;
+}
+
+.card-grid .reveal:nth-child(3),
+.circuit-grid .reveal:nth-child(3),
+.experience-grid .reveal:nth-child(3),
+.dest-highlight-grid .reveal:nth-child(3),
+.pkg-itinerary .reveal:nth-child(3) {
+  transition-delay: 140ms;
+}
+
+.card-grid .reveal:nth-child(4),
+.circuit-grid .reveal:nth-child(4),
+.experience-grid .reveal:nth-child(4),
+.pkg-itinerary .reveal:nth-child(4) {
+  transition-delay: 200ms;
+}
+
+.card-grid .reveal:nth-child(5) { transition-delay: 260ms; }
+.card-grid .reveal:nth-child(6) { transition-delay: 320ms; }
+.card-grid .reveal:nth-child(7) { transition-delay: 380ms; }
+.card-grid .reveal:nth-child(8) { transition-delay: 440ms; }
+
+.moments-collage .media-reveal:nth-child(2),
+.diamond-collage .media-reveal:nth-child(2),
+.gallery-mosaic .media-reveal:nth-child(2),
+.dest-gallery .media-reveal:nth-child(2),
+.pkg-gallery .media-reveal:nth-child(2) { transition-delay: 80ms; }
+
+.moments-collage .media-reveal:nth-child(3),
+.diamond-collage .media-reveal:nth-child(3),
+.gallery-mosaic .media-reveal:nth-child(3),
+.dest-gallery .media-reveal:nth-child(3),
+.pkg-gallery .media-reveal:nth-child(3) { transition-delay: 140ms; }
+
+.moments-collage .media-reveal:nth-child(4),
+.diamond-collage .media-reveal:nth-child(4),
+.gallery-mosaic .media-reveal:nth-child(4),
+.dest-gallery .media-reveal:nth-child(4),
+.pkg-gallery .media-reveal:nth-child(4) { transition-delay: 200ms; }
+
+.moments-collage .media-reveal:nth-child(5),
+.gallery-mosaic .media-reveal:nth-child(5) { transition-delay: 260ms; }
+
+.moments-collage .media-reveal:nth-child(6),
+.gallery-mosaic .media-reveal:nth-child(6) { transition-delay: 300ms; }
+
+.reveal[data-reveal-delay="1"] { transition-delay: 80ms; }
+.reveal[data-reveal-delay="2"] { transition-delay: 160ms; }
+.reveal[data-reveal-delay="3"] { transition-delay: 240ms; }
+
+/* -- Image / media reveal (clip + soft fade; no stacked extra effects) -- */
+.media-reveal {
+  position: relative;
+  overflow: hidden;
+  transition:
+    clip-path var(--motion-media-duration) var(--motion-ease),
+    opacity calc(var(--motion-media-duration) * 0.75) var(--motion-ease);
+}
+
+html.motion-ready .media-reveal:not(.is-visible) {
+  clip-path: inset(6% 6% 6% 6%);
+  opacity: 0.92;
+  will-change: clip-path, opacity;
+}
+
+.media-reveal.is-visible {
+  clip-path: inset(0 0 0 0);
+  opacity: 1;
+  will-change: auto;
+}
+
+.media-reveal > img,
+.media-reveal img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform-origin: center center;
+  transition: transform var(--motion-media-duration) var(--motion-ease);
+}
+
+html.motion-ready .media-reveal:not(.is-visible) > img,
+html.motion-ready .media-reveal:not(.is-visible) img {
+  transform: scale(1.05);
+  will-change: transform;
+}
+
+.media-reveal.is-visible > img,
+.media-reveal.is-visible img {
+  transform: scale(1);
+  will-change: auto;
+}
+
+/* Card media: hover zoom stays separate from entrance reveal */
+.dest-card-media.media-reveal,
+.package-card-media.media-reveal {
+  border: 0;
+}
+
+.media-card-media.media-reveal,
+.circuit-card-media.media-reveal {
+  border: 1px solid var(--line);
+}
+
+.dest-card:hover .dest-card-media.media-reveal.is-visible img,
+.dest-card:focus-visible .dest-card-media.media-reveal.is-visible img,
+.package-card:hover .package-card-media.media-reveal.is-visible img,
+.package-card:focus-visible .package-card-media.media-reveal.is-visible img,
+.media-card:hover .media-card-media.media-reveal.is-visible img,
+.media-card:focus-visible .media-card-media.media-reveal.is-visible img,
+.circuit-card:hover .circuit-card-media.media-reveal.is-visible img,
+.circuit-card:focus-visible .circuit-card-media.media-reveal.is-visible img,
+.experience-tile:hover .experience-tile-media.media-reveal.is-visible img,
+.experience-tile:focus-visible .experience-tile-media.media-reveal.is-visible img {
+  transform: scale(1.04);
+}
+
+/* -- Hero photography polish -- */
+.page-hero,
+.home-hero,
+.about-hero,
+.dest-detail-hero,
+.pkg-detail-hero,
+.dest-hero,
+.pkg-hero {
+  overflow: hidden;
+}
+
+.page-hero > img[data-hero-image],
+.home-hero > img[data-hero-image],
+.about-hero > img[data-hero-image],
+.dest-detail-hero > img[data-hero-image],
+.pkg-detail-hero > img[data-hero-image],
+.dest-hero > img[data-hero-image],
+.pkg-hero > img[data-hero-image],
+.page-hero > img:first-of-type,
+.about-hero > img:first-of-type,
+.dest-detail-hero > img:first-of-type,
+.pkg-detail-hero > img:first-of-type,
+.dest-hero > img:first-of-type,
+.pkg-hero > img:first-of-type {
+  will-change: transform, opacity;
+}
+
+/* Keep landing hero video sharp — no Ken Burns scale that softens pixels */
+.home-hero-video {
+  opacity: 1;
+  transform: none !important;
+  filter: none !important;
+  will-change: auto;
+}
+
+.page-hero.is-ready > img[data-hero-image],
+.about-hero.is-ready > img[data-hero-image],
+.dest-hero.is-ready > img[data-hero-image],
+.pkg-hero.is-ready > img[data-hero-image],
+.dest-detail-hero.is-ready > img[data-hero-image],
+.pkg-detail-hero.is-ready > img[data-hero-image],
+.page-hero.is-ready > img:first-of-type,
+.about-hero.is-ready > img:first-of-type,
+.dest-hero.is-ready > img:first-of-type,
+.pkg-hero.is-ready > img:first-of-type,
+.dest-detail-hero.is-ready > img:first-of-type,
+.pkg-detail-hero.is-ready > img:first-of-type {
+  opacity: 1;
+  transform: scale(1);
+}
+
+html.motion-ready .page-hero:not(.is-ready) > img[data-hero-image],
+html.motion-ready .home-hero:not(.is-ready) > img[data-hero-image],
+html.motion-ready .about-hero:not(.is-ready) > img[data-hero-image],
+html.motion-ready .dest-hero:not(.is-ready) > img[data-hero-image],
+html.motion-ready .pkg-hero:not(.is-ready) > img[data-hero-image],
+html.motion-ready .dest-detail-hero:not(.is-ready) > img[data-hero-image]:not([hidden]),
+html.motion-ready .pkg-detail-hero:not(.is-ready) > img[data-hero-image]:not([hidden]),
+html.motion-ready .page-hero:not(.is-ready) > img:first-of-type:not([hidden]),
+html.motion-ready .about-hero:not(.is-ready) > img:first-of-type:not([hidden]),
+html.motion-ready .dest-hero:not(.is-ready) > img:first-of-type:not([hidden]),
+html.motion-ready .pkg-hero:not(.is-ready) > img:first-of-type:not([hidden]),
+html.motion-ready .dest-detail-hero:not(.is-ready) > img:first-of-type:not([hidden]),
+html.motion-ready .pkg-detail-hero:not(.is-ready) > img:first-of-type:not([hidden]) {
+  opacity: 0;
+  transform: scale(1.05);
+  transition: opacity 800ms var(--motion-ease), transform 1.45s var(--motion-ease);
+}
+
+.page-hero.is-ready > img[data-hero-image],
+.home-hero.is-ready > img[data-hero-image],
+.about-hero.is-ready > img[data-hero-image],
+.dest-hero.is-ready > img[data-hero-image],
+.pkg-hero.is-ready > img[data-hero-image],
+.dest-detail-hero.is-ready > img[data-hero-image],
+.pkg-detail-hero.is-ready > img[data-hero-image],
+.page-hero.is-ready > img:first-of-type,
+.home-hero.is-ready > img:first-of-type,
+.about-hero.is-ready > img:first-of-type,
+.dest-hero.is-ready > img:first-of-type,
+.pkg-hero.is-ready > img:first-of-type,
+.dest-detail-hero.is-ready > img:first-of-type,
+.pkg-detail-hero.is-ready > img:first-of-type {
+  transition: opacity 800ms var(--motion-ease), transform 1.45s var(--motion-ease);
+}
+
+html.motion-ready .page-hero:not(.is-ready) .page-hero-copy > *,
+html.motion-ready .home-hero:not(.is-ready) .home-hero-copy > *,
+html.motion-ready .about-hero:not(.is-ready) .about-hero-copy > *,
+html.motion-ready .dest-hero:not(.is-ready) .dest-hero-copy > *,
+html.motion-ready .pkg-hero:not(.is-ready) .pkg-hero-copy > *,
+html.motion-ready .dest-detail-hero:not(.is-ready) .dest-detail-hero-copy > *,
+html.motion-ready .pkg-detail-hero:not(.is-ready) .pkg-detail-hero-copy > * {
+  opacity: 0;
+  transform: translate3d(0, 0.75rem, 0);
+}
+
+.page-hero.is-ready .page-hero-copy > *,
+.home-hero.is-ready .home-hero-copy > *,
+.about-hero.is-ready .about-hero-copy > *,
+.dest-hero.is-ready .dest-hero-copy > *,
+.pkg-hero.is-ready .pkg-hero-copy > *,
+.dest-detail-hero.is-ready .dest-detail-hero-copy > *,
+.pkg-detail-hero.is-ready .pkg-detail-hero-copy > * {
+  opacity: 1;
+  transform: none;
+  transition:
+    opacity 640ms var(--motion-ease),
+    transform 640ms var(--motion-ease);
+}
+
+.page-hero.is-ready .page-hero-copy > *:nth-child(1),
+.home-hero.is-ready .home-hero-copy > *:nth-child(1),
+.about-hero.is-ready .about-hero-copy > *:nth-child(1),
+.dest-hero.is-ready .dest-hero-copy > *:nth-child(1),
+.pkg-hero.is-ready .pkg-hero-copy > *:nth-child(1),
+.dest-detail-hero.is-ready .dest-detail-hero-copy > *:nth-child(1),
+.pkg-detail-hero.is-ready .pkg-detail-hero-copy > *:nth-child(1) { transition-delay: 60ms; }
+
+.page-hero.is-ready .page-hero-copy > *:nth-child(2),
+.home-hero.is-ready .home-hero-copy > *:nth-child(2),
+.about-hero.is-ready .about-hero-copy > *:nth-child(2),
+.dest-hero.is-ready .dest-hero-copy > *:nth-child(2),
+.pkg-hero.is-ready .pkg-hero-copy > *:nth-child(2),
+.dest-detail-hero.is-ready .dest-detail-hero-copy > *:nth-child(2),
+.pkg-detail-hero.is-ready .pkg-detail-hero-copy > *:nth-child(2) { transition-delay: 120ms; }
+
+.page-hero.is-ready .page-hero-copy > *:nth-child(3),
+.home-hero.is-ready .home-hero-copy > *:nth-child(3),
+.about-hero.is-ready .about-hero-copy > *:nth-child(3),
+.dest-hero.is-ready .dest-hero-copy > *:nth-child(3),
+.pkg-hero.is-ready .pkg-hero-copy > *:nth-child(3),
+.dest-detail-hero.is-ready .dest-detail-hero-copy > *:nth-child(3),
+.pkg-detail-hero.is-ready .pkg-detail-hero-copy > *:nth-child(3) { transition-delay: 180ms; }
+
+.page-hero.is-ready .page-hero-copy > *:nth-child(4),
+.home-hero.is-ready .home-hero-copy > *:nth-child(4),
+.about-hero.is-ready .about-hero-copy > *:nth-child(4),
+.dest-hero.is-ready .dest-hero-copy > *:nth-child(4),
+.pkg-hero.is-ready .pkg-hero-copy > *:nth-child(4),
+.dest-detail-hero.is-ready .dest-detail-hero-copy > *:nth-child(4),
+.pkg-detail-hero.is-ready .pkg-detail-hero-copy > *:nth-child(4) { transition-delay: 240ms; }
+
+.page-hero.is-ready .page-hero-copy > *:nth-child(5),
+.home-hero.is-ready .home-hero-copy > *:nth-child(5),
+.about-hero.is-ready .about-hero-copy > *:nth-child(5),
+.dest-hero.is-ready .dest-hero-copy > *:nth-child(5),
+.pkg-hero.is-ready .pkg-hero-copy > *:nth-child(5),
+.dest-detail-hero.is-ready .dest-detail-hero-copy > *:nth-child(5),
+.pkg-detail-hero.is-ready .pkg-detail-hero-copy > *:nth-child(5) { transition-delay: 300ms; }
+
+.page-hero.is-ready .page-hero-copy > *:nth-child(n + 6),
+.home-hero.is-ready .home-hero-copy > *:nth-child(n + 6),
+.about-hero.is-ready .about-hero-copy > *:nth-child(n + 6),
+.dest-hero.is-ready .dest-hero-copy > *:nth-child(n + 6),
+.pkg-hero.is-ready .pkg-hero-copy > *:nth-child(n + 6),
+.dest-detail-hero.is-ready .dest-detail-hero-copy > *:nth-child(n + 6),
+.pkg-detail-hero.is-ready .pkg-detail-hero-copy > *:nth-child(n + 6) { transition-delay: 340ms; }
+
+/* Gentle parallax target – transform driven by js/motion.js */
+[data-parallax] {
+  will-change: transform;
+}
+
+/* Light ↔ dark section ease (background only, no scroll lock) */
+.enquire-band,
+.experience-tile,
+.site-footer {
+  transition: background-color 280ms ease;
+}
+
+/* -- CTA motion refinements -- */
+.btn-ghost {
+  transition:
+    color 220ms ease,
+    border-color 220ms ease,
+    transform 220ms var(--motion-ease);
+}
+
+.btn-ghost:hover,
+.btn-ghost:focus-visible {
+  transform: translateX(2px);
+}
+
+.btn-ghost .fa-arrow-right {
+  transition: transform 220ms var(--motion-ease);
+}
+
+.btn-ghost:hover .fa-arrow-right,
+.btn-ghost:focus-visible .fa-arrow-right {
+  transform: translateX(5px);
+}
+
+.btn-outline {
+  transition:
+    background-color 260ms var(--motion-ease),
+    color 260ms var(--motion-ease),
+    border-color 260ms var(--motion-ease),
+    transform 220ms var(--motion-ease);
+}
+
+.btn-outline:hover,
+.btn-outline:focus-visible {
+  transform: translateY(-1px);
+}
+
+/* -- Reduced motion -- */
+@media (prefers-reduced-motion: reduce) {
+  .reveal,
+  .media-reveal,
+  .media-reveal > img,
+  .media-reveal img,
+  .page-hero > img,
+  .home-hero > img,
+  .about-hero > img,
+  .dest-hero > img,
+  .pkg-hero > img,
+  .dest-detail-hero > img,
+  .pkg-detail-hero > img,
+  .page-hero-copy > *,
+  .home-hero-copy > *,
+  .about-hero-copy > *,
+  .dest-hero-copy > *,
+  .pkg-hero-copy > *,
+  .dest-detail-hero-copy > *,
+  .pkg-detail-hero-copy > *,
+  .btn-ghost,
+  .btn-outline,
+  .btn-ghost .fa-arrow-right {
+    opacity: 1 !important;
+    transform: none !important;
+    clip-path: none !important;
+    transition: none !important;
+    animation: none !important;
+    will-change: auto !important;
+  }
+
+  .dest-card:hover .dest-card-media.media-reveal img,
+  .package-card:hover .package-card-media.media-reveal img,
+  .media-card:hover .media-card-media.media-reveal img,
+  .circuit-card:hover .circuit-card-media.media-reveal img {
+    transform: none !important;
+  }
+
+  [data-parallax] {
+    transform: none !important;
+  }
+}

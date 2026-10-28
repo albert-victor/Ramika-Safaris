@@ -1,0 +1,94 @@
+{
+  "_meta": {
+    "kind": "import-intermediate-example",
+    "version": 1,
+    "note": "Canonical intermediate format for mapping external destination and package records into Ramika's internal schema. Source-specific extractors should emit this shape (or a close alias set) before calling the mapper. This file is documentation and a fixture for mapper tests – not live catalogue data."
+  },
+  "destinations": [
+    {
+      "id": "dest-example-ruaha",
+      "slug": "ruaha-national-park",
+      "name": "Ruaha National Park",
+      "intro": "Short public introduction.",
+      "description": "Full destination description. Optional fields may be omitted or null.",
+      "heroImage": {
+        "src": "/images/path-or-https-url.jpg",
+        "alt": "Descriptive alt text."
+      },
+      "gallery": [
+        {
+          "src": "https://cdn.example.com/ruaha-1.jpg",
+          "alt": "Gallery image alt.",
+          "caption": "Optional caption"
+        }
+      ],
+      "region": "Southern Tanzania",
+      "circuitIds": ["circuit-southern"],
+      "activityIds": ["activity-wildlife"],
+      "wildlifeHighlights": ["Elephant", "Lion"],
+      "bestTimeToVisit": "June to October",
+      "relatedPackageIds": ["pkg-example-ruaha"],
+      "seo": {
+        "title": "Ruaha National Park · Ramika Safaris",
+        "description": "Plan a Ruaha safari with Ramika Safaris and Tours."
+      },
+      "status": "draft"
+    }
+  ],
+  "packages": [
+    {
+      "id": "pkg-example-ruaha",
+      "slug": "ruaha-game-days",
+      "title": "Ruaha game days",
+      "summary": "A sample multi-day wildlife package.",
+      "heroImage": {
+        "src": "/images/path-or-https-url.jpg",
+        "alt": "Package hero alt."
+      },
+      "gallery": [],
+      "duration": {
+        "days": 4,
+        "nights": 3,
+        "label": "4 days / 3 nights"
+      },
+      "startLocation": "Iringa",
+      "endLocation": "Iringa",
+      "circuitIds": ["circuit-southern"],
+      "destinationIds": ["dest-example-ruaha"],
+      "activityIds": ["activity-wildlife"],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrival",
+          "summary": "Meet and transfer.",
+          "destinationIds": ["dest-example-ruaha"]
+        },
+        {
+          "day": 2,
+          "title": "Game drives",
+          "summary": "Full day in the park.",
+          "destinationIds": ["dest-example-ruaha"]
+        }
+      ],
+      "accommodation": "Lodging reserved to the named standard.",
+      "inclusions": ["Vehicle", "Guide", "Meals as stated"],
+      "exclusions": ["Park entrance fees"],
+      "pricing": {
+        "amount": null,
+        "currency": "USD",
+        "note": "Only include pricing when a verified figure is supplied."
+      },
+      "enquireCta": {
+        "label": "Enquire about this safari",
+        "href": "/contact.html#enquire"
+      },
+      "seo": {
+        "title": "Ruaha game days · Ramika Safaris",
+        "description": "Enquire about a Ruaha wildlife package."
+      },
+      "status": "draft"
+    }
+  ],
+  "circuits": [],
+  "activities": []
+}

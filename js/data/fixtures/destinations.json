@@ -1,0 +1,137 @@
+{
+  "_meta": {
+    "kind": "development-fixtures",
+    "collection": "destinations",
+    "version": 1,
+    "note": "Layout-preview destinations only. Not verified catalogue facts. Never served by published queries. Disable via content.config.json includeDevelopmentFixtures."
+  },
+  "items": [
+    {
+      "id": "fixture-dest-kitulo",
+      "slug": "kitulo-plateau",
+      "name": "Kitulo Plateau",
+      "cardTitle": "Kitulo Plateau National Park",
+      "cardTouch": "Highland wildflowers",
+      "intro": "Highland meadow country in the southern highlands, known for seasonal wildflowers.",
+      "description": "Kitulo sits in the southern highlands. This fixture record exists so destination page layouts can be previewed before verified copy and gallery assets are imported.",
+      "heroImage": {
+        "src": "/images/about_Activities/kitulo_main.jpg",
+        "alt": "Flowering grassland on the Kitulo plateau."
+      },
+      "gallery": [
+        {
+          "src": "/images/about_Activities/kitulo_main.jpg",
+          "alt": "Flowering grassland on the Kitulo plateau."
+        },
+        {
+          "src": "/images/about_Activities/mpanga_kipengere.jpg",
+          "alt": "Viewing platform above a highland waterfall near the southern circuit."
+        }
+      ],
+      "region": "Southern Highlands",
+      "circuitIds": ["circuit-southern"],
+      "activityIds": ["activity-landscapes"],
+      "wildlifeHighlights": [],
+      "bestTimeToVisit": null,
+      "relatedPackageIds": ["fixture-pkg-highlands"],
+      "seo": {
+        "title": "Kitulo Plateau (preview) · Ramika Safaris",
+        "description": "Development preview for a Kitulo Plateau destination page."
+      },
+      "status": "draft"
+    },
+    {
+      "id": "fixture-dest-mikumi",
+      "slug": "mikumi",
+      "name": "Mikumi",
+      "cardTitle": "Mikumi National Park",
+      "cardTouch": "Wildlife savanna",
+      "intro": "A southern-circuit park often reached from the highlands road.",
+      "description": "Mikumi fixture content supports package and destination layout work. Replace with imported production copy before publishing.",
+      "heroImage": {
+        "src": "/images/about_Activities/mikumi_experieces.jpg",
+        "alt": "Zebras standing in tall grass at Mikumi."
+      },
+      "gallery": [
+        {
+          "src": "/images/about_Activities/mikumi_experieces.jpg",
+          "alt": "Zebras standing in tall grass at Mikumi."
+        },
+        {
+          "src": "/images/about_Activities/a62a2ab1-e55b-4253-9dd8-7a4d4d93d55f.jpg",
+          "alt": "Buffalo moving across a sandy track near water."
+        },
+        {
+          "src": "/images/about_Activities/d75bf589-8001-4826-8d3a-8e73e6eeb707.jpg",
+          "alt": "Elephant and impala in open savanna country."
+        }
+      ],
+      "region": "Southern Circuit",
+      "circuitIds": ["circuit-southern"],
+      "activityIds": ["activity-wildlife"],
+      "wildlifeHighlights": ["Zebra", "Impala"],
+      "bestTimeToVisit": null,
+      "relatedPackageIds": ["fixture-pkg-mikumi"],
+      "seo": {
+        "title": "Mikumi (preview) · Ramika Safaris",
+        "description": "Development preview for a Mikumi destination page."
+      },
+      "status": "draft"
+    },
+    {
+      "id": "fixture-dest-kalambo",
+      "slug": "kalambo-falls",
+      "name": "Kalambo Falls",
+      "cardTitle": "Kalambo Falls",
+      "cardTouch": "Cliff & mist",
+      "intro": "A western waterfall stop used here only as layout sample content.",
+      "description": "Kalambo Falls appears in homepage fixtures. This catalogue record mirrors that sample so detail-page layouts can be checked without publishing placeholder destinations.",
+      "heroImage": {
+        "src": "/images/about_Activities/kalambo_waterfalls.jpg",
+        "alt": "Kalambo Falls dropping through a cliff face."
+      },
+      "gallery": [
+        {
+          "src": "/images/about_Activities/kalambo_waterfalls.jpg",
+          "alt": "Kalambo Falls dropping through a cliff face."
+        }
+      ],
+      "region": "Western Tanzania",
+      "circuitIds": ["circuit-western"],
+      "activityIds": ["activity-landscapes", "activity-on-the-road"],
+      "wildlifeHighlights": [],
+      "bestTimeToVisit": null,
+      "relatedPackageIds": ["fixture-pkg-falls"],
+      "seo": {
+        "title": "Kalambo Falls (preview) · Ramika Safaris",
+        "description": "Development preview for a Kalambo Falls destination page."
+      },
+      "status": "draft"
+    },
+    {
+      "id": "fixture-dest-rift-lake",
+      "slug": "rift-lake-shore",
+      "name": "Rift lake shore",
+      "cardTitle": "Rift lake shore",
+      "cardTouch": "Lake country",
+      "intro": "Sample western lake-shore landscape for card and detail layouts.",
+      "description": "Fixture only. Do not treat location naming or imagery pairing as a published destination claim.",
+      "heroImage": {
+        "src": "/images/about_Activities/5b8f151c-c243-4caf-b9bf-8ba1edba35bb.jpg",
+        "alt": "Mountains meeting a lake shore along a coastal settlement."
+      },
+      "gallery": [],
+      "region": "Western Tanzania",
+      "circuitIds": ["circuit-western"],
+      "activityIds": ["activity-landscapes"],
+      "wildlifeHighlights": [],
+      "bestTimeToVisit": null,
+      "relatedPackageIds": [],
+      "seo": {
+        "title": "Rift lake shore (preview) · Ramika Safaris",
+        "description": "Development preview for a western lake-shore destination card."
+      },
+      "status": "draft"
+    }
+  ]
+}

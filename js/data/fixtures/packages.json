@@ -1,0 +1,356 @@
+{
+  "_meta": {
+    "kind": "development-fixtures",
+    "collection": "packages",
+    "version": 1,
+    "note": "Layout-preview safari packages only. Durations, inclusions, and itineraries are samples – not sellable catalogue. Disable via content.config.json."
+  },
+  "items": [
+    {
+      "id": "fixture-pkg-highlands",
+      "slug": "highlands-wildflowers",
+      "title": "Highlands & wildflowers",
+      "cardSubtitle": "Kitulo · Njombe roads",
+      "summary": "Kitulo and the southern highlands with lodging booked to the standard you name.",
+      "heroImage": {
+        "src": "/images/about_Activities/kitulo_main.jpg",
+        "alt": "Highland meadow with red-hot poker flowers."
+      },
+      "gallery": [
+        {
+          "src": "/images/about_Activities/kitulo_main.jpg",
+          "alt": "Highland meadow with red-hot poker flowers."
+        },
+        {
+          "src": "/images/about_Activities/special_moments2.jpg",
+          "alt": "Guests and guides during a highland forest walk."
+        }
+      ],
+      "duration": {
+        "days": 5,
+        "nights": 4,
+        "label": "4–6 days"
+      },
+      "startLocation": "Njombe",
+      "endLocation": "Njombe",
+      "circuitIds": ["circuit-southern"],
+      "destinationIds": ["fixture-dest-kitulo"],
+      "activityIds": ["activity-landscapes", "activity-on-the-road"],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Arrive Njombe",
+          "summary": "Meet the guide and settle into lodging booked to your named standard.",
+          "destinationIds": []
+        },
+        {
+          "day": 2,
+          "title": "Kitulo day",
+          "summary": "Highland walking and viewpoint time on the plateau.",
+          "destinationIds": ["fixture-dest-kitulo"]
+        },
+        {
+          "day": 3,
+          "title": "Return road",
+          "summary": "Travel back toward Njombe with stops as the road allows.",
+          "destinationIds": []
+        }
+      ],
+      "accommodation": "Lodging reserved to the standard you name. Lodges are not owned by Ramika.",
+      "inclusions": [
+        "Licensed safari vehicle",
+        "Guide",
+        "Meals as stated in the final itinerary",
+        "Lodging reservation"
+      ],
+      "exclusions": [
+        "Park entrance fees",
+        "Personal expenses",
+        "Tips"
+      ],
+      "pricing": null,
+      "enquireCta": {
+        "label": "Enquire about this safari",
+        "href": "/contact.html#enquire"
+      },
+      "seo": {
+        "title": "Highlands & wildflowers (preview) · Ramika Safaris",
+        "description": "Development preview for a southern highlands safari package."
+      },
+      "status": "draft"
+    },
+    {
+      "id": "fixture-pkg-mikumi",
+      "slug": "mikumi-game-days",
+      "title": "Mikumi game days",
+      "cardSubtitle": "Wildlife · Open plains",
+      "summary": "A southern-circuit wildlife stay with vehicle, meals, and lodging arranged.",
+      "heroImage": {
+        "src": "/images/about_Activities/mikumi_experieces.jpg",
+        "alt": "Zebras among green bush at Mikumi."
+      },
+      "gallery": [
+        {
+          "src": "/images/about_Activities/mikumi_experieces.jpg",
+          "alt": "Zebras among green bush at Mikumi."
+        },
+        {
+          "src": "/images/about_Activities/d75bf589-8001-4826-8d3a-8e73e6eeb707.jpg",
+          "alt": "Elephant and impala in open savanna country."
+        }
+      ],
+      "duration": {
+        "days": 4,
+        "nights": 3,
+        "label": "3–5 days"
+      },
+      "startLocation": "Njombe",
+      "endLocation": "Mikumi / Njombe",
+      "circuitIds": ["circuit-southern"],
+      "destinationIds": ["fixture-dest-mikumi"],
+      "activityIds": ["activity-wildlife"],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Travel to Mikumi",
+          "summary": "Road transfer and lodge check-in.",
+          "destinationIds": ["fixture-dest-mikumi"]
+        },
+        {
+          "day": 2,
+          "title": "Game drives",
+          "summary": "Morning and afternoon drives in the park.",
+          "destinationIds": ["fixture-dest-mikumi"]
+        },
+        {
+          "day": 3,
+          "title": "Return",
+          "summary": "Depart for the agreed end point.",
+          "destinationIds": []
+        }
+      ],
+      "accommodation": "Room reserved to luxury, budget, or economy as named by the guest.",
+      "inclusions": [
+        "Vehicle and guide",
+        "Meals as stated",
+        "Lodging reservation"
+      ],
+      "exclusions": [
+        "Park entrance fees paid by the guest",
+        "Flights",
+        "Travel insurance"
+      ],
+      "pricing": null,
+      "enquireCta": {
+        "label": "Enquire about this safari",
+        "href": "/contact.html#enquire"
+      },
+      "seo": {
+        "title": "Mikumi game days (preview) · Ramika Safaris",
+        "description": "Development preview for a Mikumi wildlife package."
+      },
+      "status": "draft"
+    },
+    {
+      "id": "fixture-pkg-falls",
+      "slug": "falls-western-road",
+      "title": "Falls & western road",
+      "cardSubtitle": "Waterfalls · Western road",
+      "summary": "Waterfalls and western landscapes combined with park time when the route allows.",
+      "heroImage": {
+        "src": "/images/about_Activities/kalambo_waterfalls.jpg",
+        "alt": "Tall waterfall with a rainbow in the mist."
+      },
+      "gallery": [
+        {
+          "src": "/images/about_Activities/kalambo_waterfalls.jpg",
+          "alt": "Tall waterfall with a rainbow in the mist."
+        },
+        {
+          "src": "/images/about_Activities/5b8f151c-c243-4caf-b9bf-8ba1edba35bb.jpg",
+          "alt": "Mountains meeting a lake shore."
+        }
+      ],
+      "duration": {
+        "days": 7,
+        "nights": 6,
+        "label": "5–8 days"
+      },
+      "startLocation": "Njombe",
+      "endLocation": "Western Tanzania / Njombe",
+      "circuitIds": ["circuit-western", "circuit-southern"],
+      "destinationIds": ["fixture-dest-kalambo", "fixture-dest-rift-lake"],
+      "activityIds": ["activity-landscapes", "activity-on-the-road"],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Depart Njombe",
+          "summary": "Begin the western road with overnight lodging.",
+          "destinationIds": []
+        },
+        {
+          "day": 2,
+          "title": "Falls visit",
+          "summary": "Time at the falls and nearby viewpoints.",
+          "destinationIds": ["fixture-dest-kalambo"]
+        },
+        {
+          "day": 3,
+          "title": "Lake shore",
+          "summary": "Western lake-shore landscapes when the route reaches them.",
+          "destinationIds": ["fixture-dest-rift-lake"]
+        }
+      ],
+      "accommodation": null,
+      "inclusions": [
+        "Vehicle and guide",
+        "Meals as stated in the final itinerary"
+      ],
+      "exclusions": [
+        "Park fees",
+        "Optional activities not listed"
+      ],
+      "pricing": null,
+      "enquireCta": {
+        "label": "Enquire about this safari",
+        "href": "/contact.html#enquire"
+      },
+      "seo": {
+        "title": "Falls & western road (preview) · Ramika Safaris and Tours",
+        "description": "Development preview for a western-road safari package."
+      },
+      "status": "draft"
+    },
+    {
+      "id": "fixture-pkg-forest",
+      "slug": "forest-walk-days",
+      "title": "Forest walk days",
+      "cardSubtitle": "Guides · Canopy paths",
+      "summary": "Guided forest walks between parks, with lodging reserved to the standard you choose.",
+      "heroImage": {
+        "src": "/images/about_Activities/special_moments2.jpg",
+        "alt": "Guests and guides during a forest walk."
+      },
+      "gallery": [
+        {
+          "src": "/images/about_Activities/special_moments2.jpg",
+          "alt": "Guests and guides during a forest walk."
+        },
+        {
+          "src": "/images/about_Activities/87f07689-104e-45f8-89b2-ace6cbdb36da.jpg",
+          "alt": "Guides moving through dense forest foliage."
+        }
+      ],
+      "duration": {
+        "days": 4,
+        "nights": 3,
+        "label": "3–5 days"
+      },
+      "startLocation": "Njombe",
+      "endLocation": "Njombe",
+      "circuitIds": ["circuit-southern", "circuit-western"],
+      "destinationIds": ["fixture-dest-kitulo"],
+      "activityIds": ["activity-on-the-road", "activity-landscapes"],
+      "itinerary": [],
+      "accommodation": null,
+      "inclusions": ["Vehicle and guide", "Meals as stated"],
+      "exclusions": ["Park fees"],
+      "pricing": null,
+      "enquireCta": {
+        "label": "Enquire about this safari",
+        "href": "/contact.html#enquire"
+      },
+      "seo": {
+        "title": "Forest walk days (preview) · Ramika Safaris and Tours",
+        "description": "Development preview for a forest-walk safari package."
+      },
+      "status": "draft"
+    },
+    {
+      "id": "fixture-pkg-lake",
+      "slug": "lake-shore-days",
+      "title": "Lake shore days",
+      "cardSubtitle": "Western shores · Open water",
+      "summary": "Western lake shores and mountain edges when your itinerary reaches them.",
+      "heroImage": {
+        "src": "/images/about_Activities/5b8f151c-c243-4caf-b9bf-8ba1edba35bb.jpg",
+        "alt": "Mountains meeting a lake shore."
+      },
+      "gallery": [
+        {
+          "src": "/images/about_Activities/5b8f151c-c243-4caf-b9bf-8ba1edba35bb.jpg",
+          "alt": "Mountains meeting a lake shore."
+        }
+      ],
+      "duration": {
+        "days": 6,
+        "nights": 5,
+        "label": "5–7 days"
+      },
+      "startLocation": "Njombe",
+      "endLocation": "Western Tanzania",
+      "circuitIds": ["circuit-western"],
+      "destinationIds": ["fixture-dest-rift-lake"],
+      "activityIds": ["activity-landscapes"],
+      "itinerary": [],
+      "accommodation": null,
+      "inclusions": ["Vehicle and guide", "Meals as stated"],
+      "exclusions": ["Park fees"],
+      "pricing": null,
+      "enquireCta": {
+        "label": "Enquire about this safari",
+        "href": "/contact.html#enquire"
+      },
+      "seo": {
+        "title": "Lake shore days (preview) · Ramika Safaris and Tours",
+        "description": "Development preview for a lake-shore safari package."
+      },
+      "status": "draft"
+    },
+    {
+      "id": "fixture-pkg-team",
+      "slug": "guided-southern-loop",
+      "title": "Guided southern loop",
+      "cardSubtitle": "Parks · Highlands · Lodging",
+      "summary": "A southern loop linking parks and highland roads with lodging to your standard.",
+      "heroImage": {
+        "src": "/images/about_Activities/sticky_sections.jpg",
+        "alt": "Guides working from an open safari vehicle."
+      },
+      "gallery": [
+        {
+          "src": "/images/about_Activities/sticky_sections.jpg",
+          "alt": "Guides working from an open safari vehicle."
+        },
+        {
+          "src": "/images/about_Activities/mikumi_experieces.jpg",
+          "alt": "Zebras among green bush at Mikumi."
+        }
+      ],
+      "duration": {
+        "days": 8,
+        "nights": 7,
+        "label": "7–9 days"
+      },
+      "startLocation": "Njombe",
+      "endLocation": "Njombe",
+      "circuitIds": ["circuit-southern"],
+      "destinationIds": ["fixture-dest-mikumi", "fixture-dest-kitulo"],
+      "activityIds": ["activity-wildlife", "activity-landscapes"],
+      "itinerary": [],
+      "accommodation": null,
+      "inclusions": ["Vehicle and guide", "Meals as stated"],
+      "exclusions": ["Park fees"],
+      "pricing": null,
+      "enquireCta": {
+        "label": "Enquire about this safari",
+        "href": "/contact.html#enquire"
+      },
+      "seo": {
+        "title": "Guided southern loop (preview) · Ramika Safaris and Tours",
+        "description": "Development preview for a southern-loop safari package."
+      },
+      "status": "draft"
+    }
+  ]
+}

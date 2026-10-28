@@ -1,0 +1,32 @@
+/* Demo page chrome only – card visuals live in cards.css */
+
+.demo-main {
+  padding-bottom: var(--space-6);
+}
+
+.demo-hero {
+  padding-top: calc(var(--header-h) + var(--space-4));
+  padding-bottom: var(--space-4);
+}
+
+.demo-lede {
+  max-width: 40rem;
+  margin-top: var(--space-2);
+}
+
+.demo-section {
+  padding-block: var(--space-4);
+}
+
+.demo-section--packages {
+  background: linear-gradient(180deg, rgba(13, 98, 53, 0.035), transparent 10rem);
+}
+
+.section-head--tight {
+  margin-bottom: var(--space-3);
+  gap: 0.25rem;
+}
+
+.section-head--tight h2 {
+  font-size: clamp(1.55rem, 3vw, 2rem);
+}

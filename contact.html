@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact · Ramika Safaris and Tours</title>
+  <meta name="description" content="Enquire about a Tanzanian safari with Ramika Safaris and Tours – journeys across southern, northern, western, and coastal routes.">
+  <!-- @include partials/assets.html -->
+  <link rel="stylesheet" href="/css/contact.css">
+</head>
+<body data-page="contact">
+  <a class="skip-link" href="#content">Skip to content</a>
+  <!-- @include partials/header.html -->
+  <main id="content" class="container-xl site-main">
+    <nav class="crumbs" aria-label="Breadcrumb">
+      <ol>
+        <li><a href="/">Home</a></li>
+        <li aria-current="page">Contact</li>
+      </ol>
+    </nav>
+    <header class="section-head" id="enquire">
+      <p class="kicker">Head office</p>
+      <p class="script">Write to us</p>
+      <h1>Enquire</h1>
+    </header>
+    <p class="prose contact-lede">Send your safari enquiry to Ramika Safaris and Tours Limited. Our head office is in Njombe Town. Phone and email details will appear here once they are published.</p>
+
+    <form class="enquire-form" data-enquire-form action="/contact.html#enquire" method="get">
+      <div class="enquire-form-grid">
+        <label class="enquire-field">
+          <span class="enquire-label">Your name</span>
+          <input type="text" name="name" autocomplete="name" required>
+        </label>
+        <label class="enquire-field">
+          <span class="enquire-label">Email</span>
+          <input type="email" name="email" autocomplete="email" required>
+        </label>
+        <label class="enquire-field enquire-field--wide">
+          <span class="enquire-label">Destination of interest</span>
+          <select name="destination" data-enquire-destination>
+            <option value="">No specific destination yet</option>
+          </select>
+          <span class="enquire-hint">You can change this selection before sending.</span>
+        </label>
+        <label class="enquire-field enquire-field--wide">
+          <span class="enquire-label">Safari package</span>
+          <select name="package" data-enquire-package>
+            <option value="">No specific package yet</option>
+          </select>
+          <span class="enquire-hint">Optional. Change or clear if you prefer a custom itinerary.</span>
+        </label>
+        <label class="enquire-field enquire-field--wide">
+          <span class="enquire-label">Your message</span>
+          <textarea name="message" rows="5" data-enquire-message required placeholder="Where you want to go, how long you can travel, and the lodging standard you prefer."></textarea>
+        </label>
+      </div>
+      <p class="enquire-form-note" data-enquire-note hidden></p>
+      <p class="section-cta section-cta--start">
+        <button class="btn-outline" type="submit">Send enquiry</button>
+      </p>
+    </form>
+  </main>
+  <!-- @include partials/footer.html -->
+  <!-- @include partials/scripts.html -->
+  <script src="/js/contact.js" defer></script>
+</body>
+</html>

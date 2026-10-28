@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ramika Safaris and Tours</title>
+  <meta name="description" content="Ramika Safaris and Tours plans Tanzanian safaris across the southern highlands, with northern, western, and coastal routes when they belong in your journey.">
+  <!-- @include partials/assets.html -->
+  <link rel="stylesheet" href="/css/home.css">
+</head>
+<body data-page="home" class="has-hero">
+  <a class="skip-link" href="#content">Skip to content</a>
+  <!-- @include partials/header.html -->
+
+  <section class="home-hero" data-home-hero aria-label="Safari introduction">
+    <video
+      class="home-hero-video"
+      data-hero-video
+      autoplay
+      muted
+      loop
+      playsinline
+      preload="metadata"
+      poster="/images/about_Activities/kitulo_main.jpg"
+    >
+      <source src="/images/Landing_hero.mp4" type="video/mp4">
+    </video>
+    <img data-hero-image src="/images/about_Activities/kitulo_main.jpg" alt="" hidden width="1600" height="900" decoding="async">
+    <div class="home-hero-shade" aria-hidden="true"></div>
+    <div class="container-xl home-hero-copy" data-hero-copy>
+      <p class="hero-loading">Loading…</p>
+    </div>
+  </section>
+
+  <main id="content" class="site-main home-main">
+    <!-- Content below is filled from /js/data/home-fixtures.json -->
+    <section class="home-section home-intro" data-home-intro aria-label="Brand introduction"></section>
+
+    <section class="home-section home-experiences" data-home-experiences aria-label="Safari experiences"></section>
+
+    <section class="home-section home-destinations" data-home-destinations aria-label="Destination inspirations"></section>
+
+    <section class="home-section home-packages" data-home-packages aria-label="Safari packages"></section>
+
+    <section class="home-section home-testimonials" data-home-testimonials aria-label="Guest notes"></section>
+
+    <section class="home-section home-about" data-home-about aria-label="About Ramika Safaris and Tours"></section>
+
+    <section class="home-section home-enquire enquire-band" data-home-enquire aria-label="Safari enquiry"></section>
+  </main>
+
+  <!-- @include partials/footer.html -->
+  <!-- @include partials/scripts.html -->
+  <script src="/js/home.js" defer></script>
+</body>
+</html>

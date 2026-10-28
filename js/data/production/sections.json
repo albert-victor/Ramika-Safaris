@@ -1,0 +1,9 @@
+{
+  "_meta": {
+    "kind": "production-content",
+    "collection": "sections",
+    "version": 1,
+    "note": "Reusable page sections for production. Homepage section copy currently lives in /js/data/home-fixtures.json until replaced with production section records."
+  },
+  "items": []
+}

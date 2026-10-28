@@ -1,0 +1,345 @@
+{
+  "count": 16,
+  "ok": false,
+  "packages": [
+    {
+      "slug": "2-days-safari-to-ruaha-national-park",
+      "title": "2 Days Safari to Ruaha National Park",
+      "days": 2,
+      "nights": 1,
+      "label": "2 days / 1 night",
+      "galleryCount": 2,
+      "heroOk": true,
+      "itineraryDays": 2,
+      "destinationIds": [
+        "dest-ruaha-national-park"
+      ],
+      "activityIds": [
+        "activity-wildlife"
+      ],
+      "hasSummary": true,
+      "startLocation": "Dar es Salaam",
+      "endLocation": "Dar es Salaam",
+      "sourceUrl": "https://www.tanzaniatourism.com/safari/2-days-safari-to-ruaha-national-park"
+    },
+    {
+      "slug": "3-days-safari-to-ruaha-national-park",
+      "title": "3 Days Safari to Ruaha National Park",
+      "days": 3,
+      "nights": 2,
+      "label": "3 days / 2 nights",
+      "galleryCount": 2,
+      "heroOk": true,
+      "itineraryDays": 3,
+      "destinationIds": [
+        "dest-ruaha-national-park"
+      ],
+      "activityIds": [
+        "activity-wildlife"
+      ],
+      "hasSummary": true,
+      "startLocation": "Dar es Salaam",
+      "endLocation": "Dar es Salaam",
+      "sourceUrl": "https://www.tanzaniatourism.com/safari/3-days-safari-to-ruaha-national-park"
+    },
+    {
+      "slug": "4-days-safari-in-ruaha-national-park",
+      "title": "4 Days Safari in Ruaha National Park",
+      "days": 4,
+      "nights": 3,
+      "label": "4 days / 3 nights",
+      "galleryCount": 2,
+      "heroOk": true,
+      "itineraryDays": 4,
+      "destinationIds": [
+        "dest-ruaha-national-park"
+      ],
+      "activityIds": [
+        "activity-wildlife"
+      ],
+      "hasSummary": true,
+      "startLocation": "Dar es Salaam",
+      "endLocation": "Dar es Salaam",
+      "sourceUrl": "https://www.tanzaniatourism.com/safari/4-days-safari-in-ruaha-national-park"
+    },
+    {
+      "slug": "5-days-safari-to-mikumi-ruaha-national-parks",
+      "title": "5 Days Safari to Mikumi & Ruaha National Parks",
+      "days": 5,
+      "nights": 4,
+      "label": "5 days / 4 nights",
+      "galleryCount": 2,
+      "heroOk": true,
+      "itineraryDays": 5,
+      "destinationIds": [
+        "dest-mikumi-national-park",
+        "dest-isimila-stone-age-site",
+        "dest-ruaha-national-park"
+      ],
+      "activityIds": [
+        "activity-wildlife"
+      ],
+      "hasSummary": true,
+      "startLocation": "Dar es Salaam",
+      "endLocation": "Dar es Salaam",
+      "sourceUrl": "https://www.tanzaniatourism.com/safari/5-days-safari-to-mikumi-ruaha-national-parks"
+    },
+    {
+      "slug": "7-days-safari-to-ruaha-udzungwa-and-mikumi-national-parks",
+      "title": "7 Days Safari to Ruaha, Udzungwa and Mikumi National Parks",
+      "days": 7,
+      "nights": 6,
+      "label": "7 days / 6 nights",
+      "galleryCount": 2,
+      "heroOk": true,
+      "itineraryDays": 7,
+      "destinationIds": [
+        "dest-ruaha-national-park",
+        "dest-udzungwa-mountains-park",
+        "dest-mikumi-national-park"
+      ],
+      "activityIds": [
+        "activity-wildlife"
+      ],
+      "hasSummary": true,
+      "startLocation": "Dar es Salaam",
+      "endLocation": "Dar es Salaam",
+      "sourceUrl": "https://www.tanzaniatourism.com/safari/7-days-safari-to-ruaha-udzungwa-and-mikumi-national-parks"
+    },
+    {
+      "slug": "10-days-safari-to-nyerere-mikumi-udzungwa-ruaha-national-parks",
+      "title": "10 Days Safari to Nyerere, Mikumi Udzungwa & Ruaha National Parks",
+      "days": 10,
+      "nights": 9,
+      "label": "10 days / 9 nights",
+      "galleryCount": 2,
+      "heroOk": true,
+      "itineraryDays": 10,
+      "destinationIds": [
+        "dest-nyerere-national-park",
+        "dest-udzungwa-mountains-park",
+        "dest-ruaha-national-park",
+        "dest-mikumi-national-park"
+      ],
+      "activityIds": [
+        "activity-wildlife"
+      ],
+      "hasSummary": true,
+      "startLocation": "Dar es Salaam",
+      "endLocation": "Dar es Salaam",
+      "sourceUrl": "https://www.tanzaniatourism.com/safari/10-days-safari-to-nyerere-mikumi-udzungwa-ruaha-national-parks"
+    },
+    {
+      "slug": "day-trip-to-isimila-stone-age-and-igeleke-rock-art-sites",
+      "title": "Day Trip to Isimila Stone Age and Igeleke Rock Art Sites",
+      "days": 1,
+      "nights": 0,
+      "label": "Day trip",
+      "galleryCount": 2,
+      "heroOk": true,
+      "itineraryDays": 1,
+      "destinationIds": [
+        "dest-isimila-stone-age-site",
+        "dest-igeleke-rock-art-site"
+      ],
+      "activityIds": [
+        "activity-wildlife"
+      ],
+      "hasSummary": true,
+      "startLocation": "Iringa",
+      "endLocation": "Igeleke Rock Art",
+      "sourceUrl": "https://www.tanzaniatourism.com/safari/day-trip-to-isimila-stone-age-and-igeleke-rock-art-sites"
+    },
+    {
+      "slug": "4-days-safari-to-mikumi-and-udzungwa-national-parks",
+      "title": "4 Days Safari to Mikumi & Udzungwa National Parks",
+      "days": 4,
+      "nights": 3,
+      "label": "4 days / 3 nights",
+      "galleryCount": 2,
+      "heroOk": true,
+      "itineraryDays": 4,
+      "destinationIds": [
+        "dest-mikumi-national-park",
+        "dest-udzungwa-mountains-park"
+      ],
+      "activityIds": [
+        "activity-wildlife"
+      ],
+      "hasSummary": true,
+      "startLocation": "Dar es Salaam",
+      "endLocation": "Dar es Salaam",
+      "sourceUrl": "https://www.tanzaniatourism.com/safari/4-days-safari-to-mikumi-and-udzungwa-national-parks"
+    },
+    {
+      "slug": "day-trip-to-mikumi-national-park",
+      "title": "Day Trip to Mikumi National Park",
+      "days": 1,
+      "nights": 0,
+      "label": "Day trip",
+      "galleryCount": 2,
+      "heroOk": true,
+      "itineraryDays": 1,
+      "destinationIds": [
+        "dest-mikumi-national-park"
+      ],
+      "activityIds": [
+        "activity-wildlife"
+      ],
+      "hasSummary": true,
+      "startLocation": "Dar es Salaam",
+      "endLocation": "Dar es Salaam",
+      "sourceUrl": "https://www.tanzaniatourism.com/safari/day-trip-to-mikumi-national-park"
+    },
+    {
+      "slug": "2-days-safari-tomikumi-national-park",
+      "title": "2 Days Safari to Mikumi National Park",
+      "days": 2,
+      "nights": 1,
+      "label": "2 days / 1 night",
+      "galleryCount": 2,
+      "heroOk": true,
+      "itineraryDays": 2,
+      "destinationIds": [
+        "dest-mikumi-national-park"
+      ],
+      "activityIds": [
+        "activity-wildlife"
+      ],
+      "hasSummary": true,
+      "startLocation": "Dar es Salaam / Morogoro",
+      "endLocation": "Transfer to Morogoro / Dar es Salaam",
+      "sourceUrl": "https://www.tanzaniatourism.com/safari/2-days-safari-tomikumi-national-park"
+    },
+    {
+      "slug": "3-days-safari-tomikumi-national-park",
+      "title": "3 Days Safari to Mikumi National Park",
+      "days": 3,
+      "nights": 2,
+      "label": "3 days / 2 nights",
+      "galleryCount": 2,
+      "heroOk": true,
+      "itineraryDays": 3,
+      "destinationIds": [
+        "dest-mikumi-national-park"
+      ],
+      "activityIds": [
+        "activity-wildlife"
+      ],
+      "hasSummary": true,
+      "startLocation": "Dar es Salaam / Morogoro",
+      "endLocation": "Morogoro / Dar es Salaam",
+      "sourceUrl": "https://www.tanzaniatourism.com/safari/3-days-safari-tomikumi-national-park"
+    },
+    {
+      "slug": "8-days-safari-to-nyerere-mikumi-and-udzungwa-national-parks",
+      "title": "8 Days Safari to Nyerere, Mikumi and Udzungwa National Parks",
+      "days": 8,
+      "nights": 7,
+      "label": "8 days / 7 nights",
+      "galleryCount": 2,
+      "heroOk": true,
+      "itineraryDays": 8,
+      "destinationIds": [
+        "dest-nyerere-national-park",
+        "dest-mikumi-national-park",
+        "dest-udzungwa-mountains-park"
+      ],
+      "activityIds": [
+        "activity-wildlife"
+      ],
+      "hasSummary": true,
+      "startLocation": "Dar es Salaam",
+      "endLocation": "Dar es Salaam",
+      "sourceUrl": "https://www.tanzaniatourism.com/safari/8-days-safari-to-nyerere-mikumi-and-udzungwa-national-parks"
+    },
+    {
+      "slug": "3-days-safari-to-udzungwa-mikumi-national-parks",
+      "title": "3 Days Safari to Udzungwa & Mikumi National Parks",
+      "days": 2,
+      "nights": 1,
+      "label": "2 days / 1 night",
+      "galleryCount": 2,
+      "heroOk": true,
+      "itineraryDays": 2,
+      "destinationIds": [
+        "dest-udzungwa-mountains-park",
+        "dest-mikumi-national-park"
+      ],
+      "activityIds": [
+        "activity-wildlife"
+      ],
+      "hasSummary": true,
+      "startLocation": "Dar es Salaam",
+      "endLocation": "Dar es Salaam",
+      "sourceUrl": "https://www.tanzaniatourism.com/safari/3-days-safari-to-udzungwa-mikumi-national-parks"
+    },
+    {
+      "slug": "3-days-safari-to-nyerere-and-mikumi-national-parks",
+      "title": "3 Days Safari to Nyerere and Mikumi National Parks",
+      "days": 3,
+      "nights": 2,
+      "label": "3 days / 2 nights",
+      "galleryCount": 2,
+      "heroOk": true,
+      "itineraryDays": 3,
+      "destinationIds": [
+        "dest-nyerere-national-park",
+        "dest-mikumi-national-park"
+      ],
+      "activityIds": [
+        "activity-wildlife"
+      ],
+      "hasSummary": true,
+      "startLocation": "Zanzibar / Dar es Salaam",
+      "endLocation": "Dar Salaam / Zanzibar",
+      "sourceUrl": "https://www.tanzaniatourism.com/safari/3-days-safari-to-nyerere-and-mikumi-national-parks"
+    },
+    {
+      "slug": "4-days-safari-to-nyerere-and-mikumi-national-parks",
+      "title": "4 Days Safari to Nyerere and Mikumi National Parks",
+      "days": 4,
+      "nights": 3,
+      "label": "4 days / 3 nights",
+      "galleryCount": 2,
+      "heroOk": true,
+      "itineraryDays": 4,
+      "destinationIds": [
+        "dest-nyerere-national-park",
+        "dest-mikumi-national-park"
+      ],
+      "activityIds": [
+        "activity-wildlife"
+      ],
+      "hasSummary": true,
+      "startLocation": "Dar es Salaam",
+      "endLocation": "Dar es Salaam",
+      "sourceUrl": "https://www.tanzaniatourism.com/safari/4-days-safari-to-nyerere-and-mikumi-national-parks"
+    },
+    {
+      "slug": "2-days-to-udzungwa-mountains-national-park",
+      "title": "2 Days to Udzungwa Mountains National Park",
+      "days": 2,
+      "nights": 1,
+      "label": "2 days / 1 night",
+      "galleryCount": 2,
+      "heroOk": true,
+      "itineraryDays": 2,
+      "destinationIds": [
+        "dest-udzungwa-mountains-park"
+      ],
+      "activityIds": [
+        "activity-wildlife"
+      ],
+      "hasSummary": true,
+      "startLocation": "Dar es Salaam",
+      "endLocation": "Morogoro / Dar es Salaam",
+      "sourceUrl": "https://www.tanzaniatourism.com/safari/2-days-to-udzungwa-mountains-national-park"
+    }
+  ],
+  "mapperIssues": [],
+  "corruptChecks": [],
+  "clean": true,
+  "targetCount": 40,
+  "countShortfall": 24
+}

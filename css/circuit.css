@@ -1,0 +1,36 @@
+.circuit-hero {
+  min-height: 68vh;
+}
+
+.circuit-status {
+  margin: 0 0 var(--space-3);
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.circuit-lede {
+  margin-inline: auto;
+  margin-bottom: var(--space-4);
+  text-align: center;
+}
+
+.circuit-section {
+  padding-bottom: var(--space-5);
+}
+
+.circuit-empty {
+  margin-top: var(--space-4);
+  text-align: center;
+}
+
+.circuit-empty .prose {
+  margin-inline: auto;
+}
+
+.section-cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: var(--space-4);
+}

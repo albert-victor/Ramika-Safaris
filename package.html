@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Safari Package · Ramika Safaris and Tours</title>
+  <meta name="description" content="Explore a Tanzanian safari package with Ramika Safaris and Tours.">
+  <meta name="robots" content="noindex" data-pkg-robots>
+  <!-- @include partials/assets.html -->
+  <link rel="stylesheet" href="/css/cards.css">
+  <link rel="stylesheet" href="/css/package.css">
+</head>
+<body data-page="package" class="has-hero">
+  <a class="skip-link" href="#content">Skip to content</a>
+  <!-- @include partials/header.html -->
+
+  <section class="page-hero pkg-detail-hero" data-pkg-hero hidden aria-label="Safari package">
+    <img data-pkg-hero-image src="" alt="" width="1600" height="900" fetchpriority="high" decoding="async" hidden>
+    <div class="page-hero-shade" aria-hidden="true"></div>
+    <div class="container-xl page-hero-copy pkg-detail-hero-copy" data-pkg-hero-copy></div>
+  </section>
+
+  <main id="content" class="site-main pkg-detail-main">
+    <div class="container-xl pkg-detail-loading" data-pkg-loading>
+      <p class="pkg-detail-status">Loading package…</p>
+    </div>
+
+    <div class="pkg-detail-notfound container-xl" data-pkg-notfound hidden>
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li><a href="/packages.html">Safari Packages</a></li>
+          <li aria-current="page">Not found</li>
+        </ol>
+      </nav>
+      <header class="section-head section-head--start">
+        <p class="kicker">Packages</p>
+        <p class="script">Not listed</p>
+        <h1>Package not found</h1>
+      </header>
+      <p class="prose" data-pkg-notfound-body>This safari package is not available. It may be unpublished, removed, or the link may be incorrect.</p>
+      <p class="section-cta section-cta--start">
+        <a class="btn-outline" href="/packages.html">Browse packages</a>
+        <a class="btn-ghost" href="/contact.html#enquire">Plan a custom safari</a>
+      </p>
+    </div>
+
+    <div class="pkg-detail-content" data-pkg-content hidden>
+      <section class="pkg-detail-section pkg-detail-overview" aria-label="Package overview">
+        <div class="container-xl pkg-detail-overview-grid">
+          <div class="pkg-detail-overview-copy reveal" data-pkg-overview></div>
+          <aside class="pkg-detail-facts reveal" data-pkg-facts hidden></aside>
+        </div>
+      </section>
+
+      <section class="pkg-detail-section pkg-detail-gallery" data-pkg-gallery-section hidden aria-label="Package gallery">
+        <div class="container-xl">
+          <header class="section-head reveal">
+            <p class="kicker">Photographs</p>
+            <p class="script">Along the way</p>
+            <h2>Gallery</h2>
+          </header>
+          <div class="pkg-gallery" data-pkg-gallery></div>
+        </div>
+      </section>
+
+      <section class="pkg-detail-section pkg-detail-itinerary" data-pkg-itinerary-section hidden aria-label="Day by day itinerary">
+        <div class="container-xl">
+          <header class="section-head reveal">
+            <p class="kicker">The road</p>
+            <p class="script">Day by day</p>
+            <h2>Itinerary</h2>
+          </header>
+          <ol class="pkg-itinerary" data-pkg-itinerary></ol>
+        </div>
+      </section>
+
+      <section class="pkg-detail-section pkg-detail-includes" data-pkg-includes-section hidden aria-label="Inclusions and exclusions">
+        <div class="container-xl pkg-includes-grid">
+          <div data-pkg-inclusions hidden></div>
+          <div data-pkg-exclusions hidden></div>
+        </div>
+      </section>
+
+      <section class="pkg-detail-section pkg-detail-stay" data-pkg-stay-section hidden aria-label="Accommodation">
+        <div class="container-xl">
+          <header class="section-head section-head--start reveal">
+            <p class="kicker">Lodging</p>
+            <p class="script">Where you stay</p>
+            <h2>Accommodation</h2>
+          </header>
+          <div class="prose reveal" data-pkg-stay></div>
+        </div>
+      </section>
+
+      <section class="pkg-detail-section pkg-detail-destinations" data-pkg-destinations-section hidden aria-label="Destinations on this safari">
+        <div class="container-xl">
+          <header class="section-head reveal">
+            <p class="kicker">Places</p>
+            <p class="script">On this route</p>
+            <h2>Destinations</h2>
+          </header>
+          <div class="card-grid card-grid--destinations" data-pkg-destinations></div>
+        </div>
+      </section>
+
+      <section class="pkg-detail-section pkg-detail-related" data-pkg-related-section hidden aria-label="Related packages">
+        <div class="container-xl">
+          <header class="section-head reveal">
+            <p class="kicker">Also consider</p>
+            <p class="script">Other journeys</p>
+            <h2>Related packages</h2>
+          </header>
+          <div class="card-grid card-grid--packages" data-pkg-related></div>
+        </div>
+      </section>
+
+      <section class="pkg-detail-section enquire-band" data-pkg-enquire aria-label="Safari enquiry">
+        <div class="enquire-band-media" aria-hidden="true">
+          <img data-pkg-enquire-image src="" alt="" width="1600" height="900" loading="lazy" decoding="async" hidden>
+          <div class="enquire-band-shade"></div>
+        </div>
+        <div class="container-xl enquire-band-copy reveal" data-pkg-enquire-copy></div>
+      </section>
+    </div>
+  </main>
+
+  <!-- @include partials/footer.html -->
+  <!-- @include partials/scripts.html -->
+  <script src="/js/ui/cards.js" defer></script>
+  <script src="/js/package.js" defer></script>
+</body>
+</html>

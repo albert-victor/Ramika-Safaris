@@ -1,0 +1,202 @@
+{
+  "_meta": {
+    "kind": "production-content",
+    "collection": "activities",
+    "version": 4,
+    "note": "Primary experience taxonomy aligned with Tanzania Tourism ‘Things to Do’, remapped for Ramika without duplicate slugs. Legacy ids (wildlife, landscapes, on-the-road) retained for existing package tags. Images matched to subject matter from about_Activities."
+  },
+  "items": [
+    {
+      "id": "activity-game-drives",
+      "slug": "game-drives",
+      "name": "Game drives",
+      "summary": "Guided vehicle safaris through parks and reserves, timed for light, tracks, and wildlife movement.",
+      "category": "experience",
+      "featured": true,
+      "sortOrder": 10,
+      "sourceUrl": "https://www.tanzaniatourism.com/activities/game-drives",
+      "image": {
+        "src": "/images/about_Activities/sticky_sections.jpg",
+        "alt": "Guides watching from an open safari vehicle on a game drive."
+      },
+      "status": "published"
+    },
+    {
+      "id": "activity-trekking",
+      "slug": "trekking",
+      "name": "Climbing / Trekking",
+      "summary": "Mountain climbs and longer highland routes for guests who want the day on foot – from Meru approaches to plateau walks.",
+      "category": "experience",
+      "featured": true,
+      "sortOrder": 20,
+      "sourceUrl": "https://www.tanzaniatourism.com/activities/climbing-trekking",
+      "image": {
+        "src": "/images/about_Activities/13c63d5d-c642-411c-bba9-c32fbf7a8e87.jpg",
+        "alt": "Guests on a guided forest trek through dense highland woodland."
+      },
+      "status": "published"
+    },
+    {
+      "id": "activity-great-migration",
+      "slug": "great-migration",
+      "name": "Great Migration",
+      "summary": "Follow the seasonal wildebeest and zebra movement across the northern plains, with Serengeti and Ngorongoro at the centre of the story.",
+      "category": "experience",
+      "featured": true,
+      "sortOrder": 30,
+      "sourceUrl": "https://www.tanzaniatourism.com/activities/great-migration",
+      "image": {
+        "src": "/images/about_Activities/81953b0e-c0b6-428b-8226-89edf1a80e5e.jpg",
+        "alt": "Young wildebeest on the plains during migration season."
+      },
+      "status": "published"
+    },
+    {
+      "id": "activity-bird-watching",
+      "slug": "bird-watching",
+      "name": "Bird watching",
+      "summary": "Quiet birding time on lake shores, wetlands, and highland meadows – flamingos, waterbirds, and forest species when the season is right.",
+      "category": "experience",
+      "featured": true,
+      "sortOrder": 40,
+      "sourceUrl": "https://www.tanzaniatourism.com/activities/bird-watching",
+      "image": {
+        "src": "/images/about_Activities/8ce87b7d-4c4c-458b-9b7d-0c479ab6d206.jpg",
+        "alt": "A guide scanning the lake shore with binoculars for birds."
+      },
+      "status": "published"
+    },
+    {
+      "id": "activity-day-walk",
+      "slug": "day-walk",
+      "name": "Walking / Hiking",
+      "summary": "Guided walks and hikes through forest edges, farms, village paths, and selected park trails.",
+      "category": "experience",
+      "featured": true,
+      "sortOrder": 50,
+      "sourceUrl": "https://www.tanzaniatourism.com/activities/walking-hiking",
+      "image": {
+        "src": "/images/about_Activities/Special_moments3.jpg",
+        "alt": "Guides and travellers walking a highland path through tea country."
+      },
+      "status": "published"
+    },
+    {
+      "id": "activity-cultural",
+      "slug": "cultural",
+      "name": "Cultural visits",
+      "summary": "Community visits and heritage stops arranged with local hosts – markets, villages, and living culture beside the safari.",
+      "category": "experience",
+      "featured": true,
+      "sortOrder": 60,
+      "sourceUrl": "https://www.tanzaniatourism.com/activities/cultural-visits",
+      "image": {
+        "src": "/images/about_Activities/a3395eb9-ebd0-46c5-8bf6-9da845092d38.jpg",
+        "alt": "Guests and guides at the Chief Mkwawa heritage gate."
+      },
+      "status": "published"
+    },
+    {
+      "id": "activity-beach-relaxation",
+      "slug": "beach-relaxation",
+      "name": "Beach relaxation",
+      "summary": "Coast and island shore days after the bush – soft sand, warm water, and unhurried time beside the Indian Ocean or great lakes.",
+      "category": "experience",
+      "featured": true,
+      "sortOrder": 70,
+      "sourceUrl": "https://www.tanzaniatourism.com/activities/beach-relaxation",
+      "image": {
+        "src": "/images/about_Activities/5b8f151c-c243-4caf-b9bf-8ba1edba35bb.jpg",
+        "alt": "Sandy shoreline meeting turquoise water under highland hills."
+      },
+      "status": "published"
+    },
+    {
+      "id": "activity-balloon-safari",
+      "slug": "balloon-safari",
+      "name": "Balloon safari",
+      "summary": "Sunrise balloon flights over the plains when conditions and itinerary allow – a quiet aerial view of herds and horizon.",
+      "category": "experience",
+      "featured": true,
+      "sortOrder": 80,
+      "sourceUrl": "https://www.tanzaniatourism.com/activities/balloon-safari",
+      "image": {
+        "src": "/images/about_Activities/232df272-0ed5-4c33-bced-fac996dba983.jpg",
+        "alt": "Wide aerial view of a cascading highland waterfall and gorge."
+      },
+      "status": "published"
+    },
+    {
+      "id": "activity-chimpanzee-watching",
+      "slug": "chimpanzee-watching",
+      "name": "Chimpanzee watching",
+      "summary": "Forest primate tracking in the west – Gombe and Mahale walks where chimpanzees still shape the day’s pace.",
+      "category": "experience",
+      "featured": true,
+      "sortOrder": 90,
+      "sourceUrl": "https://www.tanzaniatourism.com/activities/chimpanzee-watching",
+      "image": {
+        "src": "/images/about_Activities/549c4482-6baa-4499-b375-077ce9f55ad9.jpg",
+        "alt": "Close view of a chimpanzee in green forest."
+      },
+      "status": "published"
+    },
+    {
+      "id": "activity-snorkeling-swimming",
+      "slug": "snorkeling-swimming",
+      "name": "Snorkeling / Swimming",
+      "summary": "Reef and shore swimming on the islands and marine edges – clear water, coral gardens, and easy days in the sea.",
+      "category": "experience",
+      "featured": true,
+      "sortOrder": 100,
+      "sourceUrl": "https://www.tanzaniatourism.com/activities/snorkeling-swimming",
+      "image": {
+        "src": "/images/about_Activities/d65fad9f-4279-45a0-bca8-086ad5708abb.jpg",
+        "alt": "Open crater lake water under a wide sky."
+      },
+      "status": "published"
+    },
+    {
+      "id": "activity-wildlife",
+      "slug": "wildlife",
+      "name": "Wildlife viewing",
+      "summary": "Unhurried wildlife watching across southern parks and beyond.",
+      "category": "experience",
+      "featured": false,
+      "sortOrder": 210,
+      "image": {
+        "src": "/images/about_Activities/454b9d4a-e5e3-4499-ad0a-aa4281d54c0b.jpg",
+        "alt": "Giraffe and buffalo on open plains."
+      },
+      "status": "published"
+    },
+    {
+      "id": "activity-landscapes",
+      "slug": "landscapes",
+      "name": "Landscapes",
+      "summary": "Highland meadows, waterfalls, and lake shores beyond the usual postcard views.",
+      "category": "experience",
+      "featured": false,
+      "sortOrder": 220,
+      "image": {
+        "src": "/images/about_Activities/kalambo_waterfalls.jpg",
+        "alt": "Kalambo Falls cascading into a deep gorge."
+      },
+      "status": "published"
+    },
+    {
+      "id": "activity-on-the-road",
+      "slug": "on-the-road",
+      "name": "On the road",
+      "summary": "Guided travel between parks through farms, villages, and forest paths.",
+      "category": "experience",
+      "featured": false,
+      "sortOrder": 230,
+      "image": {
+        "src": "/images/about_Activities/ramika_team2.jpg",
+        "alt": "Safari vehicle and guide ready for the road."
+      },
+      "status": "published"
+    }
+  ]
+}
