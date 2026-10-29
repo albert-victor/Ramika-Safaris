@@ -77,7 +77,7 @@
 
     els.safariLinks.forEach((link, index) => {
       if (index === 0) link.classList.add("is-active");
-      link.addEventListener("mouseenter", () => show(link));
+      link.addEventListener("click", () => show(link));
       link.addEventListener("focus", () => show(link));
     });
   }

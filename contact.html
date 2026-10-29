@@ -4,61 +4,186 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Contact · Ramika Safaris and Tours</title>
-  <meta name="description" content="Enquire about a Tanzanian safari with Ramika Safaris and Tours – journeys across southern, northern, western, and coastal routes.">
+  <meta name="description" content="Contact Ramika Safaris and Tours – email, phone, WhatsApp, and safari enquiry for journeys across Tanzania.">
   <!-- @include partials/assets.html -->
   <link rel="stylesheet" href="/css/contact.css">
 </head>
-<body data-page="contact">
+<body data-page="contact" class="has-hero">
   <a class="skip-link" href="#content">Skip to content</a>
   <!-- @include partials/header.html -->
-  <main id="content" class="container-xl site-main">
-    <nav class="crumbs" aria-label="Breadcrumb">
-      <ol>
-        <li><a href="/">Home</a></li>
-        <li aria-current="page">Contact</li>
-      </ol>
-    </nav>
-    <header class="section-head" id="enquire">
-      <p class="kicker">Head office</p>
-      <p class="script">Write to us</p>
-      <h1>Enquire</h1>
-    </header>
-    <p class="prose contact-lede">Send your safari enquiry to Ramika Safaris and Tours Limited. Our head office is in Njombe Town. Phone and email details will appear here once they are published.</p>
 
-    <form class="enquire-form" data-enquire-form action="/contact.html#enquire" method="get">
-      <div class="enquire-form-grid">
-        <label class="enquire-field">
-          <span class="enquire-label">Your name</span>
-          <input type="text" name="name" autocomplete="name" required>
-        </label>
-        <label class="enquire-field">
-          <span class="enquire-label">Email</span>
-          <input type="email" name="email" autocomplete="email" required>
-        </label>
-        <label class="enquire-field enquire-field--wide">
-          <span class="enquire-label">Destination of interest</span>
-          <select name="destination" data-enquire-destination>
-            <option value="">No specific destination yet</option>
-          </select>
-          <span class="enquire-hint">You can change this selection before sending.</span>
-        </label>
-        <label class="enquire-field enquire-field--wide">
-          <span class="enquire-label">Safari package</span>
-          <select name="package" data-enquire-package>
-            <option value="">No specific package yet</option>
-          </select>
-          <span class="enquire-hint">Optional. Change or clear if you prefer a custom itinerary.</span>
-        </label>
-        <label class="enquire-field enquire-field--wide">
-          <span class="enquire-label">Your message</span>
-          <textarea name="message" rows="5" data-enquire-message required placeholder="Where you want to go, how long you can travel, and the lodging standard you prefer."></textarea>
-        </label>
+  <section class="page-hero contact-hero contact-hero--solid" aria-label="Contact introduction">
+    <div class="container-xl page-hero-copy contact-hero-copy">
+      <nav class="crumbs crumbs--on-hero" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li aria-current="page">Contact</li>
+        </ol>
+      </nav>
+      <p class="kicker hero-kicker">Head office</p>
+      <p class="script">Write to us</p>
+      <h1>Contact</h1>
+      <p class="hero-lede">Tell us the Tanzania you want to see – we reply with a clear outline for the road ahead.</p>
+    </div>
+  </section>
+
+  <main id="content" class="site-main contact-main">
+    <section class="contact-channels" aria-label="Ways to reach Ramika">
+      <div class="container-xl">
+        <header class="section-head reveal">
+          <p class="kicker">Reach us</p>
+          <p class="script">One clear step</p>
+          <h2>Talk to Ramika</h2>
+        </header>
+        <div class="contact-channels-grid">
+          <a class="contact-channel reveal" href="mailto:info@ramikasafari.co.tz" aria-label="Email info@ramikasafari.co.tz">
+            <span class="contact-channel-icon" aria-hidden="true"><i class="fas fa-envelope"></i></span>
+            <span class="contact-channel-label">Email</span>
+          </a>
+          <a class="contact-channel reveal" href="tel:+255621403021" aria-label="Call 0621 403 021">
+            <span class="contact-channel-icon" aria-hidden="true"><i class="fas fa-phone"></i></span>
+            <span class="contact-channel-label">Call</span>
+          </a>
+          <a class="contact-channel contact-channel--whatsapp reveal" href="https://wa.me/255621403021" target="_blank" rel="noopener noreferrer" aria-label="Chat with Mike on WhatsApp">
+            <span class="contact-channel-icon" aria-hidden="true"><i class="fab fa-whatsapp"></i></span>
+            <span class="contact-channel-label">WhatsApp</span>
+          </a>
+          <a class="contact-channel reveal" href="https://www.instagram.com/p/DY-C4rDsvE3/?rpxt=cTNpdzNveW8zeWlp" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <span class="contact-channel-icon" aria-hidden="true"><i class="fab fa-instagram"></i></span>
+            <span class="contact-channel-label">Instagram</span>
+          </a>
+          <a class="contact-channel reveal" href="https://www.instagram.com/p/DY-C4rDsvE3/?rpxt=cTNpdzNveW8zeWlp" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <span class="contact-channel-icon" aria-hidden="true"><i class="fab fa-facebook-f"></i></span>
+            <span class="contact-channel-label">Facebook</span>
+          </a>
+          <a class="contact-channel reveal" href="https://share.google/MINPv7oQdZJRNH8Lk" target="_blank" rel="noopener noreferrer" aria-label="Google Reviews">
+            <span class="contact-channel-icon" aria-hidden="true"><i class="fab fa-google"></i></span>
+            <span class="contact-channel-label">Reviews</span>
+          </a>
+        </div>
+        <p class="contact-phones reveal">
+          <a href="tel:+255621403021">0621 403 021</a>
+          <span aria-hidden="true">·</span>
+          <a href="tel:+255758411272">0758 411 272</a>
+          <span aria-hidden="true">·</span>
+          <a href="mailto:info@ramikasafari.co.tz">info@ramikasafari.co.tz</a>
+        </p>
       </div>
-      <p class="enquire-form-note" data-enquire-note hidden></p>
-      <p class="section-cta section-cta--start">
-        <button class="btn-outline" type="submit">Send enquiry</button>
+    </section>
+
+    <section class="contact-info container-xl" aria-label="How we help">
+      <div class="contact-info-grid">
+        <article class="contact-info-card reveal">
+          <p class="kicker">Before you travel</p>
+          <h2>What to include</h2>
+          <ul class="contact-info-list">
+            <li>Preferred travel dates and length of stay</li>
+            <li>Parks, circuits, or places you most want to see</li>
+            <li>Group size and any special needs</li>
+            <li>Lodging style – campsite, mid-range, or higher comfort</li>
+          </ul>
+        </article>
+        <article class="contact-info-card reveal">
+          <p class="kicker">Across Tanzania</p>
+          <h2>Where we work from</h2>
+          <p class="prose">
+            Our office is in Njombe – a southern highland base – and our safaris run across Tanzania:
+            southern parks and plateaus first, then northern, western, and coastal routes when they belong
+            in your journey. Wherever you begin, we plan the road with the same care.
+          </p>
+          <p class="contact-office-line"><i class="fas fa-location-dot" aria-hidden="true"></i> Office: Njombe Town · Safaris nationwide</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container-xl contact-enquire" id="enquire" aria-label="Safari enquiry form">
+      <header class="section-head section-head--start reveal">
+        <p class="kicker">Next step</p>
+        <p class="script">Plan with us</p>
+        <h2>Send an enquiry</h2>
+      </header>
+      <p class="prose contact-form-lede reveal">
+        Prefer a written outline? Use the form below. We follow up by email or WhatsApp with clear next steps.
       </p>
-    </form>
+
+      <form class="enquire-form reveal" data-enquire-form action="/contact.html#enquire" method="get">
+        <div class="enquire-form-grid">
+          <label class="enquire-field">
+            <span class="enquire-label">Your name</span>
+            <input type="text" name="name" autocomplete="name" required>
+          </label>
+          <label class="enquire-field">
+            <span class="enquire-label">Email</span>
+            <input type="email" name="email" autocomplete="email" required>
+          </label>
+          <label class="enquire-field enquire-field--date">
+            <span class="enquire-label">Preferred start date</span>
+            <span class="enquire-date">
+              <input type="date" name="start_date" data-enquire-date autocomplete="off">
+              <button class="enquire-date-btn" type="button" data-enquire-date-open aria-label="Open calendar">
+                <i class="fas fa-calendar-days" aria-hidden="true"></i>
+              </button>
+            </span>
+          </label>
+          <label class="enquire-field">
+            <span class="enquire-label">Adults</span>
+            <select name="adults" data-enquire-adults required>
+              <option value="1">1 adult</option>
+              <option value="2" selected>2 adults</option>
+              <option value="3">3 adults</option>
+              <option value="4">4 adults</option>
+              <option value="5">5 adults</option>
+              <option value="6">6 adults</option>
+              <option value="7">7 adults</option>
+              <option value="8">8 adults</option>
+              <option value="9">9 adults</option>
+              <option value="10">10 adults</option>
+              <option value="11">11 adults</option>
+              <option value="12">12 adults</option>
+            </select>
+          </label>
+          <label class="enquire-field">
+            <span class="enquire-label">Children</span>
+            <select name="children" data-enquire-children>
+              <option value="0" selected>No children</option>
+              <option value="1">1 child</option>
+              <option value="2">2 children</option>
+              <option value="3">3 children</option>
+              <option value="4">4 children</option>
+              <option value="5">5 children</option>
+              <option value="6">6 children</option>
+              <option value="7">7 children</option>
+              <option value="8">8 children</option>
+            </select>
+          </label>
+          <label class="enquire-field enquire-field--wide">
+            <span class="enquire-label">Destination of interest</span>
+            <select name="destination" data-enquire-destination>
+              <option value="">No specific destination yet</option>
+            </select>
+            <span class="enquire-hint">You can change this selection before sending.</span>
+          </label>
+          <label class="enquire-field enquire-field--wide">
+            <span class="enquire-label">Safari package</span>
+            <select name="package" data-enquire-package>
+              <option value="">No specific package yet</option>
+            </select>
+            <span class="enquire-hint">Optional. Change or clear if you prefer a custom itinerary.</span>
+          </label>
+          <label class="enquire-field enquire-field--wide">
+            <span class="enquire-label">Your message</span>
+            <textarea name="message" rows="5" data-enquire-message required placeholder="Where you want to go, how long you can travel, and the lodging standard you prefer."></textarea>
+          </label>
+        </div>
+        <p class="enquire-form-note" data-enquire-note hidden></p>
+        <p class="section-cta section-cta--start">
+          <button class="btn-outline" type="submit">Send enquiry</button>
+          <a class="btn-ghost contact-wa-cta" href="https://wa.me/255621403021" target="_blank" rel="noopener noreferrer">
+            Or chat with Mike <i class="fab fa-whatsapp" aria-hidden="true"></i>
+          </a>
+        </p>
+      </form>
+    </section>
   </main>
   <!-- @include partials/footer.html -->
   <!-- @include partials/scripts.html -->

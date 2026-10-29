@@ -211,7 +211,7 @@
   function renderFacts(pkg, circuitsById, destinationsById, activitiesById) {
     if (!els.facts) return;
 
-    // Keep the landing facts panel lean — full detail lives further down the page.
+    // Keep the landing facts panel lean  -  full detail lives further down the page.
     const items = [];
     const duration = durationLabel(pkg);
     if (duration) items.push({ label: "Duration", body: duration });
@@ -352,14 +352,14 @@
 
     if (dayTrip) {
       return [
-        "This is a day journey — you travel out and return the same day.",
+        "This is a day journey - you travel out and return the same day.",
         "Prefer a night nearby before or after the outing? Tell us when you enquire. Ramika will reserve a lodge or campsite to your standard and confirm it before you travel.",
       ];
     }
 
     if (standardOvernight) {
       return [
-        "Every night on this safari is arranged by Ramika to the standard you prefer — from welcoming campsites to carefully chosen lodges along the route.",
+        "Every night on this safari is arranged by Ramika to the standard you prefer - from welcoming campsites to carefully chosen lodges along the route.",
         "We book and confirm each stay before you arrive, so you know where you will rest after the day’s road and game drives. Share the comfort level you want when you enquire, and we match lodging that belongs on this journey.",
       ];
     }

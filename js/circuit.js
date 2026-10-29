@@ -35,19 +35,39 @@
     if (els.notFound) els.notFound.hidden = false;
   }
 
+  const FALLBACK_HERO = {
+    src: "/images/about_Activities/mikumi_experieces.jpg",
+    alt: "Zebras in tall grass on a Tanzania safari.",
+  };
+
   function renderHero(circuit) {
     if (!els.hero || !els.heroCopy) return;
     const image = circuit.heroImage || {};
-    if (els.heroImage && image.src) {
-      els.heroImage.src = image.src;
-      els.heroImage.alt = image.alt || "";
+    const src = image.src || FALLBACK_HERO.src;
+    const alt = image.alt || FALLBACK_HERO.alt;
+    if (els.heroImage) {
+      els.heroImage.src = src;
+      els.heroImage.alt = alt;
       els.heroImage.hidden = false;
     }
+    const summary = circuit.summary || "";
+    const ledeHtml = summary
+      ? `<p class="hero-lede">${Cards ? Cards.escapeHtml(summary) : summary}</p>`
+      : "";
     els.heroCopy.innerHTML = `
+      <nav class="crumbs crumbs--on-hero" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li><a href="/destinations.html">Destinations</a></li>
+          <li aria-current="page">${Cards ? Cards.escapeHtml(circuit.name) : circuit.name}</li>
+        </ol>
+      </nav>
       <p class="script">${Cards ? Cards.escapeHtml(circuit.script || "Safari circuit") : circuit.script || "Safari circuit"}</p>
       <h1>${Cards ? Cards.escapeHtml(circuit.name) : circuit.name}</h1>
+      ${ledeHtml}
     `;
     els.hero.hidden = false;
+    els.hero.classList.add("is-ready");
     document.body.classList.add("has-hero");
   }
 
@@ -80,7 +100,10 @@
       }
 
       renderHero(circuit);
-      if (els.lede) els.lede.textContent = circuit.summary || "";
+      if (els.lede) {
+        els.lede.hidden = Boolean(circuit.summary);
+        els.lede.textContent = circuit.summary || "";
+      }
 
       let destinations = await Content.getDestinations({ ...options, circuitId: circuit.id });
       let usePreviewCards = preview;

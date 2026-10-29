@@ -119,10 +119,44 @@
       message.value = `I am interested in the "${title}" safari package. Please advise on dates, lodging standards, and next steps.`;
     }
 
+    const dateInput = document.querySelector("[data-enquire-date]");
+    const dateOpen = document.querySelector("[data-enquire-date-open]");
+    if (dateInput) {
+      const today = new Date();
+      const iso = today.toISOString().slice(0, 10);
+      dateInput.min = iso;
+    }
+    if (dateInput && dateOpen) {
+      dateOpen.addEventListener("click", () => {
+        if (typeof dateInput.showPicker === "function") {
+          try {
+            dateInput.showPicker();
+            return;
+          } catch (_) {
+            /* fall through */
+          }
+        }
+        dateInput.focus();
+        dateInput.click();
+      });
+    }
+
     if (!form) return;
 
     form.addEventListener("submit", (event) => {
       event.preventDefault();
+      const adults = form.querySelector("[data-enquire-adults]")?.value;
+      const children = form.querySelector("[data-enquire-children]")?.value;
+      const startDate = form.querySelector("[data-enquire-date]")?.value;
+      if (message && !message.value.includes("Travellers:")) {
+        const bits = [];
+        if (startDate) bits.push(`preferred start ${startDate}`);
+        if (adults) bits.push(`${adults} adult(s)`);
+        if (children && children !== "0") bits.push(`${children} child(ren)`);
+        if (bits.length) {
+          message.value = `${message.value.trim()}\n\nTravellers: ${bits.join("; ")}.`.trim();
+        }
+      }
       if (note) {
         note.hidden = false;
         note.textContent =

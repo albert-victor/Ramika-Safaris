@@ -671,7 +671,12 @@ body.has-hero .site-header:not(.is-solid):not(.is-open) .btn-book .btn-book-icon
   text-decoration: none;
   color: var(--ink);
   cursor: pointer;
-  transition: color 280ms ease;
+  transition: color 200ms ease;
+}
+
+.site-nav .nav-link:hover,
+.site-nav .nav-trigger:hover {
+  color: var(--nav-accent);
 }
 
 .site-nav .nav-trigger .fa-chevron-down {
@@ -983,7 +988,7 @@ body.has-hero .site-header:not(.is-solid):not(.is-open) .btn-book .btn-book-icon
   justify-content: space-between;
   gap: 0.75rem;
   min-height: 42px;
-  padding: 0.35rem 0.35rem;
+  padding: 0.35rem 0.45rem;
   color: var(--ink);
   text-decoration: none;
   font-size: 0.98rem;
@@ -991,7 +996,7 @@ body.has-hero .site-header:not(.is-solid):not(.is-open) .btn-book .btn-book-icon
   letter-spacing: 0.01em;
   border-radius: 0.55rem;
   border-bottom: 1px solid var(--nav-line);
-  transition: color 200ms ease, padding-left 200ms ease, background-color 200ms ease;
+  transition: color 180ms ease, background-color 180ms ease;
 }
 
 .mega-link-stack a:last-child {
@@ -1007,15 +1012,14 @@ body.has-hero .site-header:not(.is-solid):not(.is-open) .btn-book .btn-book-icon
 .mega-link-stack a:hover,
 .mega-link-stack a:focus-visible,
 .mega-link-stack a.is-active {
-  color: #3a403d;
-  background: var(--nav-accent-strong);
-  padding-left: 0.55rem;
+  color: var(--nav-accent);
+  background: var(--nav-accent-soft);
 }
 
 .mega-link-stack a:hover i,
 .mega-link-stack a.is-active i {
-  opacity: 1;
-  transform: translateX(3px);
+  opacity: 0.85;
+  transform: none;
 }
 
 .mega-link-stack--dense a {
@@ -1288,7 +1292,6 @@ body.has-hero .site-header.is-open {
   position: relative;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
   margin-top: 0;
   /* Paper strip separates enquire photo from green footer (cannot collapse). */
   border-top: clamp(2.25rem, 5.5vw, 4rem) solid var(--paper);
@@ -1347,21 +1350,18 @@ body.has-hero .site-header.is-open {
 .footer-inner {
   position: relative;
   z-index: 1;
-  flex: 1;
   width: 100%;
-  padding: clamp(2.75rem, 7vh, 4.5rem) var(--space-3) clamp(1.75rem, 4vh, 2.75rem);
+  padding: clamp(1.75rem, 4vw, 2.5rem) var(--space-3) clamp(1.25rem, 3vw, 1.75rem);
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  gap: clamp(2rem, 5vh, 3.25rem);
+  gap: clamp(1.25rem, 3vw, 1.75rem);
 }
 
 .footer-top {
   display: grid;
-  gap: clamp(1.75rem, 3.5vw, 2.75rem);
+  gap: clamp(1.25rem, 3vw, 2rem);
   align-items: start;
   width: 100%;
-  flex: 1 1 auto;
 }
 
 .footer-brand {
@@ -1412,6 +1412,24 @@ body.has-hero .site-header.is-open {
   font-size: 0.88rem;
   line-height: 1.45;
   color: rgba(255, 255, 255, 0.72);
+}
+
+.footer-place-sep {
+  margin-inline: 0.35rem;
+  opacity: 0.55;
+}
+
+.footer-contact-link {
+  color: rgba(255, 255, 255, 0.95);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(252, 174, 11, 0.45);
+  transition: color 200ms ease, border-color 200ms ease;
+}
+
+.footer-contact-link:hover,
+.footer-contact-link:focus-visible {
+  color: var(--yellow);
+  border-bottom-color: var(--yellow);
 }
 
 .footer-brand .footer-social {
@@ -1526,6 +1544,151 @@ body.has-hero .site-header.is-open {
   background: #25d366;
   border-color: #25d366;
   color: #07361c;
+}
+
+/* Floating WhatsApp — brand green (#25D366), gentle bob + pulse */
+.wa-float {
+  --wa: #25d366;
+  --wa-deep: #1ebe57;
+  position: fixed;
+  right: max(0.85rem, env(safe-area-inset-right, 0px));
+  bottom: max(1rem, env(safe-area-inset-bottom, 0px));
+  z-index: 60;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  min-height: 3.4rem;
+  padding: 0.4rem 1rem 0.4rem 0.4rem;
+  border-radius: 999px;
+  background: var(--wa);
+  color: #ffffff;
+  text-decoration: none;
+  font-family: var(--text);
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  box-shadow:
+    0 10px 28px rgba(37, 211, 102, 0.42),
+    0 4px 12px rgba(0, 0, 0, 0.18);
+  opacity: 1;
+  visibility: visible;
+  animation: wa-float-bob 3.2s ease-in-out infinite;
+  transition:
+    opacity 280ms ease,
+    visibility 280ms ease,
+    background-color 220ms ease,
+    box-shadow 220ms ease;
+}
+
+.wa-float.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  animation: none;
+  transform: translate3d(0, 1rem, 0) scale(0.92);
+}
+
+.wa-float-pulse {
+  position: absolute;
+  left: 0.4rem;
+  top: 50%;
+  width: 2.55rem;
+  height: 2.55rem;
+  border-radius: 999px;
+  border: 2px solid var(--wa);
+  background: transparent;
+  transform: translateY(-50%);
+  animation: wa-float-pulse 2s ease-out infinite;
+  pointer-events: none;
+}
+
+.wa-float-icon {
+  position: relative;
+  z-index: 1;
+  width: 2.55rem;
+  height: 2.55rem;
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  background: #ffffff;
+  color: var(--wa);
+  font-size: 1.45rem;
+  flex-shrink: 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.wa-float-label {
+  position: relative;
+  z-index: 1;
+  white-space: nowrap;
+  padding-inline-end: 0.15rem;
+  color: #ffffff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.12);
+}
+
+.wa-float:hover,
+.wa-float:focus-visible {
+  background: var(--wa-deep);
+  box-shadow:
+    0 14px 34px rgba(37, 211, 102, 0.5),
+    0 6px 14px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+.wa-float:hover .wa-float-icon,
+.wa-float:focus-visible .wa-float-icon {
+  color: var(--wa-deep);
+}
+
+@keyframes wa-float-bob {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(0, -7px, 0);
+  }
+}
+
+@keyframes wa-float-pulse {
+  0% {
+    transform: translateY(-50%) scale(1);
+    opacity: 0.85;
+  }
+  70% {
+    transform: translateY(-50%) scale(1.75);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(-50%) scale(1.75);
+    opacity: 0;
+  }
+}
+
+@media (max-width: 520px) {
+  .wa-float {
+    padding-inline-end: 0.8rem;
+  }
+
+  .wa-float-label {
+    font-size: 0.74rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .wa-float {
+    animation: none;
+  }
+
+  .wa-float-pulse {
+    animation: none;
+    opacity: 0;
+  }
+
+  .wa-float.is-hidden {
+    transition: opacity 180ms ease, visibility 180ms ease;
+    transform: none;
+  }
 }
 
 .footer-base {
@@ -1803,19 +1966,18 @@ body.has-hero .site-header.is-open {
     border: 0;
     border-radius: 1rem;
     box-shadow: none;
-    transform: translateX(-50%) translateY(10px) scale(0.985);
+    transform: translateX(-50%) translateY(6px);
     opacity: 0;
     pointer-events: none;
     overflow: visible;
     transition:
-      opacity 240ms cubic-bezier(0.22, 1, 0.36, 1),
-      transform 260ms cubic-bezier(0.22, 1, 0.36, 1);
+      opacity 180ms ease,
+      transform 180ms ease;
   }
 
-  .nav-item.has-mega.is-open .mega-panel,
-  .nav-item.has-mega:hover .mega-panel {
+  .nav-item.has-mega.is-open .mega-panel {
     opacity: 1;
-    transform: translateX(-50%) translateY(0) scale(1);
+    transform: translateX(-50%) translateY(0);
     pointer-events: auto;
   }
 
@@ -1833,12 +1995,11 @@ body.has-hero .site-header.is-open {
   .mega-panel--safaris {
     width: min(640px, calc(100vw - 2.5rem));
     left: 0;
-    transform: translateX(0) translateY(10px) scale(0.985);
+    transform: translateX(0) translateY(6px);
   }
 
-  .nav-item.has-mega.is-open .mega-panel--safaris,
-  .nav-item.has-mega:hover .mega-panel--safaris {
-    transform: translateX(0) translateY(0) scale(1);
+  .nav-item.has-mega.is-open .mega-panel--safaris {
+    transform: translateX(0) translateY(0);
   }
 
   .mega-panel--safaris .mega-shell--visual {
@@ -1854,12 +2015,11 @@ body.has-hero .site-header.is-open {
   .mega-panel--list {
     width: min(300px, calc(100vw - 2.5rem));
     left: 0;
-    transform: translateX(0) translateY(10px) scale(0.985);
+    transform: translateX(0) translateY(6px);
   }
 
-  .nav-item.has-mega.is-open .mega-panel--list,
-  .nav-item.has-mega:hover .mega-panel--list {
-    transform: translateX(0) translateY(0) scale(1);
+  .nav-item.has-mega.is-open .mega-panel--list {
+    transform: translateX(0) translateY(0);
   }
 
   .mega-panel--destinations {
@@ -1879,14 +2039,13 @@ body.has-hero .site-header.is-open {
     display: block !important;
   }
 
-  .nav-item.has-mega:not(.is-open):not(:hover) .mega-panel[hidden] {
+  .nav-item.has-mega:not(.is-open) .mega-panel[hidden] {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
   }
 
-  .nav-item.has-mega.is-open .mega-panel,
-  .nav-item.has-mega:hover .mega-panel {
+  .nav-item.has-mega.is-open .mega-panel {
     visibility: visible;
   }
 }

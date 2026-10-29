@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Explore · Ramika Safaris and Tours</title>
+  <meta name="description" content="Explore Tanzanian national parks, heritage sites, mountains, islands, and lake shores with Ramika Safaris and Tours.">
+  <!-- @include partials/assets.html -->
+  <link rel="stylesheet" href="/css/cards.css">
+  <link rel="stylesheet" href="/css/destinations.css">
+</head>
+<body data-page="explore" class="has-hero">
+  <a class="skip-link" href="#content">Skip to content</a>
+  <!-- @include partials/header.html -->
+
+  <section class="page-hero dest-hero explore-hero" aria-label="Explore Tanzania" data-explore-hero>
+    <img
+      data-explore-hero-image
+      src="/images/about_Activities/mikumi_experieces.jpg"
+      alt="Zebras in tall grass on a Tanzania safari."
+      width="1600"
+      height="900"
+      fetchpriority="high"
+      decoding="async"
+    >
+    <div class="page-hero-shade" aria-hidden="true"></div>
+    <div class="container-xl page-hero-copy dest-hero-copy">
+      <nav class="crumbs crumbs--on-hero" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li><a href="/destinations.html">Destinations</a></li>
+          <li aria-current="page" data-explore-crumb>Explore</li>
+        </ol>
+      </nav>
+      <p class="kicker hero-kicker" data-explore-kicker>Tanzania</p>
+      <p class="script" data-explore-script>Where we travel</p>
+      <h1 data-explore-title>Explore</h1>
+      <p class="hero-lede" data-explore-lede>Browse places by type, then narrow by circuit and experience.</p>
+    </div>
+  </section>
+
+  <main id="content" class="site-main dest-main">
+    <section class="dest-section dest-discover" aria-label="Place discovery" data-dest-discover>
+      <div class="container-xl">
+        <header class="section-head reveal">
+          <p class="kicker">Filter</p>
+          <p class="script">Find your place</p>
+          <h2 data-explore-grid-title>Results</h2>
+        </header>
+        <p class="prose section-lede reveal" data-explore-grid-lede>Use the circuit and experience filters to refine this list.</p>
+
+        <div class="dest-toolbar reveal" data-dest-toolbar hidden>
+          <div class="dest-filters" data-filter-group="circuit" hidden>
+            <p class="dest-filter-label" id="filter-circuit-label">Circuit</p>
+            <div class="dest-filter-row" role="group" aria-labelledby="filter-circuit-label" data-filter-options="circuit"></div>
+          </div>
+          <div class="dest-filters" data-filter-group="region" hidden>
+            <p class="dest-filter-label" id="filter-region-label">Region</p>
+            <div class="dest-filter-row" role="group" aria-labelledby="filter-region-label" data-filter-options="region"></div>
+          </div>
+          <div class="dest-filters" data-filter-group="activity" hidden>
+            <p class="dest-filter-label" id="filter-activity-label">Experience</p>
+            <div class="dest-filter-row" role="group" aria-labelledby="filter-activity-label" data-filter-options="activity"></div>
+          </div>
+        </div>
+
+        <p class="dest-status" data-dest-status aria-live="polite">Loading places…</p>
+
+        <div class="dest-grid card-grid card-grid--destinations" data-dest-grid></div>
+
+        <div class="dest-empty" data-dest-empty hidden>
+          <p class="dest-empty-title" data-dest-empty-title>No places to show yet</p>
+          <p class="prose" data-dest-empty-body>Published destination pages will appear here as the catalogue is completed.</p>
+          <p class="section-cta">
+            <a class="btn-outline" href="/contact.html#enquire">Enquire about a safari</a>
+          </p>
+        </div>
+
+        <div class="dest-more" data-dest-more hidden>
+          <button class="btn-outline" type="button" data-dest-load-more>Load more</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="dest-section enquire-band" aria-label="Safari enquiry">
+      <div class="enquire-band-media" aria-hidden="true">
+        <img src="/images/about_Activities/about.jpg" alt="" width="1600" height="900" loading="lazy" decoding="async">
+        <div class="enquire-band-shade"></div>
+      </div>
+      <div class="container-xl enquire-band-copy reveal">
+        <header class="section-head">
+          <p class="kicker">Next step</p>
+          <p class="script">Plan with us</p>
+          <h2>Request a safari</h2>
+        </header>
+        <p class="prose">Name the places you have in mind, how long you can travel, and the lodging standard you prefer.</p>
+        <p class="section-cta">
+          <a class="btn-outline enquire-cta" href="/contact.html#enquire">Enquire now</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- @include partials/footer.html -->
+  <!-- @include partials/scripts.html -->
+  <script src="/js/ui/cards.js" defer></script>
+  <script src="/js/destinations.js" defer></script>
+</body>
+</html>

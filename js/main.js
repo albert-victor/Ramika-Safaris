@@ -295,16 +295,6 @@ megaItems.forEach((item) => {
     else openMega(item);
   });
 
-  item.addEventListener("mouseenter", () => {
-    if (window.innerWidth < 1100) return;
-    openMega(item);
-  });
-
-  item.addEventListener("mouseleave", () => {
-    if (window.innerWidth < 1100) return;
-    closeMega(item);
-  });
-
   item.addEventListener("focusout", (event) => {
     if (item.contains(event.relatedTarget)) return;
     closeMega(item);
@@ -364,3 +354,33 @@ window.addEventListener("resize", () => {
   if (window.innerWidth >= 1100) closeAllMegas();
   paintHeader();
 });
+
+(function initWhatsAppFloat() {
+  const float = document.querySelector("[data-wa-float]");
+  if (!float) return;
+
+  const footer = document.querySelector(".site-footer");
+  const homeHero = document.body.dataset.page === "home" ? document.querySelector("[data-home-hero], .home-hero") : null;
+
+  const update = () => {
+    const viewportH = window.innerHeight || 0;
+    let hide = false;
+
+    if (homeHero) {
+      const heroRect = homeHero.getBoundingClientRect();
+      // Hide while the landing hero still fills most of the viewport
+      if (heroRect.bottom > viewportH * 0.55) hide = true;
+    }
+
+    if (footer) {
+      const footerRect = footer.getBoundingClientRect();
+      if (footerRect.top < viewportH - 24) hide = true;
+    }
+
+    float.classList.toggle("is-hidden", hide);
+  };
+
+  update();
+  window.addEventListener("scroll", update, { passive: true });
+  window.addEventListener("resize", update);
+})();

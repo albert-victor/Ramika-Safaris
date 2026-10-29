@@ -57,7 +57,7 @@
 .home-hero > img[data-hero-image] {
   object-fit: cover;
   object-position: center center;
-  /* Keep media crisp on high-DPI / mobile — avoid blur filters and forced upscales */
+  /* Keep media crisp on high-DPI / mobile - avoid blur filters and forced upscales */
   filter: none;
   image-rendering: auto;
   -webkit-backface-visibility: hidden;
@@ -300,7 +300,7 @@
 .diamond-collage {
   --diamond-gap: clamp(0.45rem, 1.2vw, 0.7rem);
   --diamond-radius: clamp(0.85rem, 2vw, 1.2rem);
-  --diamond-span: clamp(11.5rem, 42vw, 19.5rem);
+  --diamond-span: clamp(12.75rem, 46vw, 21.5rem);
   position: relative;
   width: min(100%, calc(var(--diamond-span) * 1.42));
   height: calc(var(--diamond-span) * 1.42);
@@ -337,7 +337,7 @@
 
 html.motion-ready .diamond-collage:not(.is-visible) .diamond-tile {
   opacity: 0;
-  transform: scale(0.88);
+  transform: translate3d(0, 0.85rem, 0) scale(0.92);
 }
 
 .diamond-collage.is-visible .diamond-tile {
@@ -752,6 +752,11 @@ html.motion-ready .diamond-collage.reveal:not(.is-visible),
   border-bottom-color: var(--yellow);
 }
 
+.rail-track > * {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 22rem;
+}
+
 .rail-track {
   position: relative;
   z-index: 1;
@@ -765,7 +770,7 @@ html.motion-ready .diamond-collage.reveal:not(.is-visible),
   overscroll-behavior-x: contain;
   overscroll-behavior-y: auto;
   scroll-snap-type: x proximity;
-  scroll-behavior: smooth;
+  scroll-behavior: auto;
   padding-bottom: 0.15rem;
   scrollbar-width: none;
   -ms-overflow-style: none;
@@ -1062,7 +1067,7 @@ html.motion-ready .diamond-collage.reveal:not(.is-visible),
   }
 
   .diamond-collage {
-    --diamond-span: clamp(13.5rem, 28vw, 18.5rem);
+    --diamond-span: clamp(15rem, 30vw, 20.5rem);
     justify-self: end;
   }
 
@@ -1109,7 +1114,7 @@ html.motion-ready .diamond-collage.reveal:not(.is-visible),
   }
 
   .diamond-collage {
-    --diamond-span: clamp(15rem, 24vw, 19.5rem);
+    --diamond-span: clamp(16.5rem, 26vw, 21.5rem);
   }
 }
 
@@ -1120,7 +1125,7 @@ html.motion-ready .diamond-collage.reveal:not(.is-visible),
   }
 
   .diamond-collage {
-    --diamond-span: clamp(10.5rem, 58vw, 15.5rem);
+    --diamond-span: clamp(11.75rem, 62vw, 16.75rem);
     margin-top: 0.25rem;
   }
 }

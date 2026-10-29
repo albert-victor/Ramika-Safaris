@@ -34,7 +34,8 @@ html.motion-ready .reveal:not(.is-visible) {
 .circuit-grid .reveal:nth-child(2),
 .experience-grid .reveal:nth-child(2),
 .dest-highlight-grid .reveal:nth-child(2),
-.pkg-itinerary .reveal:nth-child(2) {
+.pkg-itinerary .reveal:nth-child(2),
+.contact-info-grid .reveal:nth-child(2) {
   transition-delay: 70ms;
 }
 
@@ -180,7 +181,7 @@ html.motion-ready .media-reveal:not(.is-visible) img {
   will-change: transform, opacity;
 }
 
-/* Keep landing hero video sharp — no Ken Burns scale that softens pixels */
+/* Keep landing hero video sharp - no Ken Burns scale that softens pixels */
 .home-hero-video {
   opacity: 1;
   transform: none !important;

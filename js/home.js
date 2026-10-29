@@ -266,10 +266,12 @@
         if (!list.length) return;
         index = ((nextIndex % list.length) + list.length) % list.length;
         const target = list[index];
-        track.scrollTo({
-          left: target.offsetLeft - track.offsetLeft,
-          behavior: smooth && !reduceMotion ? "smooth" : "auto",
-        });
+        const left = target.offsetLeft - track.offsetLeft;
+        if (smooth && !reduceMotion) {
+          track.scrollTo({ left, behavior: "smooth" });
+        } else {
+          track.scrollLeft = left;
+        }
         syncDots();
       };
 
@@ -283,14 +285,18 @@
       };
 
       const intervalMs = Math.max(
-        3200,
-        Number(carousel.dataset.railInterval) || 4800
+        4500,
+        Number(carousel.dataset.railInterval) || 5500
       );
 
       const startAuto = () => {
         stopAuto();
         if (reduceMotion || slides().length < 2) return;
-        timer = setInterval(() => step(1), intervalMs);
+        if (document.hidden) return;
+        timer = window.setInterval(() => {
+          if (document.hidden) return;
+          step(1);
+        }, intervalMs);
       };
 
       prev?.addEventListener("click", () => {
@@ -308,44 +314,41 @@
         startAuto();
       });
 
+      let scrollRaf = null;
       track.addEventListener(
         "scroll",
         () => {
-          const list = slides();
-          if (!list.length) return;
-          const mid = track.scrollLeft + track.clientWidth / 2;
-          let closest = 0;
-          let best = Infinity;
-          list.forEach((slide, i) => {
-            const center = slide.offsetLeft - track.offsetLeft + slide.offsetWidth / 2;
-            const dist = Math.abs(center - mid);
-            if (dist < best) {
-              best = dist;
-              closest = i;
+          if (scrollRaf) return;
+          scrollRaf = window.requestAnimationFrame(() => {
+            scrollRaf = null;
+            const list = slides();
+            if (!list.length) return;
+            const mid = track.scrollLeft + track.clientWidth / 2;
+            let closest = 0;
+            let best = Infinity;
+            list.forEach((slide, i) => {
+              const center = slide.offsetLeft - track.offsetLeft + slide.offsetWidth / 2;
+              const dist = Math.abs(center - mid);
+              if (dist < best) {
+                best = dist;
+                closest = i;
+              }
+            });
+            if (closest !== index) {
+              index = closest;
+              syncDots();
             }
           });
-          if (closest !== index) {
-            index = closest;
-            syncDots();
-          }
         },
         { passive: true }
       );
 
-      // Keep vertical page scroll free; only treat clear horizontal intent as rail motion.
       track.addEventListener(
         "wheel",
         (event) => {
-          const absX = Math.abs(event.deltaX);
-          const absY = Math.abs(event.deltaY);
-          if (absY >= absX) {
-            event.preventDefault();
-            window.scrollBy({ top: event.deltaY, left: 0, behavior: "auto" });
-            return;
-          }
-          stopAuto();
+          if (Math.abs(event.deltaX) > Math.abs(event.deltaY)) stopAuto();
         },
-        { passive: false }
+        { passive: true }
       );
 
       carousel.addEventListener("mouseenter", stopAuto);
@@ -567,7 +570,10 @@
     const start = () => {
       stop();
       if (reduceMotion || items.length < 2) return;
-      timer = setInterval(() => show(index + 1), 5200);
+      timer = window.setInterval(() => {
+        if (document.hidden) return;
+        show(index + 1);
+      }, 5800);
     };
 
     tabButtons.forEach((btn, i) => {
