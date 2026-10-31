@@ -3,8 +3,8 @@
     "kind": "production-content",
     "collection": "packages",
     "version": 1,
-    "note": "Southern 21 + Northern 20 + Zanzibar 10 + Western 5 (Gombe/Mahale; TT publishes only 5 western safari pages). Katavi also tagged western. Pricing null  -  source does not publish rates.",
-    "importedAt": "2026-10-28T10:19:12.727Z"
+    "note": "Southern packages include 4 Days Kipengele Game Reserve & Kitulo National Park Adventure. Pricing null where source does not publish rates.",
+    "importedAt": "2026-10-29T06:53:56.561Z"
   },
   "items": [
     {
@@ -5193,6 +5193,133 @@
       "sourceUrl": "https://www.tanzaniatourism.com/safari/stone-town-tour",
       "batch": "zanzibar",
       "sortOrder": 56
+    },
+    {
+      "id": "pkg-4-days-kipengele-game-reserve-kitulo-national-park-adventure",
+      "slug": "4-days-kipengele-game-reserve-kitulo-national-park-adventure",
+      "title": "4 Days Kipengele Game Reserve & Kitulo National Park Adventure",
+      "cardSubtitle": "4 days · 3 nights",
+      "summary": "Four days of walking safaris, swimming holes and montane hiking across Kipengele (Mpanga Kipengere) Game Reserve and Kitulo National Park – Southern Tanzania’s nature and hiking experience from Iringa to Mbeya.",
+      "heroImage": {
+        "src": "/images/about_Activities/kitulo_main.jpg",
+        "alt": "Highland grassland on the Kitulo Plateau during a southern highlands adventure.",
+        "caption": null
+      },
+      "gallery": [
+        {
+          "src": "/images/about_Activities/kitulo_main.jpg",
+          "alt": "Kitulo Plateau highland grassland",
+          "caption": null
+        },
+        {
+          "src": "/images/about_Activities/mpanga_kipengere.jpg",
+          "alt": "Mpanga Kipengere Game Reserve landscapes",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Kitulo_National_Park_Orchidbed.jpg",
+          "alt": "Wild orchids and botanical diversity in Kitulo National Park",
+          "caption": null
+        },
+        {
+          "src": "https://www.tanzaniatourism.com/images/uploads/Kitulo_National_Park_Mwakipembo_Waterfalls_51.jpg",
+          "alt": "Waterfall trail near the Kitulo highlands",
+          "caption": null
+        },
+        {
+          "src": "/images/about_Activities/13c63d5d-c642-411c-bba9-c32fbf7a8e87.jpg",
+          "alt": "Guided highland trek in southern Tanzania",
+          "caption": null
+        }
+      ],
+      "duration": {
+        "days": 4,
+        "nights": 3,
+        "label": "4 days / 3 nights"
+      },
+      "startLocation": "Iringa",
+      "endLocation": "Mbeya (flight to Dar es Salaam)",
+      "circuitIds": [
+        "circuit-southern"
+      ],
+      "destinationIds": [
+        "dest-mpanga-kipengere-game-reserve",
+        "dest-kitulo-national-park"
+      ],
+      "activityIds": [
+        "activity-day-walk",
+        "activity-trekking",
+        "activity-landscapes",
+        "activity-wildlife",
+        "activity-bird-watching",
+        "activity-snorkeling-swimming"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "title": "Iringa – Kipengele Game Reserve",
+          "summary": "Depart from Iringa and travel to Kipengele (Mpanga Kipengere) Game Reserve, enjoying the scenic landscapes of Southern Tanzania along the way. Upon arrival, enjoy an afternoon guided walking safari, followed by time for swimming and relaxation in the natural surroundings. Dinner and overnight in the Kipengele Game Reserve area.",
+          "destinationIds": [
+            "dest-mpanga-kipengere-game-reserve"
+          ]
+        },
+        {
+          "day": 2,
+          "title": "Walking Safari, Swimming & Transfer to Kitulo National Park",
+          "summary": "Begin the morning with a guided walking safari in Kipengele Game Reserve, exploring the area’s natural environment and enjoying another opportunity for swimming. Enjoy a bush lunch surrounded by nature before departing for Kitulo National Park, renowned for its beautiful montane grasslands, open landscapes and unique botanical diversity. Arrive at Kitulo and settle into the government bandas. Dinner and overnight at Kitulo National Park government bandas.",
+          "destinationIds": [
+            "dest-mpanga-kipengere-game-reserve",
+            "dest-kitulo-national-park"
+          ]
+        },
+        {
+          "day": 3,
+          "title": "Hiking to Kipengele Peak & Exploring Kitulo’s Botanical Wonders",
+          "summary": "Spend the day on an adventurous guided hike towards the waterfall and up Kipengele Peak. Enjoy panoramic views overlooking the Kitulo Plateau and, weather permitting, views towards Makete town and the surrounding highlands. Along the way, discover the region’s remarkable plant diversity, including endemic species and the spectacular wild orchids for which Kitulo is famous. Return to the bandas to relax after the day’s adventure. Dinner and overnight at Kitulo National Park government bandas.",
+          "destinationIds": [
+            "dest-kitulo-national-park",
+            "dest-mpanga-kipengere-game-reserve"
+          ]
+        },
+        {
+          "day": 4,
+          "title": "Sunrise Walk – Kitulo – Mbeya – Flight to Dar es Salaam",
+          "summary": "Wake up early for a short morning walk to enjoy the sunrise and the peaceful atmosphere of the Kitulo Plateau. Return to the bandas for breakfast, then depart for Mbeya for your scheduled flight to Dar es Salaam. End of tour.",
+          "destinationIds": [
+            "dest-kitulo-national-park"
+          ]
+        }
+      ],
+      "accommodation": "Every night is reserved by Ramika to the standard you prefer – Kipengele area lodging and Kitulo government bandas (or an upgraded option when available), confirmed before you travel.",
+      "inclusions": [
+        "Private 4×4 vehicle and English-speaking driver-guide for the full itinerary",
+        "Park entry and conservation fees for Kipengele Game Reserve and Kitulo National Park",
+        "Guided walking safaris and Kipengele Peak day hike with local guides",
+        "Accommodation as per itinerary (Kipengele area and Kitulo government bandas)",
+        "All meals on tour and drinking water in the vehicle",
+        "Road transfer from Iringa to Mbeya on the final day"
+      ],
+      "exclusions": [
+        "International flights and visa fees",
+        "Travel and medical insurance",
+        "Tips for guides, drivers and camp staff",
+        "Drinks and items of a personal nature",
+        "Optional activities not listed in the itinerary",
+        "Domestic flight Mbeya to Dar es Salaam (quoted separately on request)"
+      ],
+      "pricing": null,
+      "enquireCta": {
+        "label": "Enquire about this safari",
+        "href": "/contact.html#enquire"
+      },
+      "seo": {
+        "title": "4 Days Kipengele & Kitulo Adventure · Ramika Safaris and Tours",
+        "description": "4-day walking and hiking adventure through Mpanga Kipengere (Kipengele) Game Reserve and Kitulo National Park – Southern Highlands from Iringa to Mbeya."
+      },
+      "status": "published",
+      "sourceUrl": "https://www.wildgazesafaris.co.tz/packages/4-days-kipengele-game-reserve-kitulo-national-park-adventure.html",
+      "batch": "southern-wildgaze",
+      "sortOrder": 57
     }
   ]
 }

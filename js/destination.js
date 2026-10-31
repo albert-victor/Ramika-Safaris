@@ -180,13 +180,6 @@
     }
 
     els.heroCopy.innerHTML = `
-      <nav class="crumbs crumbs--on-hero" aria-label="Breadcrumb">
-        <ol>
-          <li><a href="/">Home</a></li>
-          <li><a href="/destinations.html${preview ? "?preview=1" : ""}">Destinations</a></li>
-          <li aria-current="page">${escapeHtml(destination.name)}</li>
-        </ol>
-      </nav>
       <p class="script">${escapeHtml(subtitle)}</p>
       <h1>${escapeHtml(destination.name)}</h1>
       ${lede ? `<p class="hero-lede">${escapeHtml(lede)}</p>` : ""}

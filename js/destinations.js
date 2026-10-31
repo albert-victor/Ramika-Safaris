@@ -61,13 +61,13 @@
       kicker: "Explore",
       lede: "Tanzania's flagship parks and crater worlds, from southern Mikumi and Ruaha to northern icons when they belong in your route.",
       gridTitle: "National parks",
-      gridLede: "Filter by safari circuit or experience to find the park that fits your journey.",
+      gridLede: "All national parks in this collection are listed below.",
       image: {
         src: "/images/about_Activities/mikumi_experieces.jpg",
         alt: "Zebras in tall grass on a Tanzania safari.",
       },
       seoTitle: "National parks · Ramika Safaris and Tours",
-      seoDescription: "Explore Tanzanian national parks with Ramika Safaris and Tours – filter by circuit and safari experience.",
+      seoDescription: "Explore Tanzanian national parks with Ramika Safaris and Tours.",
     },
     conservation: {
       title: "Conservation areas",
@@ -75,13 +75,13 @@
       kicker: "Explore",
       lede: "Reserves and conservation landscapes where wildlife and community stewardship meet the road.",
       gridTitle: "Conservation areas",
-      gridLede: "Narrow by circuit and experience to see reserves that match your itinerary.",
+      gridLede: "All conservation areas in this collection are listed below.",
       image: {
         src: "/images/about_Activities/kitulo_main.jpg",
         alt: "Flowering highland grassland in southern Tanzania.",
       },
       seoTitle: "Conservation areas · Ramika Safaris and Tours",
-      seoDescription: "Conservation areas and reserves across Tanzania, browsable by circuit and experience.",
+      seoDescription: "Conservation areas and reserves across Tanzania with Ramika Safaris and Tours.",
     },
     mountains: {
       title: "Mountain ranges",
@@ -89,13 +89,13 @@
       kicker: "Explore",
       lede: "Peaks, highlands, and trekking country from Kilimanjaro and the Southern Highlands to volcanic slopes.",
       gridTitle: "Mountains & highlands",
-      gridLede: "Use circuit and activity filters to find climbing and highland destinations.",
+      gridLede: "All mountain and highland destinations in this collection are listed below.",
       image: {
         src: "/images/about_Activities/13c63d5d-c642-411c-bba9-c32fbf7a8e87.jpg",
         alt: "Guests on a guided trek through forested highlands.",
       },
       seoTitle: "Mountain ranges · Ramika Safaris and Tours",
-      seoDescription: "Mountain and highland destinations in Tanzania – filter by circuit and experience.",
+      seoDescription: "Mountain and highland destinations in Tanzania with Ramika Safaris and Tours.",
     },
     heritage: {
       title: "Heritage sites",
@@ -103,13 +103,13 @@
       kicker: "Explore",
       lede: "Historical and cultural sites that add depth beside wildlife days on the same journey.",
       gridTitle: "Heritage sites",
-      gridLede: "Filter by circuit and experience to pair culture with your safari route.",
+      gridLede: "All heritage sites in this collection are listed below.",
       image: {
         src: "/images/about_Activities/Special_moments3.jpg",
         alt: "Travellers and guides at a cultural stop on safari.",
       },
       seoTitle: "Heritage sites · Ramika Safaris and Tours",
-      seoDescription: "Heritage and historical sites in Tanzania, browsable by circuit and experience.",
+      seoDescription: "Heritage and historical sites in Tanzania with Ramika Safaris and Tours.",
     },
     islands: {
       title: "Islands",
@@ -117,7 +117,7 @@
       kicker: "Explore",
       lede: "Island and coastal escapes planned beside mainland safari days when the sea belongs in your trip.",
       gridTitle: "Islands",
-      gridLede: "Refine by circuit and experience to find island and coastal stops.",
+      gridLede: "All island and coastal destinations in this collection are listed below.",
       image: {
         src: "/images/about_Activities/5b8f151c-c243-4caf-b9bf-8ba1edba35bb.jpg",
         alt: "Turquoise water along a sandy shore.",
@@ -131,13 +131,13 @@
       kicker: "Explore",
       lede: "Lakes, falls, rivers, and marine shores that shape the rhythm of a multi-region itinerary.",
       gridTitle: "Lakes & shores",
-      gridLede: "Filter by circuit and experience to discover water-focused destinations.",
+      gridLede: "All lakes and shore destinations in this collection are listed below.",
       image: {
         src: "/images/about_Activities/5b8f151c-c243-4caf-b9bf-8ba1edba35bb.jpg",
         alt: "Green mountains meeting a blue lake shore.",
       },
       seoTitle: "Lakes & shores · Ramika Safaris and Tours",
-      seoDescription: "Lakes, falls, and shores across Tanzania – filter by circuit and experience.",
+      seoDescription: "Lakes, falls, and shores across Tanzania with Ramika Safaris and Tours.",
     },
   };
 
@@ -162,7 +162,6 @@
     setText("[data-explore-script]", meta.script);
     setText("[data-explore-title]", meta.title);
     setText("[data-explore-lede]", meta.lede);
-    setText("[data-explore-crumb]", meta.title);
     setText("[data-explore-grid-title]", meta.gridTitle);
     setText("[data-explore-grid-lede]", meta.gridLede);
 
@@ -317,6 +316,10 @@
 
   function renderFilters() {
     if (!els.toolbar) return;
+    if (isExplorePage()) {
+      els.toolbar.hidden = true;
+      return;
+    }
     // Each facet lists values still available given the other active filters.
     const circuitOptions = availableFilterValues(state.destinations, "circuit").circuits;
     const regionOptions = availableFilterValues(state.destinations, "region").regions;
@@ -502,26 +505,31 @@
 
   async function resolveLoadOptions() {
     const query = readQuery();
-    state.filters.circuit = query.circuit;
-    state.filters.region = query.region;
-    state.filters.activity = query.activity;
     if (isExplorePage()) {
+      // Explore pages show the full place collection – no circuit/region/experience filters.
+      state.filters.circuit = "all";
+      state.filters.region = "all";
+      state.filters.activity = "all";
+      state.filters.q = "";
       const placeKey = Object.prototype.hasOwnProperty.call(PLACE_MATCHERS, query.place)
         ? query.place
         : "parks";
       state.filters.place = placeKey;
       applyExplorePlaceMeta(placeKey);
       if (!query.place || query.place !== placeKey) {
-        const params = new URLSearchParams(window.location.search);
+        const params = new URLSearchParams();
         params.set("place", placeKey);
         window.history.replaceState({}, "", `${window.location.pathname}?${params.toString()}`);
       }
     } else {
+      state.filters.circuit = query.circuit;
+      state.filters.region = query.region;
+      state.filters.activity = query.activity;
       state.filters.place = Object.prototype.hasOwnProperty.call(PLACE_MATCHERS, query.place)
         ? query.place
         : "all";
+      state.filters.q = query.q;
     }
-    state.filters.q = query.q;
 
     if (!query.preview) {
       state.preview = false;

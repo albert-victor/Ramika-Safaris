@@ -5,11 +5,13 @@
     alt="Ramika Safaris and Tours"
     width="200"
     height="88"
-    decoding="async"
+    decoding="sync"
+    fetchpriority="high"
   >
 </div>
 
 <header class="site-header">
+  <button class="nav-backdrop" type="button" data-nav-backdrop aria-label="Close menu" tabindex="-1" aria-hidden="true"></button>
   <div class="container-xl inner">
     <a class="brand" href="/">
       <img class="logo-on-paper" src="/logo/Ramika_logo_on_white_bg.png" alt="Ramika Safaris and Tours">
@@ -17,7 +19,7 @@
     </a>
 
     <div class="header-actions">
-      <button class="header-search-btn" type="button" aria-expanded="false" aria-controls="header-search" data-header-search-toggle>
+      <button class="header-search-btn header-search-btn--bar" type="button" aria-expanded="false" aria-controls="header-search" data-header-search-toggle>
         <i class="fas fa-magnifying-glass" aria-hidden="true"></i>
         <span class="visually-hidden">Search</span>
       </button>
@@ -25,21 +27,28 @@
         <img class="btn-book-icon" src="/logo/icons/book-check.png" alt="" width="18" height="18" aria-hidden="true">
         Book Now
       </a>
-      <button class="nav-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#site-nav" aria-controls="site-nav" aria-expanded="false" aria-label="Open menu">
+      <button class="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Open menu">
         <i class="fas fa-bars" aria-hidden="true"></i>
       </button>
     </div>
 
-    <div class="header-search" id="header-search" hidden data-header-search>
-      <form class="header-search-form" role="search" action="/destinations.html" method="get" data-header-search-form>
-        <label class="visually-hidden" for="header-search-input">Search destinations, safaris, and activities</label>
-        <input id="header-search-input" name="q" type="search" placeholder="Search destinations, safaris…" autocomplete="off" data-header-search-input>
-        <button class="btn-outline header-search-submit" type="submit">Go</button>
-      </form>
-      <div class="header-search-results" data-header-search-results hidden aria-live="polite"></div>
-    </div>
-
     <nav id="site-nav" class="site-nav collapse" aria-label="Primary">
+      <div class="nav-mobile-search">
+        <button class="header-search-btn header-search-btn--menu" type="button" aria-expanded="false" aria-controls="header-search" data-header-search-toggle>
+          <i class="fas fa-magnifying-glass" aria-hidden="true"></i>
+          <span>Search</span>
+        </button>
+      </div>
+
+      <div class="header-search" id="header-search" hidden data-header-search>
+        <form class="header-search-form" role="search" action="/destinations.html" method="get" data-header-search-form>
+          <label class="visually-hidden" for="header-search-input">Search destinations, safaris, and activities</label>
+          <input id="header-search-input" name="q" type="search" placeholder="Search destinations, safaris…" autocomplete="off" data-header-search-input>
+          <button class="btn-outline header-search-submit" type="submit">Go</button>
+        </form>
+        <div class="header-search-results" data-header-search-results hidden aria-live="polite"></div>
+      </div>
+
       <a class="nav-link" href="/" data-nav="home">Home</a>
 
       <div class="nav-item has-mega" data-mega="destinations">

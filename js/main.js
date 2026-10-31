@@ -1,25 +1,65 @@
 const toggle = document.querySelector(".nav-toggle");
 const nav = document.querySelector("#site-nav");
 const header = document.querySelector(".site-header");
+const navBackdrop = document.querySelector("[data-nav-backdrop]");
 const icon = toggle ? toggle.querySelector("i") : null;
 const page = document.body.dataset.page;
 const megaItems = document.querySelectorAll(".nav-item.has-mega");
-const searchToggle = document.querySelector("[data-header-search-toggle]");
+const searchToggles = Array.from(document.querySelectorAll("[data-header-search-toggle]"));
 const searchForm = document.querySelector("[data-header-search]");
 const searchInput = document.querySelector("[data-header-search-input]");
 const siteLoader = document.querySelector("[data-site-loader]");
 
 (function initSiteLoader() {
   if (!siteLoader) return;
-  const hide = () => siteLoader.classList.add("is-done");
+  const logo = siteLoader.querySelector(".site-loader-logo");
   const start = performance.now();
-  const finish = () => {
-    const elapsed = performance.now() - start;
-    window.setTimeout(hide, Math.max(0, 480 - elapsed));
+  let logoReady = false;
+  let pageReady = false;
+  let hidden = false;
+
+  const hide = () => {
+    if (hidden) return;
+    hidden = true;
+    siteLoader.classList.add("is-done");
   };
-  if (document.readyState === "complete") finish();
-  else window.addEventListener("load", finish, { once: true });
-  window.setTimeout(hide, 4200);
+
+  const tryFinish = () => {
+    if (!logoReady || !pageReady) return;
+    const elapsed = performance.now() - start;
+    // Mobile needs a longer hold so the full logo is seen before dismiss
+    const mobile = window.matchMedia("(max-width: 1099px)").matches;
+    const minVisible = mobile ? 1100 : 560;
+    window.setTimeout(hide, Math.max(0, minVisible - elapsed));
+  };
+
+  const markLogoReady = () => {
+    if (logoReady) return;
+    logoReady = true;
+    if (logo) logo.classList.add("is-ready");
+    tryFinish();
+  };
+
+  if (logo) {
+    if (logo.complete && logo.naturalWidth > 0) {
+      markLogoReady();
+    } else {
+      logo.addEventListener("load", markLogoReady, { once: true });
+      logo.addEventListener("error", markLogoReady, { once: true });
+    }
+  } else {
+    logoReady = true;
+  }
+
+  const markPageReady = () => {
+    pageReady = true;
+    tryFinish();
+  };
+
+  if (document.readyState === "complete") markPageReady();
+  else window.addEventListener("load", markPageReady, { once: true });
+
+  window.setTimeout(hide, 5000);
 })();
 
 const BOOK_ICON =
@@ -91,9 +131,9 @@ function escapeSearchHtml(value) {
 }
 
 function setSearchOpen(open) {
-  if (!searchForm || !searchToggle) return;
+  if (!searchForm || !searchToggles.length) return;
   searchForm.hidden = !open;
-  searchToggle.setAttribute("aria-expanded", open ? "true" : "false");
+  searchToggles.forEach((btn) => btn.setAttribute("aria-expanded", open ? "true" : "false"));
   if (!open && searchResults) {
     searchResults.hidden = true;
     searchResults.innerHTML = "";
@@ -220,14 +260,17 @@ async function runAjaxSearch(rawQuery) {
   }
 }
 
-if (searchToggle && searchForm) {
-  searchToggle.addEventListener("click", (event) => {
-    event.stopPropagation();
-    setSearchOpen(searchForm.hidden);
+if (searchToggles.length && searchForm) {
+  searchToggles.forEach((btn) => {
+    btn.addEventListener("click", (event) => {
+      event.stopPropagation();
+      setSearchOpen(searchForm.hidden);
+    });
   });
 
   document.addEventListener("click", (event) => {
-    if (!searchForm.hidden && !searchForm.contains(event.target) && !searchToggle.contains(event.target)) {
+    const hitToggle = searchToggles.some((btn) => btn.contains(event.target));
+    if (!searchForm.hidden && !searchForm.contains(event.target) && !hitToggle) {
       setSearchOpen(false);
     }
   });
@@ -301,13 +344,46 @@ megaItems.forEach((item) => {
   });
 });
 
+function isMobileNav() {
+  return window.innerWidth < 1100;
+}
+
+function setNavChrome(open) {
+  if (icon) {
+    if (open) icon.classList.replace("fa-bars", "fa-xmark");
+    else icon.classList.replace("fa-xmark", "fa-bars");
+  }
+  if (toggle) {
+    toggle.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+    toggle.setAttribute("aria-expanded", open ? "true" : "false");
+  }
+  if (header) header.classList.toggle("is-open", open);
+  document.body.classList.toggle("is-nav-open", open && isMobileNav());
+  if (navBackdrop) {
+    navBackdrop.setAttribute("aria-hidden", open ? "false" : "true");
+    navBackdrop.tabIndex = open ? 0 : -1;
+  }
+}
+
+function setMobileNavOpen(open) {
+  if (!nav || !isMobileNav()) return;
+  const willOpen = Boolean(open);
+  nav.classList.remove("collapsing");
+  nav.classList.add("collapse");
+  nav.classList.toggle("show", willOpen);
+  setNavChrome(willOpen);
+  if (!willOpen) {
+    closeAllMegas();
+    setSearchOpen(false);
+  }
+}
+
 document.addEventListener("keydown", (event) => {
   if (event.key !== "Escape") return;
   closeAllMegas();
   setSearchOpen(false);
-  if (nav && nav.classList.contains("show")) {
-    const menu = collapseApi();
-    if (menu) menu.hide();
+  if (nav && nav.classList.contains("show") && isMobileNav()) {
+    setMobileNavOpen(false);
     if (toggle) toggle.focus();
   }
 });
@@ -316,24 +392,26 @@ document.addEventListener("click", (event) => {
   if (![...megaItems].some((item) => item.contains(event.target))) {
     closeAllMegas();
   }
-  if (window.innerWidth >= 1100 || !nav || !nav.classList.contains("show")) return;
+  if (!isMobileNav() || !nav || !nav.classList.contains("show")) return;
   if (nav.contains(event.target) || (toggle && toggle.contains(event.target))) return;
-  const menu = collapseApi();
-  if (menu) menu.hide();
+  if (navBackdrop && navBackdrop.contains(event.target)) return;
+  setMobileNavOpen(false);
 });
 
 if (nav && toggle && icon) {
-  nav.addEventListener("shown.bs.collapse", () => {
-    icon.classList.replace("fa-bars", "fa-xmark");
-    toggle.setAttribute("aria-label", "Close menu");
-    if (header) header.classList.add("is-open");
+  toggle.addEventListener("click", (event) => {
+    if (!isMobileNav()) return;
+    event.preventDefault();
+    event.stopPropagation();
+    setMobileNavOpen(!nav.classList.contains("show"));
   });
+}
 
-  nav.addEventListener("hidden.bs.collapse", () => {
-    icon.classList.replace("fa-xmark", "fa-bars");
-    toggle.setAttribute("aria-label", "Open menu");
-    if (header) header.classList.remove("is-open");
-    closeAllMegas();
+if (navBackdrop) {
+  navBackdrop.addEventListener("click", (event) => {
+    event.preventDefault();
+    event.stopPropagation();
+    if (isMobileNav()) setMobileNavOpen(false);
   });
 }
 
@@ -351,6 +429,10 @@ function paintHeader() {
 paintHeader();
 window.addEventListener("scroll", paintHeader, { passive: true });
 window.addEventListener("resize", () => {
+  if (!isMobileNav() && nav?.classList.contains("show")) {
+    nav.classList.remove("show");
+    setNavChrome(false);
+  }
   if (window.innerWidth >= 1100) closeAllMegas();
   paintHeader();
 });

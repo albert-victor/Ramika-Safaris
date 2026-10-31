@@ -172,13 +172,6 @@
     }
 
     els.heroCopy.innerHTML = `
-      <nav class="crumbs crumbs--on-hero" aria-label="Breadcrumb">
-        <ol>
-          <li><a href="/">Home</a></li>
-          <li><a href="/packages.html${preview ? "?preview=1" : ""}">Safari Packages</a></li>
-          <li aria-current="page">${escapeHtml(pkg.title)}</li>
-        </ol>
-      </nav>
       <p class="kicker hero-kicker">Safari package</p>
       <p class="script">${escapeHtml(circuitNames[0] || "Tanzania")}</p>
       <h1>${escapeHtml(pkg.title)}</h1>

@@ -55,13 +55,6 @@
       ? `<p class="hero-lede">${Cards ? Cards.escapeHtml(summary) : summary}</p>`
       : "";
     els.heroCopy.innerHTML = `
-      <nav class="crumbs crumbs--on-hero" aria-label="Breadcrumb">
-        <ol>
-          <li><a href="/">Home</a></li>
-          <li><a href="/destinations.html">Destinations</a></li>
-          <li aria-current="page">${Cards ? Cards.escapeHtml(circuit.name) : circuit.name}</li>
-        </ol>
-      </nav>
       <p class="script">${Cards ? Cards.escapeHtml(circuit.script || "Safari circuit") : circuit.script || "Safari circuit"}</p>
       <h1>${Cards ? Cards.escapeHtml(circuit.name) : circuit.name}</h1>
       ${ledeHtml}
