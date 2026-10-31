@@ -289,6 +289,12 @@
         Number(carousel.dataset.railInterval) || 5500
       );
 
+      let resumeTimer = null;
+      const scheduleResume = () => {
+        window.clearTimeout(resumeTimer);
+        resumeTimer = window.setTimeout(startAuto, 4200);
+      };
+
       const startAuto = () => {
         stopAuto();
         if (reduceMotion || slides().length < 2) return;
@@ -301,20 +307,24 @@
 
       prev?.addEventListener("click", () => {
         step(-1);
-        startAuto();
+        stopAuto();
+        scheduleResume();
       });
       next?.addEventListener("click", () => {
         step(1);
-        startAuto();
+        stopAuto();
+        scheduleResume();
       });
       dots?.addEventListener("click", (event) => {
         const btn = event.target.closest("[data-rail-dot]");
         if (!btn) return;
         goTo(Number(btn.dataset.railDot));
-        startAuto();
+        stopAuto();
+        scheduleResume();
       });
 
       let scrollRaf = null;
+      let pointerDragging = false;
       track.addEventListener(
         "scroll",
         () => {
@@ -338,7 +348,36 @@
               index = closest;
               syncDots();
             }
+            if (pointerDragging) {
+              stopAuto();
+              scheduleResume();
+            }
           });
+        },
+        { passive: true }
+      );
+
+      track.addEventListener(
+        "pointerdown",
+        () => {
+          pointerDragging = true;
+          stopAuto();
+        },
+        { passive: true }
+      );
+      track.addEventListener(
+        "pointerup",
+        () => {
+          pointerDragging = false;
+          scheduleResume();
+        },
+        { passive: true }
+      );
+      track.addEventListener(
+        "pointercancel",
+        () => {
+          pointerDragging = false;
+          scheduleResume();
         },
         { passive: true }
       );
@@ -346,7 +385,9 @@
       track.addEventListener(
         "wheel",
         (event) => {
-          if (Math.abs(event.deltaX) > Math.abs(event.deltaY)) stopAuto();
+          if (Math.abs(event.deltaX) <= Math.abs(event.deltaY)) return;
+          stopAuto();
+          scheduleResume();
         },
         { passive: true }
       );
@@ -355,6 +396,10 @@
       carousel.addEventListener("mouseleave", startAuto);
       carousel.addEventListener("focusin", stopAuto);
       carousel.addEventListener("focusout", startAuto);
+      document.addEventListener("visibilitychange", () => {
+        if (document.hidden) stopAuto();
+        else startAuto();
+      });
 
       syncDots();
       goTo(0, { smooth: false });
@@ -385,15 +430,42 @@
     const featured = pickFeatured(destinations, section.items, 10);
     if (!featured.length) return false;
 
+    // Kick off image fetch before cards mount so the first rail paints sooner
+    const preloaded = new Set(
+      Array.from(document.querySelectorAll("link[data-dest-preload]")).map((node) => node.href)
+    );
+    featured.slice(0, 3).forEach((item, index) => {
+      const src =
+        (Array.isArray(item.images) && item.images[0] && item.images[0].src) ||
+        (item.image && item.image.src) ||
+        "";
+      if (!src) return;
+      try {
+        const absolute = new URL(src, window.location.href).href;
+        if (preloaded.has(absolute)) return;
+        preloaded.add(absolute);
+      } catch (_) {
+        return;
+      }
+      const link = document.createElement("link");
+      link.rel = "preload";
+      link.as = "image";
+      link.href = src;
+      link.setAttribute("data-dest-preload", "1");
+      if (index === 0) link.fetchPriority = "high";
+      document.head.appendChild(link);
+    });
+
     const circuitsById = Object.fromEntries((circuits || []).map((item) => [item.id, item]));
     const activitiesById = Object.fromEntries((activities || []).map((item) => [item.id, item]));
     const cardsHtml = featured
       .map(
-        (item) =>
+        (item, index) =>
           `<div class="rail-slide">${Cards.destinationCard(item, {
             circuitsById,
             activitiesById,
             preview,
+            eager: index < 3,
           })}</div>`
       )
       .join("");
@@ -664,6 +736,50 @@
     `;
   }
 
+  function renderAccredited(section) {
+    const root = document.querySelector("[data-home-accredited]");
+    if (!root || !section) return;
+
+    const items = Array.isArray(section.items) ? section.items : [];
+    if (!items.length) {
+      root.replaceChildren();
+      return;
+    }
+
+    const logos = items
+      .map(
+        (item) => `
+        <figure class="accredited-logo">
+          <img
+            src="${escapeHtml(item.src || "")}"
+            alt="${escapeHtml(item.alt || item.name || "")}"
+            width="200"
+            height="120"
+            loading="eager"
+            decoding="async"
+          >
+          <figcaption>
+            <span class="accredited-name">${escapeHtml(item.name || "")}</span>
+            ${item.label ? `<span class="accredited-label">${escapeHtml(item.label)}</span>` : ""}
+          </figcaption>
+        </figure>`
+      )
+      .join("");
+
+    // Duplicate track for seamless horizontal marquee
+    root.innerHTML = `
+      <div class="container-xl">
+        ${sectionHead(section)}
+      </div>
+      <div class="accredited-marquee" aria-label="Accreditation logos">
+        <div class="accredited-marquee-track">
+          <div class="accredited-row" role="list">${logos}</div>
+          <div class="accredited-row" role="presentation" aria-hidden="true">${logos}</div>
+        </div>
+      </div>
+    `;
+  }
+
   function renderAbout(data) {
     const root = document.querySelector("[data-home-about]");
     if (!root || !data) return;
@@ -800,6 +916,7 @@
     }
 
     renderTestimonials(data.testimonials);
+    renderAccredited(data.accredited);
     renderAbout(data.about);
     renderEnquire(data.enquire);
 

@@ -10,6 +10,28 @@ const searchForm = document.querySelector("[data-header-search]");
 const searchInput = document.querySelector("[data-header-search-input]");
 const siteLoader = document.querySelector("[data-site-loader]");
 
+(function syncSeoTags() {
+  const origin = "https://ramikasafari.co.tz";
+  const path = `${window.location.pathname || "/"}${window.location.search || ""}`;
+  const url = `${origin}${path === "/index.html" ? "/" : path}`;
+  const title = document.title || "Ramika Safaris and Tours";
+  const desc =
+    document.querySelector('meta[name="description"]')?.getAttribute("content") ||
+    "Tanzanian safaris with Ramika Safaris and Tours.";
+
+  const set = (selector, attr, value) => {
+    const node = document.querySelector(selector);
+    if (node && value) node.setAttribute(attr, value);
+  };
+
+  set('[data-seo-canonical]', "href", url);
+  set('[data-seo-og-url]', "content", url);
+  set('[data-seo-og-title]', "content", title);
+  set('[data-seo-og-description]', "content", desc);
+  set('[data-seo-twitter-title]', "content", title);
+  set('[data-seo-twitter-description]', "content", desc);
+})();
+
 (function initSiteLoader() {
   if (!siteLoader) return;
   const logo = siteLoader.querySelector(".site-loader-logo");

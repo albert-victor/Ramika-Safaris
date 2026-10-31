@@ -109,6 +109,11 @@
     const note = document.querySelector("[data-enquire-note]");
     const message = document.querySelector("[data-enquire-message]");
     const params = new URLSearchParams(window.location.search);
+    if (note && params.get("sent") === "1") {
+      note.hidden = false;
+      note.textContent =
+        "Thank you – your enquiry was received. We will reply by email or WhatsApp.";
+    }
     const preferredDestination = (params.get("destination") || "").trim();
     const preferredPackage = (params.get("package") || "").trim();
 
@@ -143,7 +148,14 @@
 
     if (!form) return;
 
-    form.addEventListener("submit", (event) => {
+    // Always point FormSubmit success redirect at the live site (not localhost)
+    const LIVE_ORIGIN = "https://ramikasafari.co.tz";
+    const nextField = form.querySelector("[data-enquire-next]");
+    if (nextField) {
+      nextField.value = `${LIVE_ORIGIN}/contact.html?sent=1`;
+    }
+
+    form.addEventListener("submit", async (event) => {
       event.preventDefault();
       const adults = form.querySelector("[data-enquire-adults]")?.value;
       const children = form.querySelector("[data-enquire-children]")?.value;
@@ -157,10 +169,78 @@
           message.value = `${message.value.trim()}\n\nTravellers: ${bits.join("; ")}.`.trim();
         }
       }
+
+      const submitBtn = form.querySelector('button[type="submit"]');
+      if (submitBtn) {
+        submitBtn.disabled = true;
+        submitBtn.textContent = "Sending…";
+      }
       if (note) {
         note.hidden = false;
-        note.textContent =
-          "Thank you. Enquiry delivery is not connected on this preview site yet – please keep a copy of your message and use the published contact details once they are available.";
+        note.textContent = "Sending your enquiry to info@ramikasafari.co.tz…";
+      }
+
+      const guestEmail = form.querySelector('[name="email"]')?.value || "";
+      const replyTo = form.querySelector("[data-enquire-replyto]");
+      if (replyTo) replyTo.value = guestEmail;
+      if (nextField) nextField.value = `${LIVE_ORIGIN}/contact.html?sent=1`;
+
+      const endpoint = "https://formsubmit.co/ajax/info@ramikasafari.co.tz";
+      const body = new FormData(form);
+
+      try {
+        const response = await fetch(endpoint, {
+          method: "POST",
+          body,
+          headers: { Accept: "application/json" },
+        });
+        const result = await response.json().catch(() => ({}));
+        if (!response.ok) {
+          throw new Error(result.message || "Enquiry could not be sent.");
+        }
+        const needsActivation = /confirm|activate|check your email/i.test(
+          `${result.message || ""} ${result.success || ""}`
+        );
+        if (note) {
+          note.textContent = needsActivation
+            ? "Check info@ramikasafari.co.tz for a FormSubmit confirmation link, then click it once. After that, enquiries will arrive there automatically."
+            : "Thank you – your enquiry was sent to info@ramikasafari.co.tz. We will reply by email or WhatsApp.";
+        }
+        if (!needsActivation) form.reset();
+      } catch (error) {
+        console.error(error);
+        // Fallback: open the guest mail client addressed to Ramika
+        const name = form.querySelector('[name="name"]')?.value || "";
+        const email = form.querySelector('[name="email"]')?.value || "";
+        const dest = form.querySelector("[data-enquire-destination]")?.selectedOptions?.[0]?.textContent || "";
+        const pkg = form.querySelector("[data-enquire-package]")?.selectedOptions?.[0]?.textContent || "";
+        const msg = message?.value || "";
+        const subject = encodeURIComponent("Ramika Safaris enquiry");
+        const mailBody = encodeURIComponent(
+          [
+            `Name: ${name}`,
+            `Email: ${email}`,
+            startDate ? `Preferred start: ${startDate}` : "",
+            adults ? `Adults: ${adults}` : "",
+            children && children !== "0" ? `Children: ${children}` : "",
+            dest && dest !== "No specific destination yet" ? `Destination: ${dest}` : "",
+            pkg && pkg !== "No specific package yet" ? `Package: ${pkg}` : "",
+            "",
+            msg,
+          ]
+            .filter(Boolean)
+            .join("\n")
+        );
+        window.location.href = `mailto:info@ramikasafari.co.tz?subject=${subject}&body=${mailBody}`;
+        if (note) {
+          note.textContent =
+            "Opening your email app to send to info@ramikasafari.co.tz. If it does not open, email us directly at that address.";
+        }
+      } finally {
+        if (submitBtn) {
+          submitBtn.disabled = false;
+          submitBtn.textContent = "Send enquiry";
+        }
       }
     });
   }

@@ -197,7 +197,44 @@
       "label": "All destinations",
       "href": "/destinations.html"
     },
-    "items": []
+    "items": [
+      { "slug": "kitulo-national-park" },
+      { "slug": "mpanga-kipengere-game-reserve" },
+      { "slug": "ruaha-national-park" },
+      { "slug": "serengeti-national-park" },
+      { "slug": "ngorongoro-crater" },
+      { "slug": "mount-kilimanjaro-national-park" },
+      { "slug": "tarangire-national-park" },
+      { "slug": "lake-manyara-national-park" },
+      { "slug": "nyerere-national-park" },
+      { "slug": "katavi-national-park" }
+    ]
+  },
+  "accredited": {
+    "kicker": "Trust",
+    "script": "Recognised partners",
+    "headline": "Accredited by",
+    "lede": "We work within Tanzania’s official tourism and conservation frameworks.",
+    "items": [
+      {
+        "name": "TANAPA",
+        "label": "Tanzania National Parks",
+        "src": "/logo/tanapa.jpg",
+        "alt": "TANAPA – Tanzania National Parks Authority logo"
+      },
+      {
+        "name": "TTB",
+        "label": "Tanzania Tourism Board",
+        "src": "/logo/tanzania%20tourism%20board.jpg",
+        "alt": "Tanzania Tourism Board logo"
+      },
+      {
+        "name": "TATO",
+        "label": "Tanzania Association of Tour Operators",
+        "src": "/logo/tato-logo.png",
+        "alt": "TATO – Tanzania Association of Tour Operators logo"
+      }
+    ]
   },
   "packages": {
     "kicker": "Journeys",
@@ -212,9 +249,9 @@
   },
   "testimonials": {
     "kicker": "Guest notes",
-    "script": "Layout samples",
+    "script": "From the road",
     "headline": "Words from the road",
-    "lede": "Notes from the road. Verified guest reviews are not published here yet.",
+    "lede": "Notes from travellers who planned southern highlands routes, park days, and soft landings with Ramika.",
     "items": [
       {
         "id": "note-1",
@@ -286,6 +323,60 @@
         "place": "Gombe",
         "country": "Nigeria",
         "countryCode": "ng",
+        "rating": 5
+      },
+      {
+        "id": "note-9",
+        "quote": "Kitulo in flower season was the reason we came south first. The walks were gentle and the bandas were exactly as promised.",
+        "name": "Hannah Brooks",
+        "place": "Kitulo",
+        "country": "Australia",
+        "countryCode": "au",
+        "rating": 5
+      },
+      {
+        "id": "note-10",
+        "quote": "Mpanga Kipengere felt remote in the best way. Hiking with a local guide and then driving on to Kitulo made one clear highland story.",
+        "name": "Lars Vermeulen",
+        "place": "Mpanga Kipengere",
+        "country": "Netherlands",
+        "countryCode": "nl",
+        "rating": 5
+      },
+      {
+        "id": "note-11",
+        "quote": "Ngorongoro and Serengeti were added after our southern days. Ramika kept one itinerary, one vehicle standard, no confusion.",
+        "name": "Aya Tanaka",
+        "place": "Northern Circuit",
+        "country": "Japan",
+        "countryCode": "jp",
+        "rating": 5
+      },
+      {
+        "id": "note-12",
+        "quote": "We asked for mid-range lodging and got it. Park fees were explained upfront, and WhatsApp replies came the same day.",
+        "name": "Carlos Mendes",
+        "place": "Ruaha & Mikumi",
+        "country": "Brazil",
+        "countryCode": "br",
+        "rating": 5
+      },
+      {
+        "id": "note-13",
+        "quote": "Kalambo and the lake shore days balanced the wildlife mornings. Nothing felt padded for the sake of a brochure.",
+        "name": "Nora Lindqvist",
+        "place": "Southern Circuit",
+        "country": "Norway",
+        "countryCode": "no",
+        "rating": 5
+      },
+      {
+        "id": "note-14",
+        "quote": "Our balloon morning over the plains was timed around the game drives, not bolted on. That planning showed.",
+        "name": "James O'Connell",
+        "place": "Serengeti",
+        "country": "Ireland",
+        "countryCode": "ie",
         "rating": 5
       }
     ]

@@ -74,12 +74,15 @@ function resolveFile(urlPath) {
   return file;
 }
 
-function expandIncludes(html, fromFile) {
+function expandIncludes(html, fromFile, depth = 0) {
+  if (depth > 6) return html;
   return html.replace(/<!--\s*@include\s+([^\s]+)\s*-->/g, (_, rel) => {
     const target = path.resolve(path.dirname(fromFile), rel);
     const relative = path.relative(ROOT, target);
     if (relative.startsWith("..") || path.isAbsolute(relative)) return "";
-    return fs.readFileSync(target, "utf8");
+    if (!fs.existsSync(target)) return "";
+    const nested = fs.readFileSync(target, "utf8");
+    return expandIncludes(nested, target, depth + 1);
   });
 }
 
@@ -129,9 +132,11 @@ function start() {
     process.exit(1);
   });
 
-  server.listen(PORT, "127.0.0.1", () => {
+  // 0.0.0.0 so phones on the same Wi‑Fi can open the LAN IP
+  server.listen(PORT, "0.0.0.0", () => {
     fs.writeFileSync(PID_FILE, String(process.pid));
     console.log(`Ramika preview running at ${URL}`);
+    console.log(`On your phone (same Wi‑Fi): http://<this-pc-ip>:${PORT}/`);
     console.log("Stop it with: npm stop");
   });
 

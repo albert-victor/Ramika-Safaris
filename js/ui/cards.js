@@ -67,17 +67,22 @@
     return [];
   }
 
-  function slidesMarkup(images) {
+  function slidesMarkup(images, options) {
+    const opts = options || {};
+    const eager = Boolean(opts.eager);
     if (!images.length) {
       return `<div class="card-media-fallback" aria-hidden="true"></div>`;
     }
     return `
       <div class="card-slides">
         ${images
-          .map(
-            (image, index) =>
-              `<img class="${index === 0 ? "is-active" : ""}" src="${escapeHtml(image.src)}" alt="${escapeHtml(image.alt || "")}" loading="lazy" decoding="async" width="800" height="600">`
-          )
+          .map((image, index) => {
+            const isFirst = index === 0;
+            const loading = eager && isFirst ? "eager" : "lazy";
+            const priority = eager && isFirst ? ' fetchpriority="high"' : "";
+            const decoding = eager && isFirst ? "sync" : "async";
+            return `<img class="${isFirst ? "is-active" : ""}" src="${escapeHtml(image.src)}" alt="${escapeHtml(image.alt || "")}" loading="${loading}" decoding="${decoding}"${priority} width="800" height="600">`;
+          })
           .join("")}
       </div>
     `;
@@ -159,7 +164,7 @@
     return `
       <article class="dest-card dest-card--nest reveal" data-destination-id="${escapeHtml(card.id)}" data-slideshow>
         <div class="dest-card-media media-reveal">
-          ${slidesMarkup(images)}
+          ${slidesMarkup(images, { eager: opts.eager })}
           <span class="card-wash" aria-hidden="true"></span>
           ${card.touchline ? `<p class="dest-card-touch">${escapeHtml(card.touchline)}</p>` : ""}
           ${likeMarkup(title)}

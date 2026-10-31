@@ -1,0 +1,10 @@
+# Ramika Safaris and Tours
+User-agent: *
+Allow: /
+
+# Demo / non-public surfaces
+Disallow: /card-demos.html
+Disallow: /js/data/fixtures/
+Disallow: /.server.pid
+
+Sitemap: https://ramikasafari.co.tz/sitemap.xml

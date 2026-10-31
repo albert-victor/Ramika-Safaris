@@ -1,0 +1,35 @@
+# Dependencies / local tooling
+node_modules/
+.npm/
+*.log
+npm-debug.log*
+
+# Local server process
+.server.pid
+
+# OS / editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.pem
+credentials*.json
+
+# Build / cache
+.cache/
+dist/
+tmp/
+temp/
+_tmp_*
+
+# Agent / local scratch
+.cursor/
+agent-transcripts/

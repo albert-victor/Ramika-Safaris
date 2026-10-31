@@ -757,6 +757,29 @@ html.motion-ready .diamond-collage.reveal:not(.is-visible),
   contain-intrinsic-size: auto 22rem;
 }
 
+/* Destination inspirations: paint visible cards immediately (avoids lazy/CV delay) */
+.home-destinations .rail-track > * {
+  content-visibility: visible;
+  contain: none;
+}
+
+.home-destinations .dest-card-media,
+.home-destinations .dest-card-media img,
+.home-destinations .dest-card-media img.is-active {
+  content-visibility: visible;
+  contain: none;
+}
+
+/* Skip fade-in on first paint – opacity transition felt like a load delay */
+.home-destinations .card-slides img {
+  transition: transform 420ms ease;
+}
+
+.home-destinations .card-slides img.is-active {
+  opacity: 1;
+  transform: scale(1);
+}
+
 .rail-track {
   position: relative;
   z-index: 1;
@@ -774,8 +797,14 @@ html.motion-ready .diamond-collage.reveal:not(.is-visible),
   padding-bottom: 0.15rem;
   scrollbar-width: none;
   -ms-overflow-style: none;
-  /* Avoid stretched empty hit zones above/beside shorter cards */
-  touch-action: pan-y pinch-zoom;
+  /* Allow finger swipe left/right without fighting the page scroll */
+  touch-action: pan-x pan-y;
+  cursor: grab;
+  -webkit-overflow-scrolling: touch;
+}
+
+.rail-track:active {
+  cursor: grabbing;
 }
 
 .rail-track::-webkit-scrollbar {
@@ -1130,6 +1159,92 @@ html.motion-ready .diamond-collage.reveal:not(.is-visible),
   }
 }
 
+/* -- Accredited by -- */
+.home-accredited {
+  background: var(--paper);
+  border-top: 1px solid rgba(13, 98, 53, 0.08);
+  padding-block: clamp(2rem, 4.5vh, 3.25rem);
+  overflow: hidden;
+}
+
+.home-accredited .section-head {
+  margin-bottom: 1.35rem;
+}
+
+.accredited-marquee {
+  width: 100%;
+  overflow: hidden;
+  mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+}
+
+.accredited-marquee-track {
+  display: flex;
+  width: max-content;
+  gap: 0;
+  animation: accredited-marquee 28s linear infinite;
+  will-change: transform;
+}
+
+.accredited-marquee:hover .accredited-marquee-track {
+  animation-play-state: paused;
+}
+
+.accredited-row {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: clamp(2.5rem, 6vw, 4.5rem);
+  padding-inline: clamp(1.5rem, 4vw, 3rem);
+}
+
+.accredited-logo {
+  display: grid;
+  justify-items: center;
+  gap: 0.7rem;
+  margin: 0;
+  min-width: 10.5rem;
+  max-width: 14.5rem;
+  text-align: center;
+  flex: 0 0 auto;
+}
+
+.accredited-logo img {
+  width: auto;
+  max-width: 100%;
+  height: clamp(6rem, 13.5vw, 7.75rem);
+  object-fit: contain;
+  filter: none;
+}
+
+.accredited-name {
+  display: block;
+  font-family: var(--text);
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+
+.accredited-label {
+  display: block;
+  margin-top: 0.15rem;
+  font-size: 0.74rem;
+  line-height: 1.35;
+  color: var(--muted);
+}
+
+@keyframes accredited-marquee {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .media-card:hover .media-card-media img,
   .circuit-card:hover .circuit-card-media img,
@@ -1141,5 +1256,21 @@ html.motion-ready .diamond-collage.reveal:not(.is-visible),
   .rail-track {
     transition: none;
     scroll-behavior: auto;
+  }
+
+  .accredited-marquee-track {
+    animation: none;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .accredited-marquee-track .accredited-row[aria-hidden="true"] {
+    display: none;
+  }
+
+  .accredited-row {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
